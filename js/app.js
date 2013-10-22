@@ -63,4 +63,10 @@ $(document).ready(function(){
     $(window).scroll(function(){
         //console.log($(window).scrollTop());
     });
+
+    $('.repair_btn').click(function(){
+        $('.checkdiv input').each(function(index, obj){
+            console.log($(obj).is(':checked'));
+        });
+    });
 });
