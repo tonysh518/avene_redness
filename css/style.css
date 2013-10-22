@@ -71,7 +71,7 @@ a{text-decoration:none}
 
 /* Home Used 
 ================================================================================================= */
-#home .page{background:#fffbfb url('../img/home_page.jpg') no-repeat left;height: 484px;position: relative;width: 100%;min-width: 1000px;}
+#home .page{background:#fffbfb url('../img/home_page.jpg') no-repeat left;height: 484px;position: relative;width: 100%;}
     #home .page .tit,
     #home .page .text{display: none}
     .home_siyan{background: url('../img/home_siyan.png') no-repeat;width:410px;height: 484px;position: absolute ;right: 0;top: 0;}
@@ -94,7 +94,7 @@ a{text-decoration:none}
 
 /* SIYAN Used
 ================================================================================================= */
-#siyan .page{background: #fffbfb url(../img/siyan_page.png) repeat-x bottom;height:1280px;position: relative;width: 100%;min-width: 1000px;}
+#siyan .page{background: #fffbfb url(../img/siyan_page.png) repeat-x bottom;height:1280px;position: relative;width: 100%;}
     #siyan .page .tit,
     #siyan .page .text{display: none}
     .siyan_pho{width:472px;height: 611px;position: absolute;left:0;top:0;background: url(../img/siyan_pho.png) no-repeat;}
@@ -113,7 +113,7 @@ a{text-decoration:none}
     
 /* Repair Used
 ================================================================================================= */
-#repair .page{background: #fff url(../img/repair_page.png) repeat-x bottom;height:1586px;position: relative;width: 100%;min-width: 1000px;}
+#repair .page{background: #fff url(../img/repair_page.png) repeat-x bottom;height:1586px;position: relative;width: 100%;}
     #repair .page .tit,
     #repair .page .text{display: none}
     #repair .siyan_hua{width: 250px;height:250px;position: absolute;left:50%;margin-left:200px;top:30px;background: url(../img/repair_hua.png) no-repeat;}
@@ -156,7 +156,7 @@ a{text-decoration:none}
 
 /* Repair Used
 ================================================================================================= */
-#mask .page{background: #fffbfb url(../img/mask_page.png) repeat-x bottom;height:1965px;position: relative;width: 100%;min-width: 1000px;}
+#mask .page{background: #fffbfb url(../img/mask_page.png) repeat-x bottom;height:1965px;position: relative;width: 100%;}
     #mask .page .tit,
     #mask .page .text{display: none}
     .mask_huaL{width: 260px;height: 290px;background: url(../img/mask_hualeft.png) no-repeat;position: absolute;top:360px;left:50%;margin-left:-600px;}
@@ -187,7 +187,7 @@ a{text-decoration:none}
 
 /* Scheme Used
 ================================================================================================= */
-#scheme .page{background: #fff url(../img/scheme_page.png) repeat-x bottom;height:825px;position: relative;width: 100%;min-width: 1000px;}
+#scheme .page{background: #fff url(../img/scheme_page.png) repeat-x bottom;height:825px;position: relative;width: 100%;}
     #scheme .page .tit,
     #scheme .page .text{display: none}
     .scheme_imgleft{background: url('../img/scheme_left.png') no-repeat;position: absolute;}
@@ -226,7 +226,7 @@ a{text-decoration:none}
 
 /* Share Used
 ================================================================================================= */
-#share .page{background: #fff url(../img/scheme_page.png) repeat-x bottom;height:862px;position: relative;width: 100%;min-width: 1000px;}
+#share .page{background: #fff url(../img/scheme_page.png) repeat-x bottom;height:862px;position: relative;width: 100%;}
     #share .page .tit,
     #share .page .text{display: none}
     .share_imgt{background: url('../img/share_imgt.png') no-repeat;position: absolute;}
@@ -249,7 +249,7 @@ a{text-decoration:none}
 
 /* Knowledge Used
 ================================================================================================= */
-#knowledge .page{background: #fff url(../img/scheme_page.png) repeat-x bottom;height:1575px;position: relative;width: 100%;min-width: 1000px;}
+#knowledge .page{background: #fff url(../img/scheme_page.png) repeat-x bottom;height:1575px;position: relative;width: 100%;}
     #knowledge .page .tit,
     #knowledge .page .text{display: none}
 
@@ -285,10 +285,33 @@ a{text-decoration:none}
 
 
 
-
+.navbtn,
+.intro5{display: none}
+.page{min-width: 1000px;}
 
 
 /* Mobile Used
 ================================================================================================= */
 @media screen and (max-width:640px){
+/**/
+    .page{min-width: 0;}
+    .column{width: 570px}
+/*header*/
+    .header{height: 115px}
+    .logo{background:url('../imgMobile/logo.png') no-repeat;background-size: 100% 100%;width: 190px;height: 85px;position: absolute;left:35px;top: 16px}
+    .navbtn{display: block;background: url('../imgMobile/navbtn.png') no-repeat;background-size: 100% 100%;width: 88px;height: 74px;position: absolute;right: 35px;top:22px;}
+/*footer*/
+    .footer{height: 156px;}
+    .intro{background: #fffbfb url(../imgMobile/introbg.png) repeat-x bottom;border-top:#fdedf3 solid 2px;height: auto;padding:25px 0 22px 0}
+    .intro .column{width:570px;}
+    .intro_item{margin:0 0 18px;width:570px;height: 167px }
+    .intro1{background:url('../imgMobile/intro1.png') no-repeat;background-size: 100% 100%;}
+    .intro2{background:url('../imgMobile/intro2.png') no-repeat;background-size: 100% 100%;}
+    .intro3{background:url('../imgMobile/intro3.png') no-repeat;background-size: 100% 100%;}
+    .intro4{background:url('../imgMobile/intro4.png') no-repeat;background-size: 100% 100%;}
+    .intro5{background:url('../imgMobile/intro5.png') no-repeat;background-size: 100% 100%;display: block;}
+    .footer p, .footer a{position: absolute;}
+    .footer .ft_pho{background:url('../imgMobile/ft_pho.png') no-repeat;background-size: 100% 100%;width:266px;height: 27px;position: absolute;left: 64px;top: 24px}
+    .ft_email{position: absolute;}
 }
+
