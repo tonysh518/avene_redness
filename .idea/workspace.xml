@@ -10,7 +10,7 @@
     <file path="/repair.html" changelist="44222557-7345-4dd8-b3f9-dbc08fd9681a" time="1382451704683" ignored="false" />
     <file path="/mask.html" changelist="44222557-7345-4dd8-b3f9-dbc08fd9681a" time="1382453435646" ignored="false" />
     <file path="/share.html" changelist="44222557-7345-4dd8-b3f9-dbc08fd9681a" time="1382454215617" ignored="false" />
-    <file path="/scheme.html" changelist="44222557-7345-4dd8-b3f9-dbc08fd9681a" time="1382455505085" ignored="false" />
+    <file path="/scheme.html" changelist="44222557-7345-4dd8-b3f9-dbc08fd9681a" time="1382455845742" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,9 +77,9 @@
       <file leaf-file-name="scheme.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scheme.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="121" selection-start="2571" selection-end="2571" vertical-scroll-proportion="0.46655378">
+            <state line="35" column="133" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.40220153">
               <folding>
-                <marker date="1382455522000" expanded="true" signature="8902:9015" placeholder="..." />
+                <marker date="1382455850000" expanded="true" signature="9244:9357" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -465,9 +465,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scheme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="121" selection-start="2571" selection-end="2571" vertical-scroll-proportion="0.46655378">
+        <state line="35" column="133" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.40220153">
           <folding>
-            <marker date="1382455522000" expanded="true" signature="8902:9015" placeholder="..." />
+            <marker date="1382455850000" expanded="true" signature="9244:9357" placeholder="..." />
           </folding>
         </state>
       </provider>
