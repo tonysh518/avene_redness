@@ -56,7 +56,7 @@ a{text-decoration:none}
     .footer .ft_line{background-position:-168px -180px;width: 25px;}
     .ft_email{float: right}
     .mail_ipt{width: 162px;height: 24px;border:#ef896f solid 1px; padding:0 8px;float:left;color:#ef896f;font-family:"Microsoft YaHei"}
-    .mail_btn{height: 26px;background: url(../img/base.png) no-repeat -505px -149px;width: 38px;border:0;overflow: hidden;cursor: pointer;float:left;line-height: 500em}
+    .mail_btn{font-size:0;height: 26px;background: url(../img/base.png) no-repeat -505px -149px;width: 38px;border:0;overflow: hidden;cursor: pointer;float:left;line-height: 500em}
 /* intro */
 .intro{border-top:#fdeaf2 solid 1px;background: url(../img/introbg.png) repeat-x;height:122px; padding: 24px 0 0}
 .intro .column{width: 926px;}
@@ -67,6 +67,8 @@ a{text-decoration:none}
     .intro2{background:url('../img/intro2.jpg') no-repeat }
     .intro3{background:url('../img/intro3.jpg') no-repeat }
     .intro4{background:url('../img/intro4.jpg') no-repeat ;}
+/* loading */
+.loading-wrap {position: fixed;width:100%;height:100%;background:#fff;z-index:900;}
 
 
 /* Home Used 
@@ -74,7 +76,7 @@ a{text-decoration:none}
 #home .page{background:#fffbfb url('../img/home_page.jpg') no-repeat left;height: 484px;position: relative;width: 100%;min-width: 1000px;}
     #home .page .tit,
     #home .page .text{display: none}
-    .home_siyan{background: url('../img/home_siyan.png') no-repeat;width:410px;height: 484px;position: absolute ;right: 0;top: 0;}
+    .home_siyan{background: url('../img/home_siyan.png') no-repeat;width:410px;height: 484px;position: absolute ;right: -50%;top: 0;}
     .home_hua{background: url('../img/home_hua.png') no-repeat;width:400px;height: 400px;position: absolute ;left: 50%;top:40px;margin-left:-515px;}
     .home_img{background: url('../img/home_img.png') no-repeat;position: absolute;}
     .home_avene{width:170px ;height: 400px;background-position:0px -121px;left: 50%;top:84px;margin: 0 0 0 -385px;}
@@ -123,7 +125,7 @@ a{text-decoration:none}
     .repair_pt2tit{width: 400px;height:102px;left:50%;top:640px;margin:0 0 0 -456px;background-position: 0 -242px;}
     .repair_pt3tit{width: 400px;height:102px;left:50%;top:1114px;margin:0 0 0 -456px;background-position: 0 -349px;}
     /*pt1*/
-    .repair_btn{cursor:pointer;width: 188px;height: 44px;top:534px;left:50%;margin-left: -94px;background-position: 0 -456px;border: none;overflow: hidden;line-height: 5000em;display: block}
+    .repair_btn{font-size:0;cursor:pointer;width: 188px;height: 44px;top:534px;left:50%;margin-left: -94px;background-position: 0 -456px;border: none;overflow: hidden;line-height: 5000em;display: block}
     .repair_imgpt1{background:url('../img/repair_imgpt1.png') no-repeat;position: absolute;}
     .repair_pt1txt{width: 600px;height: 84px;top:296px;left:50%;margin-left: -456px;background-position:-8px 0;}
     .checkdiv{width: 912px;height: 120px;position: absolute;left:50%;margin-left:-456px;top:395px;}
@@ -266,7 +268,7 @@ a{text-decoration:none}
     .kl_weixin{width: 28px;height: 28px;left:50%;top: 418px;margin-left:  270px;background-position: -589px 0}
 
     .knowledge_img2{background: url('../img/knowledge_img2.png') no-repeat;position: absolute;}
-    .kl_next{width: 67px;height: 67px;left:50%;top: 470px;margin-left: -33px ;background-position: -453px -504px}
+    .kl_next{-webkit-animation: opacity1 1.5s infinite alternate;-moz-animation: opacity1 1.5s infinite alternate;-ms-animation: opacity1 1.5s infinite alternate;-o-animation: opacity1 1.5s infinite alternate;animation: opacity1 1.5s infinite alternate;width: 67px;height: 67px;left:50%;top: 470px;margin-left: -33px ;background-position: -453px -504px}
     .kl_shenxin{width: 240px;height: 297px;left:50%;top: 580px;margin-left: -346px }
     .kl_sxaq{width: 448px;height: 207px;left:50%;top: 882px;margin-left: -458px ;background-position: 0 -297px}
     .kl_xier{width: 240px;height: 297px;left:50%;top: 580px;margin-left: 119px ;background-position: -240px 0}
@@ -284,7 +286,51 @@ a{text-decoration:none}
 
 
 
+/* Animation */
+@-webkit-keyframes opacity1 {
+    50% {
+        opacity:0.8;
+    }
+    100% {
+        opacity:0.3;
+    }
+}
 
+@-moz-keyframes opacity1 {
+    50% {
+        opacity:0.8;
+    }
+    100% {
+        opacity:0.3;
+    }
+}
+
+@-ms-keyframes opacity1 {
+    50% {
+        opacity:0.8;
+    }
+    100% {
+        opacity:0.3;
+    }
+}
+
+@-o-keyframes opacity1 {
+    50% {
+        opacity:0.8;
+    }
+    100% {
+        opacity:0.3;
+    }
+}
+
+@keyframes opacity1 {
+    50% {
+        opacity:0.8;
+    }
+    100% {
+        opacity:0.3;
+    }
+}
 
 
 
