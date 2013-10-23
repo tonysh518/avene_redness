@@ -336,19 +336,30 @@ a{text-decoration:none}
 
 /* Mobile Used
 ================================================================================================= */
-.navbtn,
-.intro5{display: none}
+.dis_mobile{display: none}
 .page{min-width: 1000px;}
 @media screen and (max-width:640px){
 /**/
+    .dis_mobile{display: block;}
     .page{min-width: 0;}
-    .column{width: 570px}
+    .column{width: 100%}
 /*header*/
-    .header{height: 115px}
-    .logo{background:url('../imgMobile/logo.png') no-repeat;background-size: 100% 100%;width: 190px;height: 85px;position: absolute;left:35px;top: 16px}
-    .navbtn{display: block;background: url('../imgMobile/navbtn.png') no-repeat;background-size: 100% 100%;width: 88px;height: 74px;position: absolute;right: 35px;top:22px;}
+    .header{height: 100px;padding-top: 15px}
+    .logo{background:url('../imgMobile/logo.png') no-repeat;background-size: 100% 100%;width: 190px;height: 85px;margin:0 0 0 35px;}
+    .navbtn{background: url('../imgMobile/navbtn.png') no-repeat;background-size: 100% 100%;width: 88px;height: 74px;position: absolute;right: 35px;top:6px;cursor: pointer;}
+    .nav{background:#fce7e2;width:570px;bottom: auto;top: 100px;z-index: 50;left:35px;display:none}
+    .nav .nav1, .nav .nav2, .nav .nav3, .nav .nav4, .nav .nav5, .nav .nav6,
+    .nav a{display: block;float: none;height: 80px;line-height:80px;border-bottom: #f7c1b4 solid 1px;background: none;width: 570px;text-align: center;font-size: 36px;color:#ef896f}
+    .nav .nav6{border: 0}
+    .nav .nav1.active, .nav .nav1:hover,
+    .nav .nav2.active, .nav .nav2:hover,
+    .nav .nav3.active, .nav .nav3:hover,
+    .nav .nav4.active, .nav .nav4:hover,
+    .nav .nav5.active, .nav .nav5:hover,
+    .nav .nav6.active, .nav .nav6:hover{background: none;width: 570px;}
+    .navicon{width: 0;height: 0;position: absolute;right:50px;top:-24px;content:"";border: transparent 12px solid;border-bottom: #fce7e2 12px solid;display: none}
 /*footer*/
-    .footer{height: 156px;}
+    .footer{height: 156px;padding: 0}
     .intro{background: #fffbfb url(../imgMobile/introbg.png) repeat-x bottom;border-top:#fdedf3 solid 2px;height: auto;padding:25px 0 22px 0}
     .intro .column{width:570px;}
     .intro_item{margin:0 0 18px;width:570px;height: 167px }
@@ -356,9 +367,40 @@ a{text-decoration:none}
     .intro2{background:url('../imgMobile/intro2.png') no-repeat;background-size: 100% 100%;}
     .intro3{background:url('../imgMobile/intro3.png') no-repeat;background-size: 100% 100%;}
     .intro4{background:url('../imgMobile/intro4.png') no-repeat;background-size: 100% 100%;}
-    .intro5{background:url('../imgMobile/intro5.png') no-repeat;background-size: 100% 100%;display: block;}
-    .footer p, .footer a{position: absolute;}
-    .footer .ft_pho{background:url('../imgMobile/ft_pho.png') no-repeat;background-size: 100% 100%;width:266px;height: 27px;position: absolute;left: 64px;top: 24px}
-    .ft_email{position: absolute;}
+    .intro5{background:url('../imgMobile/intro5.png') no-repeat;background-size: 100% 100%;}
+    /**/
+    .footer p,.footer a{position: absolute;}
+    .footer .ft_pho{background:url('../imgMobile/ft_pho.png') no-repeat;background-size: 100% 100%;width:266px;height: 27px;left: 64px;top: 24px}
+    .footer .ft_site{background:url('../imgMobile/ft_site.png') no-repeat;background-size: 100% 100%;width:160px;height: 34px;left: 408px;top: 20px}
+    .footer .ft_weibo{background:url('../imgMobile/ft_weibo.png') no-repeat;background-size: 100% 100%;width:40px;height: 40px;left: 50px;top: 98px}
+    .footer .ft_weibo2{background:url('../imgMobile/ft_weibo2.png') no-repeat;background-size: 100% 100%;width:40px;height: 40px;left: 134px;top: 98px}
+    .footer .ft_app{background:url('../imgMobile/ft_app.png') no-repeat;background-size: 100% 100%;width:160px;height: 40px;left: 205px;top: 98px}
+    .footer .ft_email{display: none}
+    .footer .ft_emailM{background:url('../imgMobile/ft_email.png') no-repeat;background-size: 100% 100%;width:160px;height: 40px;left: 404px;top: 98px}
+    /**/
+    .footer .ft_line{background:url('../imgMobile/ft_line.png') no-repeat;background-size: 100% 100%;width:1px;height: 48px;}
+    .ft_line1{top: 14px;left: 385px}
+    .ft_line2{top:94px;left: 112px}
+    .ft_line3{top:94px;left: 196px}
+    .ft_line4{top:94px;left: 385px}
+    .footer .ft_bor{border-top:#fce7e2 solid 1px;width: 100%;position: absolute;top:80px;background: none;height: 1px;overflow: hidden;}
+/* home */
+    #home .page{height: 1710px;background: none}
+    .home_siyan{background:url('../imgMobile/home/siyan.png') no-repeat;background-size: 100% 100%;width:640px;height:507px;}
+    .home_sos{background:url('../imgMobile/home/sos.png') no-repeat;background-size: 100% 100%;width:570px;height:150px;top: 525px;margin-left: -285px}
+    .home_hua{top: 780px;margin-left: -320px;background: url('../imgMobile/home/hua.png') no-repeat;height:360px;width: 450px }
+    .home_avene{top:780px;margin-left: -230px}
+    .home_check{margin-left:-25px;width:310px;height: 35px }
+    .home_check1{top: 1002px}
+    .home_check2{top: 1062px}
+    .home_check3{top: 1122px}
+    .home_check .checkbox{background:url('../imgMobile/home/check_icon.png') no-repeat 0 0;background-size: 100% 100%;width:36px ;height:35px;}
+    .checktxt{left:36px;}
+    .home_check1 .checktxt{background:url('../imgMobile/home/check1.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
+    .home_check2 .checktxt{background:url('../imgMobile/home/check2.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
+    .home_check3 .checktxt{background:url('../imgMobile/home/check3.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
+    .home_new{background:url('../imgMobile/home/new.png') no-repeat 0 0;background-size: 100% 100%;width: 230px;height: 115px;top: 836px;margin-left: 10px}
+    .home_cool{background:url('../imgMobile/home/cool.png') no-repeat 0 0;background-size: 100% 100%;width: 220px;height: 165px;top: 678px;margin-left: -106px}
+    .home_video{background:url('../imgMobile/home/video.jpg') no-repeat 0 0;width: 600px;height: 383px;top: 1270px;margin-left: -300px}
 }
 
