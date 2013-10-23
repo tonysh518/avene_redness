@@ -71,17 +71,33 @@
         <h3 class="tit"></h3><p class="text"></p>
     </div>
     <!-- part 3 -->
-    <div class="repair_imgtit repair_pt3tit" data-400="opacity:0;margin-left:-500px;" data-550="opacity:1;margin-left:-456px;">
+    <div class="repair_imgtit repair_pt3tit" data-400="opacity:0;left:40%" data-550="opacity:1;left:50%">
         <h3 class="tit">PART 3  皮肤为什么敏感泛红</h3>
     </div>
     <div class="repair_imgpt3 repair_specialist" data-450="opacity:0;" data-650="opacity:1;"></div>
     <div class="repair_imgpt3 repair_demo" data-500="opacity:0;" data-700="opacity:1;"></div>
     <div class="repair_imgpt3 repair_twocause" data-500="opacity:0;margin-top:-50px;" data-700="opacity:1;margin-top:0;">
-        <h3 class="tit"></h3><p class="text"></p>
+        <h3 class="tit"></h3>
+        <p class="text">
+            <strong>-血管异常：</strong>
+            <span>面部血管的血液循环异常与血管过敏症都会引起皮肤泛红。某些分子（包含血管内皮生长因子 ）的增多是主要的表现方式。</span>
+            <strong>-水肿及炎症增加：</strong>
+            <span>发炎是“粉刺”，或者说丘疹-脓疱的诱因，世称“红斑座疮”。容易泛红的皮肤大多敏感、易过敏，更容易引起炎症。</span>
+        </p>
     </div>
     <div class="repair_imgpt3 repair_threecause" data-500="opacity:0;margin-top:-50px;" data-700="opacity:1;margin-top:0;">
-        <h3 class="tit"></h3><p class="text"></p>
+        <h3 class="tit"></h3>
+        <p class="text">
+            <strong>-护肤品选择不当：</strong>
+            <span>选择不适合的药物和护肤品，造成皮肤屏障受损，刺激正常肌肤，出现敏感泛红现象。</span>
+            <strong>-日晒：</strong>
+            <span>白晰皮肤容易出现敏感泛红，日晒可能就是诱发因素。</span>
+            <strong>-神经学因素：</strong>
+            <span>肌肤泛红与红血丝还涉及心理和神经心理因素。血管上的神经介质受体对引起血管扩张的刺激很敏感。</span>            
+        </p>
     </div>
+    <div class="dis_mobile hua2"></div>
+    <div class="dis_mobile hua3"></div>
 </div>
 <!--  -->
 <?php

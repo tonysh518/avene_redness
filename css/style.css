@@ -78,15 +78,16 @@ a{text-decoration:none}
     .intro2{background:url('../img/intro2.jpg') no-repeat }
     .intro3{background:url('../img/intro3.jpg') no-repeat }
     .intro4{background:url('../img/intro4.jpg') no-repeat ;}
+
 /* loading */
 .loading-wrap {position: fixed;width:100%;height:100%;background:#fff;z-index:900;}
 
+.page .tit,
+.page .text{display: none}
 
 /* Home Used 
 ================================================================================================= */
 #home .page{background:#fffbfb url('../img/home_page.jpg') no-repeat left;height: 484px;position: relative;width: 100%;}
-    #home .page .tit,
-    #home .page .text{display: none}
     .home_siyan{background: url('../img/home_siyan.png') no-repeat;width:410px;height: 484px;position: absolute ;right: -50%;top: 0;}
     .home_hua{background: url('../img/home_hua.png') no-repeat;width:400px;height: 400px;position: absolute ;left: 50%;top:40px;margin-left:-515px;}
     .home_img{background: url('../img/home_img.png') no-repeat;position: absolute;}
@@ -98,7 +99,7 @@ a{text-decoration:none}
     .home_check1{top:240px;}
     .home_check2{top:275px;}
     .home_check3{top:310px;}
-    #home .checktxt{width:162px ;height: 18px;float:left;}
+    #home .checktxt{width:162px ;height: 18px;float:left;margin-left:20px}
     .home_check .checkbox{width:18px ;height: 18px;background-position:-210px -323px;float:left;}
     .home_check1 .checktxt{background-position:-228px -323px;}
     .home_check2 .checktxt{background-position:-228px -358px;}
@@ -108,8 +109,6 @@ a{text-decoration:none}
 /* SIYAN Used
 ================================================================================================= */
 #siyan .page{background: #fffbfb url(../img/siyan_page.png) repeat-x bottom;height:1280px;position: relative;width: 100%;}
-    #siyan .page .tit,
-    #siyan .page .text{display: none}
     .siyan_pho{width:472px;height: 611px;position: absolute;left:0;top:0;background: url(../img/siyan_pho.png) no-repeat;}
     .siyan_film{width:990px;height: 300px;position: absolute;right:0;top:212px;background: url(../img/siyan_film.png) no-repeat;}    
     .siyan_tj{width:1000px;height: 270px;position: absolute;left:50%;margin:0 0 0 -500px;bottom:90px;background: url(../img/siyan_tj.png) no-repeat;}
@@ -127,8 +126,6 @@ a{text-decoration:none}
 /* Repair Used
 ================================================================================================= */
 #repair .page{background: #fff url(../img/repair_page.png) repeat-x bottom;height:1586px;position: relative;width: 100%;}
-    #repair .page .tit,
-    #repair .page .text{display: none}
     #repair .siyan_hua{width: 250px;height:250px;position: absolute;left:50%;margin-left:200px;top:30px;background: url(../img/repair_hua.png) no-repeat;}
     .repair_imgtit{background:url('../img/repair_imgtit.png') no-repeat;position: absolute;}
     .repair_summary{width: 480px;height:130px;left:50%;top:30px;margin:0 0 0 -410px;background-position: 0 0;}
@@ -141,7 +138,7 @@ a{text-decoration:none}
     .repair_pt1txt{width: 600px;height: 84px;top:296px;left:50%;margin-left: -456px;background-position:-8px 0;}
     .checkdiv{width: 912px;height: 120px;position: absolute;left:50%;margin-left:-456px;top:395px;}
     .check_item{position: relative;float: left;height: 44px;width: 400px;padding-left: 45px}
-    #repair .checktxt{position: absolute;width: 330px;height: 34px;left:70px;top:0;line-height: 500em;overflow: hidden}
+    #repair .checktxt{position: absolute;width: 330px;height: 34px;left:70px;top:1px;line-height: 500em;overflow: hidden}
     .check_1 .checktxt{background-position: 0 -90px;}
     /*.check_2{top:44px;}*/
     .check_2 .checktxt{background-position: 0 -127px;}
@@ -165,14 +162,12 @@ a{text-decoration:none}
     .repair_imgpt3{background: url(../img/repair_imgpt3.png) no-repeat;position: absolute;}
     .repair_specialist{width: 190px;height:245px;left:50%;top:1040px;margin:0 0 0 0;background-position: 0 0;}
     .repair_demo{width: 260px;height:250px;left:50%;top:1030px;margin:0 0 0 190px;background-position: top right;}
-    .repair_twocause{width: 450px;height:240px;left:50%;top:1300px;margin:0 0 0 40px;background-position: 0 -250px;}
-    .repair_threecause{width: 400px;height:186px;left:50%;top:1306px;margin:0 0 0 -408px;background-position: 0 -508px;}
+    .repair_threecause{width: 450px;height:240px;left:50%;top:1300px;margin:0 0 0 40px;background-position: 0 -250px;}
+    .repair_twocause{width: 400px;height:186px;left:50%;top:1306px;margin:0 0 0 -408px;background-position: 0 -508px;}
 
 /* Repair Used
 ================================================================================================= */
 #mask .page{background: #fffbfb url(../img/mask_page.png) repeat-x bottom;height:1965px;position: relative;width: 100%;}
-    #mask .page .tit,
-    #mask .page .text{display: none}
     .mask_huaL{width: 260px;height: 290px;background: url(../img/mask_hualeft.png) no-repeat;position: absolute;top:360px;left:50%;margin-left:-600px;}
     .mask_huaB{width: 280px;height: 300px;background: url(../img/mask_huaB.png) no-repeat;position: absolute;bottom:-60px;left:50%;margin-left:-418px;}
     .mask_huaR{width: 300px;height: 250px;background: url(../img/mask_huaR.png) no-repeat;position: absolute;top:360px;left:50%;margin-left:270px;}
@@ -202,8 +197,6 @@ a{text-decoration:none}
 /* Scheme Used
 ================================================================================================= */
 #scheme .page{background: #fff url(../img/scheme_page.png) repeat-x bottom;height:825px;position: relative;width: 100%;}
-    #scheme .page .tit,
-    #scheme .page .text{display: none}
     .scheme_imgleft{background: url('../img/scheme_left.png') no-repeat;position: absolute;}
     .scheme_leftbg{width: 322px;height: 706px;top: 64px;left:50%;margin-left:-456px;}
     .scheme_ltit{width: 230px;height: 38px;top: 45px;left:50%;margin-left:-448px;background-position: -326px 0 }
@@ -241,8 +234,6 @@ a{text-decoration:none}
 /* Share Used
 ================================================================================================= */
 #share .page{background: #fff url(../img/scheme_page.png) repeat-x bottom;height:862px;position: relative;width: 100%;}
-    #share .page .tit,
-    #share .page .text{display: none}
     .share_imgt{background: url('../img/share_imgt.png') no-repeat;position: absolute;}
     .share_man{width: 282px;height: 355px;left:50%;top: 40px;margin-left: -456px;background-position:0 0 }
     .share_mantips{width: 238px;height: 224px;left:50%;top: 80px;margin-left: -240px;background-position:0 -354px }
@@ -265,9 +256,6 @@ a{text-decoration:none}
 /* Knowledge Used
 ================================================================================================= */
 #knowledge .page{background: #fff url(../img/scheme_page.png) repeat-x bottom;height:1575px;position: relative;width: 100%;}
-    #knowledge .page .tit,
-    #knowledge .page .text{display: none}
-
     .knowledge_hua2{width: 150px;height: 270px;left:0;top: 50px;background: url('../img/scheme_hua2.png') no-repeat;position: absolute;}
     .knowledge_hua3{width: 220px;height: 220px;left:50%;top: 80px;margin-left: -440px;background: url('../img/scheme_hua3.png') no-repeat;position: absolute;}
 
@@ -408,9 +396,9 @@ a{text-decoration:none}
     .home_check3{top: 1122px}
     .home_check .checkbox{background:url('../imgMobile/home/check_icon.png') no-repeat 0 0;background-size: 100% 100%;width:36px ;height:35px;}
     #home .checktxt{left:36px;}
-    .home_check1 .checktxt{background:url('../imgMobile/home/check1.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
-    .home_check2 .checktxt{background:url('../imgMobile/home/check2.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
-    .home_check3 .checktxt{background:url('../imgMobile/home/check3.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
+    #home .home_check1 .checktxt{background:url('../imgMobile/home/check1.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
+    #home .home_check2 .checktxt{background:url('../imgMobile/home/check2.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
+    #home .home_check3 .checktxt{background:url('../imgMobile/home/check3.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
     .home_new{background:url('../imgMobile/home/new.png') no-repeat 0 0;background-size: 100% 100%;width: 230px;height: 115px;top: 836px;margin-left: 10px}
     .home_cool{background:url('../imgMobile/home/cool.png') no-repeat 0 0;background-size: 100% 100%;width: 220px;height: 165px;top: 678px;margin-left: -106px}
     .home_video{background:url('../imgMobile/home/video.jpg') no-repeat 0 0;width: 600px;height: 383px;top: 1270px;margin-left: -300px}
@@ -430,12 +418,38 @@ a{text-decoration:none}
     .arrow_n{right:10px;background:url('../imgMobile/repair/arrow_n.png') no-repeat 0 0;background-size: 100% 100%;}
     /*pt2*/
     .repair_pt2tit{width:580px;height:135px;top:1140px;margin-left:-285px;background:url('../imgMobile/repair/repair_pt2tit.png') no-repeat 0 0;background-size: 100% 100%;}
+    .repair_imgpt2{margin-left:-220px;box-shadow:5px 13px 30px -10px #555}
+    .repair_user1{top:1318px;height:386px;width:452px;background:url('../imgMobile/repair/repair_user1.png') no-repeat 0 0;}
+    .repair_user2{top:1724px;height:383px;width:449px;background:url('../imgMobile/repair/repair_user2.png') no-repeat 0 0;}
+    .repair_user3{top:2130px;height:408px;width:450px;background:url('../imgMobile/repair/repair_user3.png') no-repeat 0 0;}
+    .repair_user4{top:2565px;height:405px;width:450px;background:url('../imgMobile/repair/repair_user4.png') no-repeat 0 0;}
+    /*pt3*/
+    .repair_pt3tit{top: 3050px;margin-left:-285px;width:585px;height:135px;background:url('../imgMobile/repair/repair_pt3tit.png') no-repeat 0 0;background-size: 100% 100%;}
+ 
+    .repair_specialist{top: 3234px;margin-left:-275px;width:550px;height:548px;background:url('../imgMobile/repair/repair_specialist.png') no-repeat}
+    .repair_demo{top: 3860px;margin-left:-280px;width:560px;height:460px;background:url('../imgMobile/repair/repair_demo.png') no-repeat}
+    .repair_threecause,.repair_twocause{width:570px;background: none;margin-left:-280px;}
+    .repair_twocause{top:4385px}
+    .repair_threecause{top:4920px}
+    .repair_twocause .tit{width:295px;height:68px;background: url('../imgMobile/repair/pt3tit1.png') no-repeat;display: block;}
+    .repair_threecause .tit{width:295px;height:68px;background: url('../imgMobile/repair/pt3tit2.png') no-repeat;display: block;}
+    .repair_twocause .text,
+    .repair_twocause strong,
+    .repair_twocause span,
+    .repair_threecause .text,
+    .repair_threecause strong,
+    .repair_threecause span{display: block;font-size: 28px;line-height: 38px;padding: 0 0 26px}
+    .repair_twocause strong,
+    .repair_threecause strong{font-size: 36px;line-height: 44px;font-weight: normal;padding: 4px 0 0 }
 
-    .repair_next,
-    .repair_imgpt2,
-    .repair_imgpt3{display: none}
+    .repair_next{display: none}
+    #repair .siyan_hua{width:640px;height:600px;top:1450px;margin-left:-320px;background: url('../imgMobile/repair/hua.png') no-repeat;}
+    #repair .hua2{width:250px;height:320px;top:3160px;margin-left:-320px;left:50%;position: absolute;background: url('../imgMobile/repair/hua2.png') no-repeat;}
+    #repair .hua3{width:230px;height:400px;top:4710px;right:0;position: absolute;background: url('../imgMobile/repair/hua3.png') no-repeat;}
 
 
-    .repair_pt3tit{top: 3050px;margin-left:-285px;}
+
+
+
 }
 
