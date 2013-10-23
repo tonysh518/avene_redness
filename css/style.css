@@ -272,7 +272,7 @@ a{text-decoration:none}
     .knowledge_hua3{width: 220px;height: 220px;left:50%;top: 80px;margin-left: -440px;background: url('../img/scheme_hua3.png') no-repeat;position: absolute;}
 
     .knowledge_img1{background: url('../img/knowledge_img1.png') no-repeat;position: absolute;}
-    .kl_movietit{width: 180px;height: 28px;left:50%;top: 35px;margin-left: -314px }
+    .kl_movietit{width: 180px;height: 28px;left:50%;top: 19px;margin-left: -314px }
     .kl_moviebg{width: 671px;height: 410px;left:50%;top: 50px;margin-left: -337px;background-position: 0 -29px  }
     .kl_movie{width: 640px;height: 360px;left:50%;top: 64px;margin-left: -320px;background-position:-13px -413px }
     .kl_movieshare{width: 50px;height:28px;left:50%;top:428px;margin-left: 180px;background-position: -480px 0}
@@ -437,5 +437,20 @@ a{text-decoration:none}
 
 
     .repair_pt3tit{top: 3050px;margin-left:-285px;}
+
+
+    /*knowledge*/
+    #knowledge .page {height:4297px;}
+    .kl_movietit{width:449px;height: 40px;left:50%;top: 19px;margin-left:-225px;background:url(../imgMobile/knowledge/kl_movietit.png) no-repeat;background-size: 100% 100%;}
+    #knowledge iframe {display:none;}
+    .kl_moviebg {display: none;}
+    .kl_next {display:none;}
+    .kl_shenxin {top:820px;width:457px;height:571px;margin-left:-228px;background:url(../imgMobile/knowledge/kl_shenxin.png) no-repeat;background-size: 100% 100%;}
+    .kl_xier {top:2320px;width:457px;height:564px;margin-left:-228px;background:url(../imgMobile/knowledge/kl_sxaq.png) no-repeat;background-size: 100% 100%;}
+    .kl_sxaq {background:none;top:1571px;width:640px;margin-left:-320px;}
+    .kl_xieraq {background:none;top:2931px;width:640px;margin-left:-320px;}
+    .kl_q {font-size:30px;color:#e54096;background:#fdedf3;padding:20px;line-height:150%;}
+    .kl_a {font-size:30px;color:#505050;background:#ffffff;padding:20px;line-height:150%;}
+    .kl_method1,.kl_method2,.kl_method3,.kl_method4 {display:none;}
 }
 
