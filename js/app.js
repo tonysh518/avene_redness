@@ -69,4 +69,72 @@ $(document).ready(function(){
             console.log($(obj).is(':checked'));
         });
     });
+
+    //mail
+
+    $('#mobilemail').fancybox({
+        closeBtn:false,
+        scrolling : false,
+        padding: 0,
+        scrolling: 'no'
+    });
+    $("#backbtn").click(function(){
+        parent.$.fancybox.close();
+    });
+    var SetMailForm=function(form,afterComplete){
+        form.ajaxForm({
+            beforeSubmit:  function(){
+                return form.valid();
+            },
+            complete: function(xhr) {
+                if(!afterComplete){
+                    if(xhr.responseText == 'state0')
+                    {
+                        $('.newsletter_popup .state0').show();
+                        $('.newsletter_popup .state1').hide();
+                        $('.newsletter_popup,.newsletter_overlay').fadeIn();
+                    }
+                    if(xhr.responseText == 'state1' || xhr.responseText == 'state-1')
+                    {
+                        $('.newsletter_popup .state1').show();
+                        $('.newsletter_popup .state0').hide();
+                        $('.newsletter_popup,.newsletter_overlay').fadeIn();
+                    }
+                }else{
+                    afterComplete(xhr)
+                }
+            }
+        });
+        form.validate(
+        {
+            rules: {
+                email: { required: true, email:true}
+            },
+            messages: {
+                email: { required: '请填写邮箱', email:'请填写正确的邮箱' }
+            }
+        });
+    }
+
+    SetMailForm($("#newsletter"));
+    SetMailForm($("#mobilenewsletter"),function(xhr){
+
+        $('#backbtn').click();
+        if(xhr.responseText == 'state0')
+        {
+            $('.newsletter_popup .state0').show();
+            $('.newsletter_popup .state1').hide();
+            $('.newsletter_popup,.newsletter_overlay').fadeIn();
+        }
+        if(xhr.responseText == 'state1')
+        {
+            $('.newsletter_popup .state1').show();
+            $('.newsletter_popup .state0').hide();
+            $('.newsletter_popup,.newsletter_overlay').fadeIn();
+        }
+    });
+
+    $('.newsletter_overlay, .newsletter_popup_close').click(function(){
+        $('.newsletter_popup,.newsletter_overlay').fadeOut();
+    });
 });

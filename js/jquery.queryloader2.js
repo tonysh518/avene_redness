@@ -49,11 +49,18 @@
 
             //create containers
             base.createPreloadContainer();
-            //base.createOverlayLoader();
+            base.createOverlayLoader();
         };
 
         //the container where unbindable images will go
         base.createPreloadContainer = function() {
+            base.qLimageContainer = $("<div></div>").appendTo("body").css({
+                display: "none",
+                width: 0,
+                height: 0,
+                overflow: "hidden"
+            });
+
             //add background images for loading
             for (var i = 0; base.qLbgimages.length > i; i++) {
                 $.ajax({
@@ -75,11 +82,61 @@
             image.appendTo(base.qLimageContainer);
         };
 
+        //create the overlay
+        base.createOverlayLoader = function () {
+            var overlayPosition = "absolute";
 
+            if (base.$el.prop("tagName") == "BODY") {
+                overlayPosition = "fixed";
+            } else {
+                base.$el.css("position", "relative");
+            }
+
+            base.qLoverlay = $("<div id='" + base.options.overlayId + "'></div>").css({
+                width: "100%",
+                height: "100%",
+                backgroundColor: base.options.backgroundColor,
+                backgroundPosition: "fixed",
+                position: overlayPosition,
+                zIndex: 666999, //very high!
+                top: 0,
+                left: 0
+            }).appendTo(base.$el);
+
+            base.qLbar = $("<div id='qLbar'></div>").css({
+                height: base.options.barHeight + "px",
+                marginTop: "-" + (base.options.barHeight / 2) + "px",
+                backgroundColor: base.options.barColor,
+                width: "0%",
+                position: "absolute",
+                top: "50%"
+            }).appendTo(base.qLoverlay);
+
+            if (base.options.percentage == true) {
+                base.qLpercentage = $("<div id='qLpercentage'></div>").text("0%").css({
+                    height: "40px",
+                    width: "100px",
+                    position: "absolute",
+                    fontSize: "3em",
+                    top: "50%",
+                    left: "50%",
+                    marginTop: "-" + (59 + base.options.barHeight) + "px",
+                    textAlign: "center",
+                    marginLeft: "-50px",
+                    color: base.options.barColor
+                }).appendTo(base.qLoverlay);
+            }
+
+            if (!base.qLimages.length) {
+                base.destroyContainers();
+            }
+        };
 
         //destroy all containers created by QueryLoader
         base.destroyContainers = function () {
             base.qLdestroyed = true;
+            base.qLimageContainer.remove();
+            base.qLoverlay.remove();
         };
 
         base.findImageInElement = function (element) {
@@ -134,22 +191,19 @@
 
         base.bindLoadEvent = function (element) {
             base.qLimageCounter++;
-            element.bind("error", function () {
-                base.completeImageLoading(this);
-            });
-            element.ensureLoad(function () {
+            element.bind("load error", function () {
                 base.completeImageLoading(this);
             });
         }
 
         base.completeImageLoading = function (el) {
             base.qLdone++;
+
             var percentage = (base.qLdone / base.qLimageCounter) * 100;
-            base.options.onLoading(percentage);
-//            base.qLbar.stop().animate({
-//                width: percentage + "%",
-//                minWidth: percentage + "%"
-//            }, 200);
+            base.qLbar.stop().animate({
+                width: percentage + "%",
+                minWidth: percentage + "%"
+            }, 200);
 
             if (base.options.percentage == true) {
                 base.qLpercentage.text(Math.ceil(percentage) + "%");
@@ -166,8 +220,31 @@
         };
 
         base.onLoadComplete = function() {
-            base.destroyContainers();
-            base.options.onComplete();
+            if (base.options.completeAnimation == "grow") {
+                var animationTime = 500;
+
+                base.qLbar.stop().animate({
+                    "width": "100%"
+                }, animationTime, function () {
+                    $(this).animate({
+                        top: "0%",
+                        width: "100%",
+                        height: "100%"
+                    }, 500, function () {
+                        $('#' + base.options.overlayId).fadeOut(500, function () {
+                            $(this).remove();
+                            base.destroyContainers();
+                            base.options.onComplete();
+                        })
+                    });
+                });
+            } else {
+                $('#' + base.options.overlayId).fadeOut(500, function () {
+                    $('#' + base.options.overlayId).remove();
+                    base.destroyContainers();
+                    base.options.onComplete();
+                });
+            }
         }
 
         // Run initializer
@@ -177,7 +254,6 @@
     //The default options
     $.queryLoader2.defaultOptions = {
         onComplete: function() {},
-        onLoading: function() {},
         backgroundColor: "#000",
         barColor: "#fff",
         overlayId: 'qLoverlay',
@@ -215,15 +291,3 @@ if (!Array.prototype.indexOf) {
         return -1;
     };
 }
-
-jQuery.fn.extend({
-    ensureLoad: function(handler) {
-        return this.each(function() {
-            if(this.complete) {
-                handler.call(this);
-            } else {
-                $(this).load(handler);
-            }
-        });
-    }
-});

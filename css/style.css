@@ -55,8 +55,19 @@ a{text-decoration:none}
     .footer .ft_app{width:94px; background-position: -411px -149px}
     .footer .ft_line{background-position:-168px -180px;width: 25px;}
     .ft_email{float: right}
+    .footer #newsletter {position: relative;}
+    .footer #newsletter label.error {position:absolute;width:200px;top:-20px;left:0px;color:#f69f8c;}
     .mail_ipt{width: 162px;height: 24px;border:#ef896f solid 1px; padding:0 8px;float:left;color:#ef896f;font-family:"Microsoft YaHei"}
     .mail_btn{font-size:0;height: 26px;background: url(../img/base.png) no-repeat -505px -149px;width: 38px;border:0;overflow: hidden;cursor: pointer;float:left;line-height: 500em}
+/* newsletter */
+#mobilenewsletter label{margin-left:-100px;}
+    .fancybox-opened .fancybox-skin {-webkit-box-shadow:none;-moz-box-shadow: none;box-shadow: none;background:transparent;}
+    .newsletter_overlay {display:none;position: fixed;background:url(../img/overlay.png);top:0;left:0;width:100%;height:100%;z-index:998;}
+    .newsletter_popup {display:none;z-index:999;background:#fff;text-align:center;width:240px;height:128px;border:7px solid #edccc4;-webkit-box-shadow:  0px 0px 10px 10px rgba(0, 0, 0, 0.4);box-shadow:  0px 0px 10px 10px rgba(0, 0, 0, 0.4);position:fixed;top:50%;left:50%;margin-left:-120px;margin-top:-64px;}
+    .newsletter_popup .state1 {display:none;}
+    .newsletter_popup img {margin-top:50px;}
+    .newsletter_popup_close {cursor:pointer;background: url(../img/news_letter_close.png) no-repeat;width:38px;height:39px;position: absolute;top:-21px;right:-21px;}
+
 /* intro */
 .intro{border-top:#fdeaf2 solid 1px;background: url(../img/introbg.png) repeat-x;height:122px; padding: 24px 0 0}
 .intro .column{width: 926px;}
