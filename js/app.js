@@ -70,8 +70,31 @@ $(document).ready(function(){
         });
     });
 
-    //mail
+    //video
+    $('.video').fancybox({
+        type : 'iframe',
+        'openEffect'	: 'fade',
+        'closeEffect'	: 'fade',
+        'openSpeed'      : 500,
+        'closeSpeed'     : 500,
+        width: 640,
+        height: 360,
+        scrolling : 'no',
+        autoSize:true,
+        preload   : true,
+        helpers : {
+            overlay : {
+                css : {
+                    'background' : '#fff',
+                    'opacity' : 0.8
+                },
+                showEarly  : true,
+                locked: false
+            }
+        }
+    });
 
+    //mail
     $('#mobilemail').fancybox({
         closeBtn:false,
         scrolling : false,

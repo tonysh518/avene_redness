@@ -72,7 +72,7 @@ a{text-decoration:none}
 .intro{border-top:#fdeaf2 solid 1px;background: url(../img/introbg.png) repeat-x;height:122px; padding: 24px 0 0}
 .intro .column{width: 926px;}
     .intro_item{float:left;width: 223px;height: 101px;margin: 0 0 0 6px;_display: inline}
-    .intro_item:hover{opacity: 0.8;filter:alpha(opacity=80); }
+    .intro_item:hover{opacity: 0.8!important;filter:alpha(opacity=80); }
     .intro_item span{display: none}
     .intro1{background:url('../img/intro1.jpg') no-repeat }
     .intro2{background:url('../img/intro2.jpg') no-repeat }

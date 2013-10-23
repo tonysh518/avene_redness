@@ -94,17 +94,17 @@
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url('fancybox_loading.gif') center center no-repeat;
 }
 
 .fancybox-close {
 	position: absolute;
-	top: -18px;
-	right: -18px;
-	width: 36px;
-	height: 36px;
+	top: -5px;
+	right: -5px;
+	width: 38px;
+	height: 39px;
 	cursor: pointer;
 	z-index: 8040;
+    background:url(../img/news_letter_close.png) no-repeat;
 }
 
 .fancybox-nav {

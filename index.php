@@ -40,7 +40,7 @@
         <div class="home_img checkbox"></div>
         <div class="home_img checktxt"></div>
     </div>
-    <a href="#" target="_blank" class="home_img home_video" data-style="left:30%;opacity:0;" data-animate="left:50%;opacity:1;" data-delay="1950" data-time="1000" data-easing="easeInOutQuart">
+    <a href="video.php?id=1" class="home_img home_video video" data-style="left:30%;opacity:0;" data-animate="left:50%;opacity:1;" data-delay="1950" data-time="1000" data-easing="easeInOutQuart">
         <div class="tit"></div>
         <div class="text"></div>
     </a>
