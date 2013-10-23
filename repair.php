@@ -52,32 +52,32 @@
 
     <div class="repair_img2 repair_next"></div>
     <!-- part 2 -->
-    <div class="repair_imgtit repair_pt2tit" data-100="opacity:0;margin-left:-500px;" data-200="opacity:1;margin-left:-456px;">
+    <div class="repair_imgtit repair_pt2tit" data-0="opacity:0;margin-left:-500px;" data-200="opacity:1;margin-left:-456px;">
         <h3 class="tit">PART 2  皮肤敏感泛红的困扰</h3>
     </div>
     <div class="repair_hua2"></div>
-    <div class="repair_imgpt2 repair_user1" data-150="opacity:0;margin-top:-50px;" data-250="opacity:1;margin-top:0;">
+    <div class="repair_imgpt2 repair_user1" data-50="opacity:0;margin-top:-50px;" data-250="opacity:1;margin-top:0;">
         <h3 class="tit"></h3><p class="text"></p>
     </div>
-    <div class="repair_imgpt2 repair_user2" data-200="opacity:0;margin-top:-50px;" data-300="opacity:1;margin-top:0;">
+    <div class="repair_imgpt2 repair_user2" data-100="opacity:0;margin-top:-50px;" data-300="opacity:1;margin-top:0;">
         <h3 class="tit"></h3><p class="text"></p>
     </div>
-    <div class="repair_imgpt2 repair_user3" data-250="opacity:0;margin-top:-50px;" data-350="opacity:1;margin-top:0;">
+    <div class="repair_imgpt2 repair_user3" data-150="opacity:0;margin-top:-50px;" data-350="opacity:1;margin-top:0;">
         <h3 class="tit"></h3><p class="text"></p>
     </div>
-    <div class="repair_imgpt2 repair_user4" data-300="opacity:0;margin-top:-50px;" data-400="opacity:1;margin-top:0;">
+    <div class="repair_imgpt2 repair_user4" data-200="opacity:0;margin-top:-50px;" data-400="opacity:1;margin-top:0;">
         <h3 class="tit"></h3><p class="text"></p>
     </div>
     <!-- part 3 -->
-    <div class="repair_imgtit repair_pt3tit" data-500="opacity:0;margin-left:-500px;" data-550="opacity:1;margin-left:-456px;">
+    <div class="repair_imgtit repair_pt3tit" data-400="opacity:0;margin-left:-500px;" data-550="opacity:1;margin-left:-456px;">
         <h3 class="tit">PART 3  皮肤为什么敏感泛红</h3>
     </div>
-    <div class="repair_imgpt3 repair_specialist" data-550="opacity:0;" data-650="opacity:1;"></div>
-    <div class="repair_imgpt3 repair_demo" data-600="opacity:0;" data-700="opacity:1;"></div>
-    <div class="repair_imgpt3 repair_twocause" data-600="opacity:0;margin-top:-50px;" data-700="opacity:1;margin-top:0;">
+    <div class="repair_imgpt3 repair_specialist" data-450="opacity:0;" data-650="opacity:1;"></div>
+    <div class="repair_imgpt3 repair_demo" data-500="opacity:0;" data-700="opacity:1;"></div>
+    <div class="repair_imgpt3 repair_twocause" data-500="opacity:0;margin-top:-50px;" data-700="opacity:1;margin-top:0;">
         <h3 class="tit"></h3><p class="text"></p>
     </div>
-    <div class="repair_imgpt3 repair_threecause" data-600="opacity:0;margin-top:-50px;" data-700="opacity:1;margin-top:0;">
+    <div class="repair_imgpt3 repair_threecause" data-500="opacity:0;margin-top:-50px;" data-700="opacity:1;margin-top:0;">
         <h3 class="tit"></h3><p class="text"></p>
     </div>
 </div>

@@ -59,11 +59,16 @@
 </div>
 
 <script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/modernizr-2.5.3.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/jquery.queryloader22.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/skrollr.min.js"></script>
 <script src="js/jquery.form.js"></script>
+<script src="js/jquery.uniform.min.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/jquery.jscrollpane.js"></script>
 <script src="js/jquery.validate.js"></script>
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/app.js"></script>

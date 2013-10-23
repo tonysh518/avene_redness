@@ -6,28 +6,28 @@
     include('./nav.php');
 ?>
 <!--  -->
-<div class="page">
+<div class="page" data-style="opacity:0" data-animate="opacity:1" data-delay="1000" data-time="400" data-easing="easeInOutQuart">
     <div class="siyan_hua"></div>
-    <div class="siyan_film"> </div>
-    <div class="siyan_pho"> </div>
-    <div class="siyan_img siyan_txt1">
+    <div class="siyan_film" data-style="right:-1000px" data-animate="right:0" data-delay="1100" data-time="800" data-easing="easeInOutQuart"> </div>
+    <div class="siyan_pho" data-style="left:-1000px" data-animate="left:0" data-delay="1000" data-time="800" data-easing="easeInOutQuart"> </div>
+    <div class="siyan_img siyan_txt1" data-style="opacity:0" data-animate="opacity:1" data-delay="1200" data-time="400" data-easing="easeInOutQuart">
         <h3 class="tit">全新品牌大使<br />霍思燕的雅漾时刻</h3>
     </div>
-    <div class="siyan_img siyan_txt2">
+    <div class="siyan_img siyan_txt2" data-style="opacity:0" data-animate="opacity:1" data-delay="1400" data-time="400" data-easing="easeInOutQuart">
         <p class="text">“其实开始拍摄的前几天，我的皮肤正好有些过敏，出现泛红，鼻翼也有些干燥蜕皮。后来经过雅漾的推荐使用了‘舒缓特护系列’和‘舒护活泉水’，皮肤状况明显改善，红肿有所消退，干燥部分也不再发痒，没有紧绷感，上妆也更为服帖。”</p>
     </div>
-    <div class="siyan_img siyan_txt3">
+    <div class="siyan_img siyan_txt3" data-style="opacity:0" data-animate="opacity:1" data-delay="1600" data-time="400" data-easing="easeInOutQuart">
         <p class="text">—著名影星 霍思燕</p>
     </div>
-    <div class="siyan_img siyan_txt4">
+    <div class="siyan_img siyan_txt4" data-style="opacity:0" data-animate="opacity:1" data-delay="1800" data-time="400" data-easing="easeInOutQuart">
         <p class="text">霍思燕幸福代言法国雅漾，初为人母的她出现在公众面前的时候，似乎亦多了一份温婉柔美，以全新的身份、全新的姿态与大家分享属于她的幸福时刻。</p>
     </div>
     <!--  -->
-    <div class="siyan_img siyan_qa1">
+    <div class="siyan_img siyan_qa1" data-0="opacity:0;margin-top:-50px;" data-300="opacity:1;margin-top:0;">
         <h3 class="tit">Q ：在怀孕期间接到雅漾的代言，跟大家分享一下你的感受？</h3>
         <p class="text">A ：我本身是雅漾的忠实粉丝，雅漾能选择我作为全新的品牌大使，我感到非常荣幸。在怀孕期间其实皮肤非常容易过敏，但我一直在坚持使用雅漾的产品，我也想通过这次代言，能够跟大家分享一些我的心得体会，希望对爱美的准妈妈有所帮助。</p>
     </div>
-    <div class="siyan_img siyan_qa2">
+    <div class="siyan_img siyan_qa2" data-0="opacity:0;margin-top:-50px;" data-300="opacity:1;margin-top:0;">
         <h3 class="tit">Q ： 你最喜欢雅漾产品的什么特点?</h3>
         <p class="text">A ：雅漾的无刺激配方一直是它家的核心竞争力,也正因此它家的产品常伴我左右,有效地帮助我抗击过敏原,舒缓肌肤。现在雅漾又推出了“ 无菌护肤 ”的全新理念,全程无菌令抗敏养护更安心。</p>
     </div>

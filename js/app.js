@@ -2,14 +2,23 @@ $(document).ready(function(){
 
     var isUglyIe = $.browser.msie && $.browser.version <= 8;
     var isMostUglyIe = $.browser.msie && $.browser.version <= 6 ;
+    var _isIpad = (function(){
+        return !!navigator.userAgent.toLowerCase().match(/ipad/i) ;
+    })();
+
+    if(_isIpad)
+    {
+        $('head').append('<meta name="viewport" content="width=1000, minimum-scale=1, maximum-scale=1, user-scalable=no" />');
+    }
 
     $(document.body).queryLoader2({
         onLoading : function( percentage ){
-            console.log(percentage);
         },
         onComplete : function(){
             $('.loading-wrap').fadeOut();
             /* for animation */
+            if(isUglyIe && $('#scheme').length > 0)
+                return;
             var ANIMATE_NAME = "data-animate";
             $('[' + ANIMATE_NAME + ']')
                 .each(function(){
@@ -31,6 +40,7 @@ $(document).ready(function(){
                         delete tarCss.opacity;
                     }
 
+
                     style = style.split(';');
                     var styleCss = {} , tmp;
                     for (var i = style.length - 1; i >= 0; i--) {
@@ -38,8 +48,8 @@ $(document).ready(function(){
                         if( tmp.length == 2 )
                             styleCss[ tmp[0] ] = $.trim(tmp[1]);
                     }
-                    if( isUglyIe && tarCss.opacity !== undefined ){
-                        delete tarCss.opacity;
+                    if( isUglyIe && styleCss.opacity !== undefined ){
+                        delete styleCss.opacity;
                     }
                     $dom.css(styleCss).delay( delay )
                         .animate( tarCss , time , easing );
@@ -52,13 +62,18 @@ $(document).ready(function(){
         }
     });
 
+    if(!$('html').hasClass('touch'))
+    {
+        skrollr.init({
+            smoothScrollingDuration: 600,
+            smoothScrolling:true,
+            easing: 'easeInOutQuart'
+        });
+    }
 
+    $('.share_intro').jScrollPane();
 
-    skrollr.init({
-        smoothScrollingDuration: 600,
-        smoothScrolling:true,
-        easing: 'easeInOutQuart'
-    });
+    $('input[type="checkbox"]').uniform();
 
     $(window).scroll(function(){
         //console.log($(window).scrollTop());
@@ -75,7 +90,7 @@ $(document).ready(function(){
     });
 
     //video
-    $('.video').fancybox({
+    $('.home_video').fancybox({
         type : 'iframe',
         'openEffect'	: 'fade',
         'closeEffect'	: 'fade',

@@ -18,11 +18,11 @@
         <h3 class="tit"></h3><p class="text"></p>
     </div>
     <div class="share_introdiv" data-style="opacity:0;" data-animate="opacity:1;" data-delay="1600" data-time="1000" data-easing="easeInOutQuart">
-        <div class="share_imgt share_intro">
-            <h3 class="tit"></h3><p class="text"></p>
+        <div class="share_intro">
+            <div class="share_intro_text">
+                <h3 class="tit"></h3><p class="text"></p>
+            </div>
         </div>
-        <div class="share_imgt share_scrollbg"></div>
-        <div class="share_imgt share_scroll"></div>
     </div>
     <div class="share_imgb share_titb" data-style="opacity:0;" data-animate="opacity:1;" data-delay="1800" data-time="1000" data-easing="easeInOutQuart">
         <h3 class="tit"></h3><p class="text"></p>

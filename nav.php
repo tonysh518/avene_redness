@@ -2,7 +2,7 @@
 <!--  -->
 <div class="header" data-style="margin-top:-100px" data-animate="margin-top:0" data-delay="0" data-time="1000" data-easing="easeInOutQuart">
     <div class="column">
-        <a class="logo" href="#"></a>
+        <a class="logo" href="index.php"></a>
         <div class="nav cs-clear">
             <a class="nav1" href="index.php">首页</a>
             <a class="nav2" href="repair.php">解析敏感泛红</a>

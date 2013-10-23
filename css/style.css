@@ -32,17 +32,17 @@ a{text-decoration:none}
     .nav .nav5{width:77px;background-position: -380px -88px; }
     .nav .nav6{width:77px;background-position: -470px -88px; }
     .nav .nav1.active,
-    .nav .nav1:hover{width:48px;background-position: 0 -110px; }
+    .nav .nav1:hover, #home .nav1{width:48px;background-position: 0 -110px; }
     .nav .nav2.active,
-    .nav .nav2:hover{width:97px;background-position: -58px  -110px; }
+    .nav .nav2:hover, #repair .nav2{width:97px;background-position: -58px  -110px; }
     .nav .nav3.active,
-    .nav .nav3:hover{width:96px;background-position: -164px -110px; }
+    .nav .nav3:hover, #mask .nav3{width:96px;background-position: -164px -110px; }
     .nav .nav4.active,
-    .nav .nav4:hover{width:97px;background-position: -270px -110px; }
+    .nav .nav4:hover, #scheme .nav4{width:97px;background-position: -270px -110px; }
     .nav .nav5.active,
-    .nav .nav5:hover{width:77px;background-position: -380px -110px; }
+    .nav .nav5:hover, #share .nav5{width:77px;background-position: -380px -110px; }
     .nav .nav6.active,
-    .nav .nav6:hover{width:77px;background-position: -470px -110px; }
+    .nav .nav6:hover, #knowledge .nav6{width:77px;background-position: -470px -110px; }
 /*footer*/
 .footer{padding: 24px 0}
     .footer p,
@@ -141,7 +141,7 @@ a{text-decoration:none}
     .repair_pt1txt{width: 600px;height: 84px;top:296px;left:50%;margin-left: -456px;background-position:-8px 0;}
     .checkdiv{width: 912px;height: 120px;position: absolute;left:50%;margin-left:-456px;top:395px;}
     .check_item{position: absolute;left:46px;}
-    .checktxt{position: absolute;width: 330px;height: 24px;left:20px;top:0;}
+    .checktxt{position: absolute;width: 330px;height: 24px;left:30px;top:0;}
     .check_1 .checktxt{background-position: 0 -90px;}
     .check_2{top:44px;}
     .check_2 .checktxt{background-position: 0 -127px;}
@@ -247,8 +247,9 @@ a{text-decoration:none}
     .share_man{width: 282px;height: 355px;left:50%;top: 40px;margin-left: -456px;background-position:0 0 }
     .share_mantips{width: 238px;height: 224px;left:50%;top: 80px;margin-left: -240px;background-position:0 -354px }
     .share_num{width: 164px;height: 90px;left:50%;top: 80px;margin-left: 16px;background-position: -240px -490px}
-    .share_introdiv{border-top:#d8d8d8 solid 1px;position: absolute;width: 440px;height: 128px;left:50%;top: 180px;margin-left: 16px;}
-    .share_intro{width: 415px;height: 128px;left:0;top: 20px;background-position: 0 -578px}
+    .share_introdiv{border-top:#d8d8d8 solid 1px;position: absolute;width: 440px;height: 145px;left:50%;top: 190px;margin-left: 16px;}
+    .share_intro{width: 435px;height: 125px;margin-top:20px;}
+    .share_intro_text {background:url(../img/share_text.png) no-repeat;width:404px;height:179px;}
     .share_scrollbg{width: 5px;height: 125px;right:8px;top: 20px;background-position: -282px -354px }
     .share_scroll{width: 18px;height: 35px;right:0;top: 30px;background-position:-300px -354px;cursor: pointer;}
 
@@ -272,12 +273,12 @@ a{text-decoration:none}
 
     .knowledge_img1{background: url('../img/knowledge_img1.png') no-repeat;position: absolute;}
     .kl_movietit{width: 180px;height: 28px;left:50%;top: 35px;margin-left: -314px }
-    .kl_moviebg{width: 624px;height: 384px;left:50%;top: 70px;margin-left: -320px;background-position: 0 -29px  }
-    .kl_movie{width: 640px;height: 360px;left:50%;top: 83px;margin-left: -320px;background-position:-13px -413px }
-    .kl_movieshare{width: 50px;height:28px;left:50%;top:418px;margin-left: 160px;background-position: -480px 0}
-    .kl_weibo{width: 28px;height: 28px;left:50%;top: 418px;margin-left:  214px;background-position: -533px 0}
-    .kl_youku{width: 28px;height: 28px;left:50%;top: 418px;margin-left:  242px;background-position: -561px 0}
-    .kl_weixin{width: 28px;height: 28px;left:50%;top: 418px;margin-left:  270px;background-position: -589px 0}
+    .kl_moviebg{width: 671px;height: 410px;left:50%;top: 50px;margin-left: -337px;background-position: 0 -29px  }
+    .kl_movie{width: 640px;height: 360px;left:50%;top: 64px;margin-left: -320px;background-position:-13px -413px }
+    .kl_movieshare{width: 50px;height:28px;left:50%;top:428px;margin-left: 180px;background-position: -480px 0}
+    .kl_weibo{width: 28px;height: 28px;left:50%;top: 428px;margin-left:  234px;background-position: -533px 0}
+    .kl_youku{width: 28px;height: 28px;left:50%;top: 428px;margin-left:  262px;background-position: -561px 0}
+    .kl_weixin{width: 28px;height: 28px;left:50%;top: 428px;margin-left:  290px;background-position: -589px 0}
 
     .knowledge_img2{background: url('../img/knowledge_img2.png') no-repeat;position: absolute;}
     .kl_next{-webkit-animation: opacity1 1.5s infinite alternate;-moz-animation: opacity1 1.5s infinite alternate;-ms-animation: opacity1 1.5s infinite alternate;-o-animation: opacity1 1.5s infinite alternate;animation: opacity1 1.5s infinite alternate;width: 67px;height: 67px;left:50%;top: 470px;margin-left: -33px ;background-position: -453px -504px}
