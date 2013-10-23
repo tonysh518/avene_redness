@@ -11,7 +11,7 @@
     <div class="knowledge_hua3"></div>
     <!--  -->
     <div class="knowledge_img1 kl_moviebg"></div>
-    <div class="knowledge_img1 kl_movie"></div>
+    <iframe frameborder="0" scrolling="no" class="knowledge_img1 kl_movie" id="video_iframe" src="video.php?id=1"></iframe>
     <div class="knowledge_img1 kl_movieshare"></div>
     <a href="#" tareget="_blank" class="knowledge_img1 kl_weibo"></a>
     <a href="#" tareget="_blank" class="knowledge_img1 kl_youku"></a>
@@ -20,7 +20,7 @@
     <div class="knowledge_img2 kl_next"></div>
     <div class="knowledge_img2 kl_shenxin" data-100="opacity:0;margin-top:-50px;" data-400="opacity:1;margin-top:0;"></div>
     <div class="knowledge_img2 kl_sxaq" data-200="opacity:0;margin-top:-50px;" data-500="opacity:1;margin-top:0;"></div>
-    <a href="#" target="_blank" class="knowledge_img2 kl_sxweibo" data-200="opacity:0;margin-top:-50px;" data-500="opacity:1;margin-top:0;"></a>
+    <iframe class="knowledge_img2 kl_sxweibo" data-200="opacity:0;margin-top:-50px;" data-500="opacity:1;margin-top:0;" width="63" scrolling="no" height="24" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" border="0" src="http://widget.weibo.com/relationship/followbutton.php?language=zh_cn&amp;width=63&amp;height=24&amp;uid=2166726834&amp;style=1&amp;btn=red&amp;dpc=1"></iframe>
     <div class="knowledge_img2 kl_xier" data-100="opacity:0;margin-top:-50px;" data-400="opacity:1;margin-top:0;"></div>
     <div class="knowledge_img2 kl_xieraq" data-200="opacity:0;margin-top:-50px;" data-500="opacity:1;margin-top:0;"></div>
     <!--  -->

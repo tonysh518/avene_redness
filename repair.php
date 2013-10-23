@@ -49,6 +49,8 @@
         </div>
         <input class="repair_imgtit repair_btn" value="查看结果" type="submit" />
     </from>
+
+    <div class="repair_img2 repair_next"></div>
     <!-- part 2 -->
     <div class="repair_imgtit repair_pt2tit" data-100="opacity:0;margin-left:-500px;" data-200="opacity:1;margin-left:-456px;">
         <h3 class="tit">PART 2  皮肤敏感泛红的困扰</h3>

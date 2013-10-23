@@ -65,9 +65,13 @@ $(document).ready(function(){
     });
 
     $('.repair_btn').click(function(){
+        var score = 0;
         $('.checkdiv input').each(function(index, obj){
-            console.log($(obj).is(':checked'));
+            if($(obj).is(':checked')){
+                score += 10;
+            }
         });
+        alert(score);
     });
 
     //video

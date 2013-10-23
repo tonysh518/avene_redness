@@ -153,6 +153,7 @@ a{text-decoration:none}
     .check_5 .checktxt{background-position: 0 -238px;height:34px;top:-8px;}
     .check_6{top:88px;left:495px;}
     .check_6 .checktxt{background-position: 0 -275px;}
+    .repair_next{position:absolute;-webkit-animation: opacity1 1.5s infinite alternate;-moz-animation: opacity1 1.5s infinite alternate;-ms-animation: opacity1 1.5s infinite alternate;-o-animation: opacity1 1.5s infinite alternate;animation: opacity1 1.5s infinite alternate;width: 67px;height: 67px;left:50%;top: 600px;margin-left: -33px ;background:url(../img/knowledge_img2.png) no-repeat;background-position: -453px -504px}
     /*pt2*/
     .repair_hua2{width: 160px;height: 200px;background: url(../img/repair_hua2.jpg) no-repeat;position: absolute;left:50%;top:760px;margin-left:-550px;}
     .repair_imgpt2{background: url(../img/repair_imgpt2.png) no-repeat;position: absolute;}
@@ -272,7 +273,7 @@ a{text-decoration:none}
     .knowledge_img1{background: url('../img/knowledge_img1.png') no-repeat;position: absolute;}
     .kl_movietit{width: 180px;height: 28px;left:50%;top: 35px;margin-left: -314px }
     .kl_moviebg{width: 624px;height: 384px;left:50%;top: 70px;margin-left: -320px;background-position: 0 -29px  }
-    .kl_movie{width: 600px;height: 330px;left:50%;top: 83px;margin-left: -307px;background-position:-13px -413px }
+    .kl_movie{width: 640px;height: 360px;left:50%;top: 83px;margin-left: -320px;background-position:-13px -413px }
     .kl_movieshare{width: 50px;height:28px;left:50%;top:418px;margin-left: 160px;background-position: -480px 0}
     .kl_weibo{width: 28px;height: 28px;left:50%;top: 418px;margin-left:  214px;background-position: -533px 0}
     .kl_youku{width: 28px;height: 28px;left:50%;top: 418px;margin-left:  242px;background-position: -561px 0}
@@ -284,8 +285,7 @@ a{text-decoration:none}
     .kl_sxaq{width: 448px;height: 207px;left:50%;top: 882px;margin-left: -458px ;background-position: 0 -297px}
     .kl_xier{width: 240px;height: 297px;left:50%;top: 580px;margin-left: 119px ;background-position: -240px 0}
     .kl_xieraq{width: 448px;height: 207px;left:50%;top: 882px;margin-left:10px;background-position: 0 -504px}
-    .kl_sxweibo{width: 70px;height: 18px;left:50%;top: 892px;margin-left: -98px ;background-position: -449px -306px}
-    .kl_sxweibo{width: 70px;height: 18px;left:50%;top: 892px;margin-left: -98px ;background-position: -449px -306px}
+    .kl_sxweibo{left:50%;top: 890px;margin-left: -98px ;background:none;}
 
     .knowledge_img3{background: url('../img/knowledge_img3.png') no-repeat;position: absolute;}
     .kl_methodtit{width: 230px;height: 28px;left:50%;top: 1146px;margin-left:-456px;background-position: -165px -290px}

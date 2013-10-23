@@ -15,7 +15,7 @@
         <h3 class="tit"></h3>
     </div>
     <div class="scheme_imgleft scheme_share" data-style="opacity:0;" data-animate="opacity:1;" data-delay="5000" data-time="1000" data-easing="easeInOutQuart"><p class="text"></p></div>
-    <a href="#" target="_blank" class="scheme_imgleft scheme_weibo" data-style="opacity:0;" data-animate="opacity:1;" data-delay="5200" data-time="1000" data-easing="easeInOutQuart"></a>
+    <a href="http://v.t.sina.com.cn/share/share.php?title=sharecopy&amp;url=" target="_blank" class="scheme_imgleft scheme_weibo" data-style="opacity:0;" data-animate="opacity:1;" data-delay="5200" data-time="1000" data-easing="easeInOutQuart"></a>
     <a href="#" target="_blank" class="scheme_imgleft scheme_weixin" data-style="opacity:0;" data-animate="opacity:1;" data-delay="5400" data-time="1000" data-easing="easeInOutQuart"></a>
     <div class="scheme_imgleft scheme_line" data-style="opacity:0;" data-animate="opacity:1;" data-delay="5200" data-time="1000" data-easing="easeInOutQuart"></div>
     <div class="scheme_imgleft scheme_line scheme_line2" data-style="opacity:0;" data-animate="opacity:1;" data-delay="5400" data-time="1000" data-easing="easeInOutQuart"></div>
