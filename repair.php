@@ -23,36 +23,38 @@
             <!--  -->
             <div class="check_item check_1">
                 <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt"></p>
-            </div>
-            <div class="check_item check_2">
-                <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt"></p>
-            </div>
-            <div class="check_item check_3">
-                <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt"></p>
+                <p class="repair_imgpt1 checktxt">你的皮肤是否特别白皙嫩薄,细小血管隐约可见?</p>
             </div>
             <div class="check_item check_4">
                 <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt"></p>
+                <p class="repair_imgpt1 checktxt">你的鼻周或者脸颊部分是否经常泛红?</p>
+            </div>
+            <div class="check_item check_2">
+                <input type="checkbox" />
+                <p class="repair_imgpt1 checktxt">你的皮肤是否出现局部或者大面积持续不退的红斑?</p>
             </div>
             <div class="check_item check_5">
                 <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt"></p>
+                <p class="repair_imgpt1 checktxt">你是否在气候变化、情绪激动时，面部容易泛红灼热？</p>
+            </div>
+            <div class="check_item check_3">
+                <input type="checkbox" />
+                <p class="repair_imgpt1 checktxt">你是否一到冬天就感觉特别干燥,遇到刮风的时候更是迅速泛红紧绷?</p>
             </div>
             <div class="check_item check_6">
                 <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt"></p>
+                <p class="repair_imgpt1 checktxt">是否在情绪激动、气候变化时加重泛红灼热?</p>
             </div>
             <!--  -->
+            <p class="dis_mobile arrow_tiem arrow_p"></p>
+            <p class="dis_mobile arrow_tiem arrow_n"></p>
         </div>
         <input class="repair_imgtit repair_btn" value="查看结果" type="submit" />
     </from>
 
     <div class="repair_img2 repair_next"></div>
     <!-- part 2 -->
-    <div class="repair_imgtit repair_pt2tit" data-0="opacity:0;margin-left:-500px;" data-200="opacity:1;margin-left:-456px;">
+    <div class="repair_imgtit repair_pt2tit" data-100="opacity:0;left:40%" data-200="opacity:1;left:50%">
         <h3 class="tit">PART 2  皮肤敏感泛红的困扰</h3>
     </div>
     <div class="repair_hua2"></div>

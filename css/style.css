@@ -98,7 +98,7 @@ a{text-decoration:none}
     .home_check1{top:240px;}
     .home_check2{top:275px;}
     .home_check3{top:310px;}
-    .checktxt{width:162px ;height: 18px;float:left;}
+    #home .checktxt{width:162px ;height: 18px;float:left;}
     .home_check .checkbox{width:18px ;height: 18px;background-position:-210px -323px;float:left;}
     .home_check1 .checktxt{background-position:-228px -323px;}
     .home_check2 .checktxt{background-position:-228px -358px;}
@@ -140,18 +140,18 @@ a{text-decoration:none}
     .repair_imgpt1{background:url('../img/repair_imgpt1.png') no-repeat;position: absolute;}
     .repair_pt1txt{width: 600px;height: 84px;top:296px;left:50%;margin-left: -456px;background-position:-8px 0;}
     .checkdiv{width: 912px;height: 120px;position: absolute;left:50%;margin-left:-456px;top:395px;}
-    .check_item{position: absolute;left:46px;}
-    .checktxt{position: absolute;width: 330px;height: 24px;left:30px;top:0;}
+    .check_item{position: relative;float: left;height: 44px;width: 400px;padding-left: 45px}
+    #repair .checktxt{position: absolute;width: 330px;height: 34px;left:70px;top:0;line-height: 500em;overflow: hidden}
     .check_1 .checktxt{background-position: 0 -90px;}
-    .check_2{top:44px;}
+    /*.check_2{top:44px;}*/
     .check_2 .checktxt{background-position: 0 -127px;}
-    .check_3{top:88px;}
+    /*.check_3{top:88px;}*/
     .check_3 .checktxt{background-position: 0 -164px;}
-    .check_4{top:0px;left:495px;}
+    /*.check_4{top:0px;left:495px;}*/
     .check_4 .checktxt{background-position: 0 -201px;}
-    .check_5{top:44px;left:495px;}
-    .check_5 .checktxt{background-position: 0 -238px;height:34px;top:-8px;}
-    .check_6{top:88px;left:495px;}
+    /*.check_5{top:44px;left:495px;}*/
+    .check_5 .checktxt{background-position: 0 -238px;height:34px;margin-top:-8px;}
+    /*.check_6{top:88px;left:495px;}*/
     .check_6 .checktxt{background-position: 0 -275px;}
     .repair_next{position:absolute;-webkit-animation: opacity1 1.5s infinite alternate;-moz-animation: opacity1 1.5s infinite alternate;-ms-animation: opacity1 1.5s infinite alternate;-o-animation: opacity1 1.5s infinite alternate;animation: opacity1 1.5s infinite alternate;width: 67px;height: 67px;left:50%;top: 600px;margin-left: -33px ;background:url(../img/knowledge_img2.png) no-repeat;background-position: -453px -504px}
     /*pt2*/
@@ -407,12 +407,35 @@ a{text-decoration:none}
     .home_check2{top: 1062px}
     .home_check3{top: 1122px}
     .home_check .checkbox{background:url('../imgMobile/home/check_icon.png') no-repeat 0 0;background-size: 100% 100%;width:36px ;height:35px;}
-    .checktxt{left:36px;}
+    #home .checktxt{left:36px;}
     .home_check1 .checktxt{background:url('../imgMobile/home/check1.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
     .home_check2 .checktxt{background:url('../imgMobile/home/check2.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
     .home_check3 .checktxt{background:url('../imgMobile/home/check3.png') no-repeat 0 0;background-size: 100% 100%;width:274px ;height:35px;}
     .home_new{background:url('../imgMobile/home/new.png') no-repeat 0 0;background-size: 100% 100%;width: 230px;height: 115px;top: 836px;margin-left: 10px}
     .home_cool{background:url('../imgMobile/home/cool.png') no-repeat 0 0;background-size: 100% 100%;width: 220px;height: 165px;top: 678px;margin-left: -106px}
     .home_video{background:url('../imgMobile/home/video.jpg') no-repeat 0 0;width: 600px;height: 383px;top: 1270px;margin-left: -300px}
+/* repair */
+    #repair .page{height: 5520px;background:#fffbfb url('../imgMobile/repair/repair_page.png') repeat-x bottom;}
+    /*pt1*/
+    .repair_summary{background:url('../imgMobile/repair/repair_summary.png') no-repeat 0 0;background-size: 100% 100%;width: 580px;height: 164px;top:35px;margin-left:-285px}
+    .repair_pt1tit{top:230px;margin-left:-285px;background:url('../imgMobile/repair/repair_pt1tit.png') no-repeat 0 0;background-size: 100% 100%;width: 530px;height: 130px;}
+    .repair_pt1txt{top:386px;margin-left:-285px;background:url('../imgMobile/repair/repair_pt1txt.png') no-repeat 0 0;background-size: 100% 100%;width: 551px;height: 118px;}
+    .repair_btn{width: 574px;height: 98px;top:976px;margin-left:-287px;background:url('../imgMobile/repair/repair_btn.png') no-repeat 0 0;background-size: 100% 100%;}
+    .checkdiv{overflow:hidden;padding:58px 0 0;width: 635px;height: 374px;top:515px;margin-left:-317px;background:url('../imgMobile/repair/checkdiv.png') no-repeat 0 0;background-size: 100% 100%;}
+    .check_item{padding-left:134px;height: 115px;margin-top: 10px}
+    #repair .checktxt{left:160px;font-size: 30px;line-height: 34px;background: none;width: 350px;height: 115px}
+    .checkdiv input{position: absolute;top:10px}
+    .arrow_tiem{width: 80px;height: 80px;position: absolute;top: 162px;cursor: pointer;}
+    .arrow_p{left:10px;background:url('../imgMobile/repair/arrow_p.png') no-repeat 0 0;background-size: 100% 100%;}
+    .arrow_n{right:10px;background:url('../imgMobile/repair/arrow_n.png') no-repeat 0 0;background-size: 100% 100%;}
+    /*pt2*/
+    .repair_pt2tit{width:580px;height:135px;top:1140px;margin-left:-285px;background:url('../imgMobile/repair/repair_pt2tit.png') no-repeat 0 0;background-size: 100% 100%;}
+
+    .repair_next,
+    .repair_imgpt2,
+    .repair_imgpt3{display: none}
+
+
+    .repair_pt3tit{top: 3050px;margin-left:-285px;}
 }
 
