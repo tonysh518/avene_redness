@@ -479,6 +479,45 @@ a{text-decoration:none}
     .mask_huaR{right:0;top:800px;margin: 0}
 
 
+    /*scheme*/
+    #scheme .page{height: 3182px;background: #fffbfb}
+    .scheme_ltit{top:50px ;width:570px;height:55px;margin-left:-285px;background:url(../imgMobile/scheme/scheme_ltit.png) no-repeat;background-size: 100% 100%;}
+    .scheme_leftbg{top:118px;width:640px;height:500px;margin-left:-320px;background:url(../imgMobile/scheme/bg.png) no-repeat;}
+    .scheme_share{top:645px;width:136px;height:100px;margin-left:-285px;background:url(../imgMobile/scheme/sns.png) no-repeat 0 0;}
+    .scheme_weibo{top:645px;width:218px;height:100px;margin-left:-149px;background:url(../imgMobile/scheme/sns.png) no-repeat -136px 0}
+    .scheme_weixin{top:645px;width:216px;height:100px;margin-left:69px;background:url(../imgMobile/scheme/sns.png) no-repeat -354px 0;}
+    .scheme_line{display: none}
+    #scheme .arrow_tiem{top: 296px}
+    #scheme .arrow_n{right: 2px}
+    #scheme .arrow_p{left: 2px}
+    .scheme_tips{top:772px;width:500px;height:360px;margin-left:-250px;background:url(../imgMobile/scheme/scheme_tips.png) no-repeat;}
+    .scheme_step1{top:158px;width:400px;height:430px;margin-left:-200px;background:url(../imgMobile/scheme/scheme_step1.png) no-repeat;}
+    .scheme_step2{top:158px;width:400px;height:430px;margin-left:-200px;background:url(../imgMobile/scheme/scheme_step2.png) no-repeat;display: none;}
+    .scheme_step3{top:158px;width:400px;height:430px;margin-left:-200px;background:url(../imgMobile/scheme/scheme_step3.png) no-repeat;display: none;}
+    .scheme_step4{top:158px;width:400px;height:430px;margin-left:-200px;background:url(../imgMobile/scheme/scheme_step4.png) no-repeat;display: none;}
+    .scheme_sos{top:1196px ;width:610px;height:110px;margin-left:-305px;background:url(../imgMobile/scheme/scheme_sos.png) no-repeat;background-size: 100% 100%;}
+    .scheme_day{top:2155px ;width:610px;height:110px;margin-left:-305px;background:url(../imgMobile/scheme/scheme_day.png) no-repeat;background-size: 100% 100%;}
+    .scheme_intro1{top:1350px ;width:570px;height:80px;margin-left:-285px;background:url(../imgMobile/scheme/scheme_intro1.png) no-repeat;background-size: 100% 100%;}
+    .scheme_intro2{top:1796px ;width:570px;height:80px;margin-left:-285px;background:url(../imgMobile/scheme/scheme_intro2.png) no-repeat;background-size: 100% 100%;}
+    .scheme_intro3{top:2304px ;width:570px;height:130px;margin-left:-285px;background:url(../imgMobile/scheme/scheme_intro3.png) no-repeat;background-size: 100% 100%;}
+    .scheme_intro4{top:2760px ;width:570px;height:80px;margin-left:-285px;background:url(../imgMobile/scheme/scheme_intro4.png) no-repeat;background-size: 100% 100%;}
+    #scheme .scheme_introtxt{display: block;font-size: 24px;color:#727272;line-height: 32px;position: absolute;}
+    .scheme_intro1 .text{width: 360px;top:100px;right: 0;padding-right: 10px}
+    .scheme_intro2 .text{width: 380px;top:100px;left:20px;}
+    .scheme_intro3 .text{width: 340px;top:150px;right: 0;padding-right: 16px}
+    .scheme_intro4 .text{width: 360px;top:100px;left:20px;}
+    .scheme_introtxt span{color:#e73e97;}
+    .scheme_jia{top:1700px ;width:64px;height:62px;margin-left:4px;background:url(../imgMobile/scheme/scheme_jia.png) no-repeat;background-size: 100% 100%;}
+    .scheme_cool{display: none;}
+    .scheme_product1{top:1355px ;width:300px;height:400px;margin-left:-290px;background:url(../imgMobile/scheme/scheme_product1.png) no-repeat;}
+    .scheme_product2{top:1702px ;width:120px;height:450px;margin-left:152px;background:url(../imgMobile/scheme/scheme_product2.png) no-repeat;}
+    .scheme_product3{top:2705px ;width:160px;height:430px;margin-left:112px;background:url(../imgMobile/scheme/scheme_product3.png) no-repeat;}
+    .scheme_product4{top:2266px ;width:150px;height:430px;margin-left:-310px;background:url(../imgMobile/scheme/scheme_product4.png) no-repeat;}
+    .scheme_product5{top:2330px ;width:190px;height:390px;margin-left:-202px;background:url(../imgMobile/scheme/scheme_product5.png) no-repeat;}
+    .scheme_hua1{top:1500px;}
+    .scheme_hua2{top:2790px;}
+    .scheme_hua3{top:2430px;}
+    
     /*share*/
     #share .page {height:4297px;}
     .share_man {background:url(../imgMobile/share/share_man.png) no-repeat;background-size: 100% 100%;width:546px;height:708px;margin-left:-274px;}
