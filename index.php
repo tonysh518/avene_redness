@@ -44,7 +44,6 @@
         <div class="tit"></div>
         <div class="text"></div>
     </a>
-    <div class="dis_mobile home_new"></div>
 </div>
 <!--  -->
 <?php
