@@ -19,6 +19,7 @@ a{text-decoration:none}
 .cs-clear{+zoom:1;}
 .cs-clear:before,
 .cs-clear:after{clear:both;content:".";font-size:0;display:block;height:0;overflow:hidden;visibility:hidden;}
+
 /* header */
 .header{border-bottom: #ef896f solid 1px;height:95px;_overflow:hidden }
 .column{width: 912px;margin: 0 auto;position: relative}
@@ -343,6 +344,7 @@ a{text-decoration:none}
 .page{min-width: 1000px;}
 @media screen and (max-width:640px){
 /**/
+    html,body {width:640px;overflow:hidden;}
     .dis_mobile{display: block;}
     .page{min-width: 0;}
     .column{width: 100%}
@@ -350,16 +352,22 @@ a{text-decoration:none}
     .header{height: 100px;padding-top: 15px}
     .logo{background:url('../imgMobile/logo.png') no-repeat;background-size: 100% 100%;width: 190px;height: 85px;margin:0 0 0 35px;}
     .navbtn{background: url('../imgMobile/navbtn.png') no-repeat;background-size: 100% 100%;width: 88px;height: 74px;position: absolute;right: 35px;top:6px;cursor: pointer;}
-    .nav{background:#fce7e2;width:570px;bottom: auto;top: 100px;z-index: 50;left:35px;display:none}
+    .nav{background:#fce7e2;width:100%;bottom: auto;top: 100px;z-index: 50;left:0px;display:none}
     .nav .nav1, .nav .nav2, .nav .nav3, .nav .nav4, .nav .nav5, .nav .nav6,
-    .nav a{display: block;float: none;height: 80px;line-height:80px;border-bottom: #f7c1b4 solid 1px;background: none;width: 570px;text-align: center;font-size: 36px;color:#ef896f}
+    .nav a{margin:0;display: block;float: none;height: 80px;line-height:80px;border-bottom: #f7c1b4 solid 1px;background: none;width: 100%;text-align: center;font-size: 36px;color:#ef896f}
     .nav .nav6{border: 0}
+    #home .nav1,
+    #repair .nav2,
+    #mask .nav3,
+    #scheme .nav4,
+    #share .nav5,
+    #knowledge .nav6,
     .nav .nav1.active, .nav .nav1:hover,
     .nav .nav2.active, .nav .nav2:hover,
     .nav .nav3.active, .nav .nav3:hover,
     .nav .nav4.active, .nav .nav4:hover,
     .nav .nav5.active, .nav .nav5:hover,
-    .nav .nav6.active, .nav .nav6:hover{background: none;width: 570px;}
+    .nav .nav6.active, .nav .nav6:hover {background: none;width: 100%;}
     .navicon{width: 0;height: 0;position: absolute;right:50px;top:-24px;content:"";border: transparent 12px solid;border-bottom: #fce7e2 12px solid;display: none}
 /*footer*/
     .footer{height: 156px;padding: 0}
