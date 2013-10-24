@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    var windowWidth;
     var isUglyIe = $.browser.msie && $.browser.version <= 8;
     var isMostUglyIe = $.browser.msie && $.browser.version <= 6 ;
     var _isIpad = (function(){
@@ -10,6 +10,27 @@ $(document).ready(function(){
     {
         $('head').append('<meta name="viewport" content="width=1000, minimum-scale=1, maximum-scale=1, user-scalable=no" />');
     }
+
+    var windowResize = function(){
+        windowWidth = $(window).width();
+    };
+
+    $(window).on('resize',windowResize).resize();
+
+    $('.navbtn').on('click' , function(){
+        if($('.nav').css('display')=='none')
+            $('.nav').fadeIn();
+        else
+            $('.nav').fadeOut();
+        return false;
+    });
+
+    $(document).on('click' , function(){
+        if(windowWidth <= 640)
+        {
+            $('.nav').fadeOut();
+        }
+    })
 
     $(document.body).queryLoader2({
         onLoading : function( percentage ){
