@@ -57,6 +57,10 @@
             <div class="kl_method_mobile_img"><img src="imgMobile/knowledge/kl_method1.png" /></div>
             <div class="kl_method_mobile_text">过度地清洁会使得肌肤变得更为纤薄脆弱,损伤角质层,造成不可逆转的肌肤伤害。因而必须选择温和的洁面产品,轻柔清洁肌肤,将损伤降至最低。</div>
         </li>
+        <!--  -->
+        <p class="dis_mobile arrow_tiem arrow_p"></p>
+        <p class="dis_mobile arrow_tiem arrow_n"></p>
+        <!--  -->
     </div>
 
 </div>
