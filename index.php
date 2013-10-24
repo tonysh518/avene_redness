@@ -6,6 +6,7 @@
     include('./nav.php');
 ?>
 <!-- f -->
+
 <div class="page" data-style="opacity:0" data-animate="opacity:1" data-delay="1000" data-time="400" data-easing="easeInOutQuart">
     <a href="siyan.php" class="home_siyan" data-style="right:-550px;" data-animate="right:0" data-delay="1700" data-time="1000" data-easing="easeInOutQuart">
         <div class="tit"></div>

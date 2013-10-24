@@ -241,6 +241,7 @@ a{text-decoration:none}
     .share_introdiv{border-top:#d8d8d8 solid 1px;position: absolute;width: 440px;height: 145px;left:50%;top: 190px;margin-left: 16px;}
     .share_intro{width: 435px;height: 125px;margin-top:20px;}
     .share_intro_text {background:url(../img/share_text.png) no-repeat;width:404px;height:179px;}
+    .share_intro_mobile {display:none;}
     .share_scrollbg{width: 5px;height: 125px;right:8px;top: 20px;background-position: -282px -354px }
     .share_scroll{width: 18px;height: 35px;right:0;top: 30px;background-position:-300px -354px;cursor: pointer;}
 
@@ -272,8 +273,10 @@ a{text-decoration:none}
     .kl_next{-webkit-animation: opacity1 1.5s infinite alternate;-moz-animation: opacity1 1.5s infinite alternate;-ms-animation: opacity1 1.5s infinite alternate;-o-animation: opacity1 1.5s infinite alternate;animation: opacity1 1.5s infinite alternate;width: 67px;height: 67px;left:50%;top: 470px;margin-left: -33px ;background-position: -453px -504px}
     .kl_shenxin{width: 240px;height: 297px;left:50%;top: 580px;margin-left: -346px }
     .kl_sxaq{width: 448px;height: 207px;left:50%;top: 882px;margin-left: -458px ;background-position: 0 -297px}
+    .kl_sxaq div {display:none;}
     .kl_xier{width: 240px;height: 297px;left:50%;top: 580px;margin-left: 119px ;background-position: -240px 0}
     .kl_xieraq{width: 448px;height: 207px;left:50%;top: 882px;margin-left:10px;background-position: 0 -504px}
+    .kl_xieraq div {display:none;}
     .kl_sxweibo{left:50%;top: 890px;margin-left: -98px ;background:none;}
 
     .knowledge_img3{background: url('../img/knowledge_img3.png') no-repeat;position: absolute;}
@@ -283,7 +286,7 @@ a{text-decoration:none}
     .kl_method3{width: 165px;height: 290px;left:50%;top: 1220px;margin-left:  -80px;background-position: -330px 0}
     .kl_method4{width: 175px;height: 290px;left:50%;top: 1220px;margin-left: 110px ;background-position: -495px 0}
     .kl_method5{width: 160px;height: 290px;left:50%;top: 1220px;margin-left: 296px;background-position: -670px 0}
-
+    .kl_method_mobile {display:none;}
 
 
 /* Animation */
@@ -476,18 +479,46 @@ a{text-decoration:none}
     .mask_huaR{right:0;top:800px;margin: 0}
 
 
+    /*share*/
+    #share .page {height:4297px;}
+    .share_man {background:url(../imgMobile/share/share_man.png) no-repeat;background-size: 100% 100%;width:546px;height:708px;margin-left:-274px;}
+    .share_mantips {display: none;}
+    .share_num {display: none;}
+    .share_introdiv {top:918px;width:570px;border:none;margin-left:-285px;font-size:30px;line-height:150%;}
+    .share_intro {display: none;}
+    .share_intro_mobile {display:block;}
+    .share_titb {top:2000px;background:url(../imgMobile/share/share_titb.png) no-repeat;width:593px;height:175px;margin-left:-291px;background-size: 100% 100%;}
+    .share_user1 {background:url(../imgMobile/share/share_user1.png) no-repeat;width:603px;height:795px;background-size:100% 100%;}
+    .share_user2 {background:url(../imgMobile/share/share_user2.png) no-repeat;width:591px;height:778px;background-size:100% 100%;}
+    .share_user3 {background:url(../imgMobile/share/share_user3.png) no-repeat;width:603px;height:795px;background-size:100% 100%;}
+
     /*knowledge*/
     #knowledge .page {height:4297px;}
+    .knowledge_img1 {background:url(../imgMobile/knowledge/kl_icon_share.png) no-repeat;background-size:570px 103px;}
     .kl_movietit{width:449px;height: 40px;left:50%;top: 19px;margin-left:-225px;background:url(../imgMobile/knowledge/kl_movietit.png) no-repeat;background-size: 100% 100%;}
     #knowledge iframe {display:none;}
     .kl_moviebg {display: none;}
     .kl_next {display:none;}
+    .kl_movieshare {width:137px;height:103px;margin-left:-281px;}
+    .kl_weibo {width:145px;height:103px;margin-left:-145px;background-position:-137px 0;}
+    .kl_youku {width:145px;height:103px;margin-left:-1px;background-position:-281px 0;}
+    .kl_weixin {width:145px;height:103px;margin-left:144px;background-position:-426px 0;}
     .kl_shenxin {top:820px;width:457px;height:571px;margin-left:-228px;background:url(../imgMobile/knowledge/kl_shenxin.png) no-repeat;background-size: 100% 100%;}
     .kl_xier {top:2320px;width:457px;height:564px;margin-left:-228px;background:url(../imgMobile/knowledge/kl_sxaq.png) no-repeat;background-size: 100% 100%;}
-    .kl_sxaq {background:none;top:1571px;width:640px;margin-left:-320px;}
-    .kl_xieraq {background:none;top:2931px;width:640px;margin-left:-320px;}
-    .kl_q {font-size:30px;color:#e54096;background:#fdedf3;padding:20px;line-height:150%;}
-    .kl_a {font-size:30px;color:#505050;background:#ffffff;padding:20px;line-height:150%;}
-    .kl_method1,.kl_method2,.kl_method3,.kl_method4 {display:none;}
+    .kl_sxaq {background:none;top:1571px;width:570px;height:auto;margin-left:-285px;}
+    .kl_xieraq {background:none;top:2931px;width:570px;height:auto;margin-left:-285px;}
+    .kl_sxaq div {display:block;}
+    .kl_xieraq div {display:block;}
+    .kl_q {display:block;position:relative;font-size:30px;color:#e54096;-webkit-border-radius: 5px;border-radius: 5px;border:1px solid #fad6e7;background:#fdedf3;padding:20px 40px;margin-left:26px;line-height:150%;}
+    .kl_q .icon {position: absolute;background: url(../imgMobile/knowledge/kl_icon_q.png) no-repeat;background-size: 100% 100%;width:67px;height:63px;left:-35px;}
+    .kl_a {display:block;font-size:30px;color:#505050;-webkit-border-radius: 5px;border-radius: 5px;border:1px solid #dfdfdf;background:#ffffff;padding:20px 40px;;margin-top:25px;margin-right:26px;line-height:150%;}
+    .kl_a .icon {position: absolute;background: url(../imgMobile/knowledge/kl_icon_a.png) no-repeat;background-size: 100% 100%;width:67px;height:63px;right:0px;}
+    .kl_method1,.kl_method2,.kl_method3,.kl_method4,.kl_method5 {display:none;}
+    .kl_methodtit {top:3721px;width:403px;height:40px;margin-left:-201px;background:url(../imgMobile/knowledge/kl_methodtit.png) no-repeat;background-size: 100% 100%;}
+    .kl_method_mobile {display:block;-webkit-box-shadow: 0px 0px 5px 4px #f2dde8;box-shadow: 0px 0px 5px 4px #f2dde8;position: absolute;left:50%;top:3798px;font-size:30px;line-height:150%;width:570px;margin-left:-285px;background:#fff;}
+    .kl_method_mobile li {list-style:none;}
+    .kl_method_mobile img {width:305px;}
+    .kl_method_mobile_text {margin:30px;}
+    .kl_sxweibo_mobile {position:absolute;top:1437px;left:50%;background:url(../imgMobile/knowledge/kl_sxweibo.png) no-repeat;width:299px;height:106px;margin-left:-150px;background-size: 100% 100%;}
 }
 
