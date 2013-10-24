@@ -517,19 +517,46 @@ a{text-decoration:none}
     .scheme_hua1{top:1500px;}
     .scheme_hua2{top:2790px;}
     .scheme_hua3{top:2430px;}
-    
+
+    /*siyan*/
+    #siyan .page{background: #fff;height: 4565px}
+    .siyan_pho{top:0 ;width:100%;height:645px;background:url(../imgMobile/siyan/siyan_pho.png) no-repeat;}
+    .siyan_tj{top:3420px ;width:100%;height:1050px;left:auto;right:0;background:url(../imgMobile/siyan/siyan_tj.png) no-repeat;}
+    .siyan_tj .text{display: block;font-size:28px;line-height: 42px;position: absolute;top: 210px;width:480px;margin-left:-240px;left:50%}
+    .siyan_tj span{display: block;text-indent: 2em;}
+    .siyan_avene{top:2808px ;width:300px;height:710px;margin-left:-150px;background:url(../imgMobile/siyan/siyan_avene.png) no-repeat;}
+    .siyan_hua{width: 220px;height: 220px;top: 2930px;left: 0;right:auto;background: url('../img/scheme_hua3.png') no-repeat;}
+    .siyan_qa1{top:1782px ;width:570px;height:529px;margin-left:-285px;background:url(../imgMobile/siyan/siyan_qa1.png) no-repeat;}
+    .siyan_qa2{top:2330px ;width:570px;height:445px;margin-left:-285px;background:url(../imgMobile/siyan/siyan_qa2.png) no-repeat;}
+    .siyan_qa1 .text,.siyan_qa2 .text{display: block;width: 430px;height: 340px;position: absolute;left:30px;top:160px;font-size:28px;line-height: 42px;}
+    .siyan_txt1{top:675px ;width:500px;height:130px;margin-left:-250px;background:url(../imgMobile/siyan/siyan_txt1.png) no-repeat;background-size:100% 100%;}
+    .siyan_txt2{top:845px ;width:570px;height:250px;margin-left:-285px;background:url(../imgMobile/siyan/siyan_txt2.png) no-repeat;}
+    .siyan_txt3{top:1095px ;width:570px;height:58px;margin-left:-285px;background:url(../imgMobile/siyan/siyan_txt2.png) no-repeat 0 -250px;}
+    .siyan_film{top:1130px ;width:640px;height:537px;margin-left:-320px;background:url(../imgMobile/siyan/siyan_film.png) no-repeat;}
+    .siyan_txt4{top:1568px ;width:570px;height:158px;margin-left:-285px;background:url(../imgMobile/siyan/siyan_txt4.png) no-repeat;}
+
+
+
     /*share*/
-    #share .page {height:4297px;}
+    #share .page {height:4395px;}
     .share_man {background:url(../imgMobile/share/share_man.png) no-repeat;background-size: 100% 100%;width:546px;height:708px;margin-left:-274px;}
     .share_mantips {display: none;}
     .share_num {display: none;}
-    .share_introdiv {top:918px;width:570px;border:none;margin-left:-285px;font-size:30px;line-height:150%;}
+    .share_introdiv {top:918px;width:484px;border:none;margin-left:-242px;font-size:30px;line-height:150%;}
     .share_intro {display: none;}
     .share_intro_mobile {display:block;}
-    .share_titb {top:2000px;background:url(../imgMobile/share/share_titb.png) no-repeat;width:593px;height:175px;margin-left:-291px;background-size: 100% 100%;}
-    .share_user1 {background:url(../imgMobile/share/share_user1.png) no-repeat;width:603px;height:795px;background-size:100% 100%;}
-    .share_user2 {background:url(../imgMobile/share/share_user2.png) no-repeat;width:591px;height:778px;background-size:100% 100%;}
-    .share_user3 {background:url(../imgMobile/share/share_user3.png) no-repeat;width:603px;height:795px;background-size:100% 100%;}
+    .share_intro_mobile span{color:#e73e97}
+    .share_titb {top:1902px;background:url(../imgMobile/share/share_titb.png) no-repeat;width:593px;height:175px;margin-left:-291px;background-size: 100% 100%;}
+    .share_user1 {top:2075px;margin-left:-302px;background:url(../imgMobile/share/share_user1.png) no-repeat;width:603px;height:795px;background-size:100% 100%;}
+    .share_user2 {top:2815px;margin-left:-296px;background:url(../imgMobile/share/share_user2.png) no-repeat;width:591px;height:778px;background-size:100% 100%;}
+    .share_user3 {top:3550px;margin-left:-302px;background:url(../imgMobile/share/share_user3.png) no-repeat;width:603px;height:795px;background-size:100% 100%;}
+    #share .user_txt{display:block;font-size: 28px;line-height: 40px;width: 456px;position: absolute;left: 85px;top:385px}
+    #share .share_user3 .user_txt{top: 395px}
+    #share .tit{display: block;position: absolute;left: 320px;top: 72px;line-height: 40px;font-size: 28px;}
+    #share .share_user2 .tit{left:85px}
+    #share .user_name{font-size: 34px;color: #272727;}
+    .symptom{padding-top: 8px}
+    .share_hua3{top:1550px;margin-left:-370px}
 
     /*knowledge*/
     #knowledge .page {height:4297px;}
