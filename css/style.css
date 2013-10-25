@@ -69,6 +69,12 @@ a{text-decoration:none}
     .newsletter_popup img {margin-top:50px;}
     .newsletter_popup_close {cursor:pointer;background: url(../img/news_letter_close.png) no-repeat;width:38px;height:39px;position: absolute;top:-21px;right:-21px;}
 
+    #mobilenewsletter label.error {position: absolute;right:20px;top:135px;color:#f69f8c;font-size:30px;}
+    #MailInputWin{display:none;background:url(../imgMobile/maildialog.png);width:590px;height:382px;}
+    #mobilemailinput{ width: 480px; margin-top: 170px; margin-left: 55px; height: 65px; font-size: 32px;}
+    #backbtn{background:url(../imgMobile/backbtn.png) no-repeat;width:202px;height:65px;border:none;margin-top:34px;margin-left:76px;cursor:pointer;}
+    #okbtn{font-size:0;background:url(../imgMobile/okbtn.png) no-repeat;width:202px;height:65px;border:none;margin-top:34px;margin-left:30px;cursor:pointer;}
+
 /* intro */
 .intro{border-top:#fdeaf2 solid 1px;background: url(../img/introbg.png) repeat-x;height:122px; padding: 24px 0 0}
 .intro .column{width: 926px;}
@@ -134,10 +140,11 @@ a{text-decoration:none}
     .repair_imgtit{background:url('../img/repair_imgtit.png') no-repeat;position: absolute;}
     .repair_summary{width: 480px;height:130px;left:50%;top:30px;margin:0 0 0 -410px;background-position: 0 0;}
     .repair_pt1tit{width: 400px;height:102px;left:50%;top:212px;margin:0 0 0 -456px;background-position: 0 -135px;}
-    .repair_pt2tit{width: 400px;height:102px;left:50%;top:640px;margin:0 0 0 -456px;background-position: 0 -242px;}
-    .repair_pt3tit{width: 400px;height:102px;left:50%;top:1114px;margin:0 0 0 -456px;background-position: 0 -349px;}
+    .repair_pt2tit{width: 400px;height:102px;left:50%;top:740px;margin:0 0 0 -456px;background-position: 0 -242px;}
+    .repair_pt3tit{width: 400px;height:102px;left:50%;top:1214px;margin:0 0 0 -456px;background-position: 0 -349px;}
     /*pt1*/
     .repair_btn{font-size:0;cursor:pointer;width: 188px;height: 44px;top:534px;left:50%;margin-left: -94px;background-position: 0 -456px;border: none;overflow: hidden;line-height: 5000em;display: block}
+    .repair_btn.again {background-position:-211px -456px;}
     .repair_imgpt1{background:url('../img/repair_imgpt1.png') no-repeat;position: absolute;}
     .repair_pt1txt{width: 600px;height: 84px;top:296px;left:50%;margin-left: -456px;background-position:-8px 0;}
     .checkdiv{width: 912px;height: 120px;position: absolute;left:50%;margin-left:-456px;top:395px;}
@@ -154,20 +161,23 @@ a{text-decoration:none}
     .check_5 .checktxt{background-position: 0 -238px;height:34px;margin-top:-8px;}
     /*.check_6{top:88px;left:495px;}*/
     .check_6 .checktxt{background-position: 0 -275px;}
-    .repair_next{position:absolute;-webkit-animation: opacity1 1.5s infinite alternate;-moz-animation: opacity1 1.5s infinite alternate;-ms-animation: opacity1 1.5s infinite alternate;-o-animation: opacity1 1.5s infinite alternate;animation: opacity1 1.5s infinite alternate;width: 67px;height: 67px;left:50%;top: 600px;margin-left: -33px ;background:url(../img/knowledge_img2.png) no-repeat;background-position: -453px -504px}
+    .repair_next{position:absolute;-webkit-animation: opacity1 1.5s infinite alternate;-moz-animation: opacity1 1.5s infinite alternate;-ms-animation: opacity1 1.5s infinite alternate;-o-animation: opacity1 1.5s infinite alternate;animation: opacity1 1.5s infinite alternate;width: 67px;height: 67px;left:50%;top:650px;margin-left: -33px ;background:url(../img/knowledge_img2.png) no-repeat;background-position: -453px -504px}
+    .repair_answer {width:814px;height:113px;display:none;position: absolute;top:525px;left:50%;margin-left:-411px;background:url(../img/repair_imgpt4.png) no-repeat;}
+    .repair_answer div {display:none;}
+    .repair_answer2 {background-position: 0 -106px;}
     /*pt2*/
-    .repair_hua2{width: 160px;height: 200px;background: url(../img/repair_hua2.jpg) no-repeat;position: absolute;left:50%;top:760px;margin-left:-550px;}
+    .repair_hua2{width: 160px;height: 200px;background: url(../img/repair_hua2.jpg) no-repeat;position: absolute;left:50%;top:860px;margin-left:-550px;}
     .repair_imgpt2{background: url(../img/repair_imgpt2.png) no-repeat;position: absolute;}
-    .repair_user1{width: 300px;height:250px;left:50%;top:760px;margin:0 0 0 -484px;background-position: 0 0;}
-    .repair_user2{width: 300px;height:250px;left:50%;top:692px;margin:0 0 0 -258px;background-position: 0 -250px;}
-    .repair_user3{width: 300px;height:250px;left:50%;top:765px;margin:0 0 0 -45px;background-position: 0 -500px;}
-    .repair_user4{width: 300px;height:250px;left:50%;top:711px;margin:0 0 0 186px;background-position: 0 -750px;}
+    .repair_user1{width: 300px;height:250px;left:50%;top:860px;margin:0 0 0 -484px;background-position: 0 0;}
+    .repair_user2{width: 300px;height:250px;left:50%;top:792px;margin:0 0 0 -258px;background-position: 0 -250px;}
+    .repair_user3{width: 300px;height:250px;left:50%;top:865px;margin:0 0 0 -45px;background-position: 0 -500px;}
+    .repair_user4{width: 300px;height:250px;left:50%;top:811px;margin:0 0 0 186px;background-position: 0 -750px;}
     /*pt3*/
     .repair_imgpt3{background: url(../img/repair_imgpt3.png) no-repeat;position: absolute;}
-    .repair_specialist{width: 190px;height:245px;left:50%;top:1040px;margin:0 0 0 0;background-position: 0 0;}
-    .repair_demo{width: 260px;height:250px;left:50%;top:1030px;margin:0 0 0 190px;background-position: top right;}
-    .repair_threecause{width: 450px;height:240px;left:50%;top:1300px;margin:0 0 0 40px;background-position: 0 -250px;}
-    .repair_twocause{width: 400px;height:186px;left:50%;top:1306px;margin:0 0 0 -408px;background-position: 0 -508px;}
+    .repair_specialist{width: 190px;height:245px;left:50%;top:1140px;margin:0 0 0 0;background-position: 0 0;}
+    .repair_demo{width: 260px;height:250px;left:50%;top:1130px;margin:0 0 0 190px;background-position: top right;}
+    .repair_threecause{width: 450px;height:240px;left:50%;top:1400px;margin:0 0 0 40px;background-position: 0 -250px;}
+    .repair_twocause{width: 400px;height:186px;left:50%;top:1406px;margin:0 0 0 -408px;background-position: 0 -508px;}
 
 /* Repair Used
 ================================================================================================= */
@@ -426,7 +436,8 @@ a{text-decoration:none}
     .repair_summary{background:url('../imgMobile/repair/repair_summary.png') no-repeat 0 0;background-size: 100% 100%;width: 580px;height: 164px;top:35px;margin-left:-285px}
     .repair_pt1tit{top:230px;margin-left:-285px;background:url('../imgMobile/repair/repair_pt1tit.png') no-repeat 0 0;background-size: 100% 100%;width: 530px;height: 130px;}
     .repair_pt1txt{top:386px;margin-left:-285px;background:url('../imgMobile/repair/repair_pt1txt.png') no-repeat 0 0;background-size: 100% 100%;width: 551px;height: 118px;}
-    .repair_btn{width: 574px;height: 98px;top:976px;margin-left:-287px;background:url('../imgMobile/repair/repair_btn.png') no-repeat 0 0;background-size: 100% 100%;}
+    .repair_btn{width: 574px;height: 98px;top:976px;margin-left:-287px;background:url('../imgMobile/repair/repair_btn.png') no-repeat 0 0;background-size: 574px 196px;}
+    .repair_btn.again {background-position:0 -98px}
     .checkdiv{overflow:hidden;padding:58px 0 0;width: 635px;height: 374px;top:515px;margin-left:-317px;background:url('../imgMobile/repair/checkdiv.png') no-repeat 0 0;background-size: 100% 100%;}
     .check_item{padding-left:134px;height: 115px;margin-top: 10px}
     .check_item .checker {margin-top:10px;}
@@ -435,6 +446,10 @@ a{text-decoration:none}
     .arrow_tiem{width: 80px;height: 80px;position: absolute;top: 162px;cursor: pointer;}
     .arrow_p{left:10px;background:url('../imgMobile/repair/arrow_p.png') no-repeat 0 0;background-size: 100% 100%;}
     .arrow_n{right:10px;background:url('../imgMobile/repair/arrow_n.png') no-repeat 0 0;background-size: 100% 100%;}
+
+    .repair_answer {background:#fdf2eb;font-size:30px;padding:20px 30px;width:520px;height:auto;margin-left:-300px;line-height:150%;}
+    .repair_answer div {display:block;}
+    .repair_answer .score {color:#e54096;font-weight:bold;}
     /*pt2*/
     .repair_pt2tit{width:580px;height:135px;top:1140px;margin-left:-285px;background:url('../imgMobile/repair/repair_pt2tit.png') no-repeat 0 0;background-size: 100% 100%;}
     .repair_imgpt2{margin-left:-220px;box-shadow:5px 13px 30px -10px #555}

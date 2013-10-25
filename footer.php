@@ -44,7 +44,7 @@
                 <input id="mailinputbtn" class="mail_btn" type="submit" value="" />
             </form>
         </div>
-        <a class="ft_emailM dis_mobile" href="#" target="_blank">雅漾APP</a>
+        <a id="mobilemail" class="ft_emailM dis_mobile" href="#MailInputWin">立即订阅</a>
         <p class="ft_line ft_line4 dis_mobile"></p>
         <p class="ft_bor dis_mobile"></p>
     </div>
@@ -56,6 +56,15 @@
     <div class="state0"><img src="img/news_letter_success.png" /></div>
     <div class="state1"><img src="img/news_letter_registered.png" /></div>
     <div class="newsletter_popup_close"></div>
+</div>
+<div id="MailInputWin">
+    <form id="mobilenewsletter" action="newsletter.php" method="post">
+        <input id="mobilemailinput" name="email" type="text"  />
+        <div>
+            <input id="backbtn" type="button" value="" />
+            <input id="okbtn" type="submit" value="" />
+        </div>
+    </form>
 </div>
 
 <script src="js/jquery-1.8.3.min.js"></script>

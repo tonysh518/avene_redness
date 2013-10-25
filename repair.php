@@ -56,6 +56,14 @@
             <p class="dis_mobile arrow_tiem arrow_n"></p>
         </div>
         <input class="repair_imgtit repair_btn" value="查看结果" type="submit" />
+        <div class="repair_answer repair_answer1">
+            <div class="score">0～30分  轻度敏感易泛红</div>
+            <div class="answer">皮肤处于敏感阶段，容易发生瞬间性泛红，如吃饭吃得太快，或是饮用了含酒精的饮料和较刺激性的调味料以及气候、情绪等因素都会导致脸颊、前额或整个面部的潮红，虽几分钟后恢复正常但仍不容忽视，凡此状况都属于敏感泛红的症状。</div>
+        </div>
+        <div class="repair_answer repair_answer2">
+            <div class="score">40～60分 中度敏感泛红</div>
+            <div class="answer">多由初始的瞬间性泛红转为持续性泛红或红斑。由于面部潮红的同时，面部血管也迅速膨胀，长时间反复就会形成持续性泛红，一般发生在面颊。</div>
+        </div>
     </from>
 
     <div class="repair_img2 repair_next"></div>

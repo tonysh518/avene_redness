@@ -91,7 +91,7 @@ $(document).ready(function(){
     }
 
 
-    if(!isTouch)
+    if(!isTouch || isIpad)
     {
         skrollr.init({
             smoothScrollingDuration: 600,
@@ -106,8 +106,8 @@ $(document).ready(function(){
             'closeEffect'	: 'fade',
             'openSpeed'      : 500,
             'closeSpeed'     : 500,
-            width: 640,
-            height: 360,
+            width: 800,
+            height: 450,
             scrolling : 'no',
             autoSize:true,
             preload   : true,
@@ -128,7 +128,7 @@ $(document).ready(function(){
         //$('.fadeEle').css({opacity:1});
     }
 
-    if(isTouch)
+    if(isTouch && !isIpad)
     {
         $('.fadeEle').waypoint(function() {
             $(this).animate({opacity:1});
@@ -152,7 +152,32 @@ $(document).ready(function(){
                 score += 10;
             }
         });
-        //alert(score);
+        if(isTouch && !isIpad)
+        {
+            if($('.checkdiv').css('display') == 'none')
+            {
+                $('.checkdiv').fadeIn();
+                $('.repair_answer').fadeOut();
+                $('.repair_btn').removeClass('again');
+                return;
+            }
+            $('.checkdiv').fadeOut();
+            $('.repair_btn').addClass('again');
+        }
+        else
+        {
+            $('.repair_btn').addClass('again').animate({top:651});
+            $('.repair_next').animate({top:700});
+            $('.repair_answer').fadeOut();
+        }
+        if(score <= 30)
+        {
+            $('.repair_answer1').fadeIn();
+        }
+        else
+        {
+            $('.repair_answer2').fadeIn();
+        }
     });
 
 
