@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=640" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <title>雅漾清透美白系列</title>
+    <title>雅漾修红舒润面膜</title>
+    <link rel="shortcut icon" href="img/avene.ico" type="image/vnd.microsoft.icon" />
     <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
     <link href="css/uniform.default.css" rel="stylesheet" type="text/css" />
     <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" />

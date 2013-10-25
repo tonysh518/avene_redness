@@ -2,11 +2,12 @@ $(document).ready(function(){
     var windowWidth;
     var isUglyIe = $.browser.msie && $.browser.version <= 8;
     var isMostUglyIe = $.browser.msie && $.browser.version <= 6 ;
-    var _isIpad = (function(){
+    var isIpad = (function(){
         return !!navigator.userAgent.toLowerCase().match(/ipad/i) ;
     })();
+    var isTouch = $('html').hasClass('touch');
 
-    if(_isIpad)
+    if(isIpad)
     {
         $('head').append('<meta name="viewport" content="width=1000, minimum-scale=1, maximum-scale=1, user-scalable=no" />');
     }
@@ -32,65 +33,109 @@ $(document).ready(function(){
         }
     })
 
-    $(document.body).queryLoader2({
-        onLoading : function( percentage ){
-        },
-        onComplete : function(){
-            $('.loading-wrap').fadeOut();
-            /* for animation */
-            if(isUglyIe && $('#scheme').length > 0)
-                return;
-            var ANIMATE_NAME = "data-animate";
-            $('[' + ANIMATE_NAME + ']')
-                .each(function(){
-                    var $dom = $(this);
-                    var tar = $dom.data('animate');
-                    var style = $dom.data('style');
-                    var time = parseInt( $dom.data('time') );
-                    var delay = $dom.data('delay') || 0;
-                    var easing = $dom.data('easing');
-                    var begin = $dom.data('begin');
-                    tar = tar.split(';');
-                    var tarCss = {} , tmp;
-                    for (var i = tar.length - 1; i >= 0; i--) {
-                        tmp = tar[i].split(':');
-                        if( tmp.length == 2 )
-                            tarCss[ tmp[0] ] = $.trim(tmp[1]);
-                    }
-                    if( isUglyIe && tarCss.opacity !== undefined ){
-                        delete tarCss.opacity;
-                    }
+    if(!(isTouch && !isIpad))
+    {
+        $(document.body).queryLoader2({
+            onLoading : function( percentage ){
+                var per = parseInt(percentage);
+                $('.loading-percentage').html(per+'%');
+                $('.loading-bar').animate({'width':per+'%'});
+            },
+            onComplete : function(){
+                $('.loading-wrap').fadeOut();
+                /* for animation */
+                if(isUglyIe && $('#scheme').length > 0)
+                    return;
+                var ANIMATE_NAME = "data-animate";
+                $('[' + ANIMATE_NAME + ']')
+                    .each(function(){
+                        var $dom = $(this);
+                        var tar = $dom.data('animate');
+                        var style = $dom.data('style');
+                        var time = parseInt( $dom.data('time') );
+                        var delay = $dom.data('delay') || 0;
+                        var easing = $dom.data('easing');
+                        var begin = $dom.data('begin');
+                        tar = tar.split(';');
+                        var tarCss = {} , tmp;
+                        for (var i = tar.length - 1; i >= 0; i--) {
+                            tmp = tar[i].split(':');
+                            if( tmp.length == 2 )
+                                tarCss[ tmp[0] ] = $.trim(tmp[1]);
+                        }
+                        if( isUglyIe && tarCss.opacity !== undefined ){
+                            delete tarCss.opacity;
+                        }
 
 
-                    style = style.split(';');
-                    var styleCss = {} , tmp;
-                    for (var i = style.length - 1; i >= 0; i--) {
-                        tmp = style[i].split(':');
-                        if( tmp.length == 2 )
-                            styleCss[ tmp[0] ] = $.trim(tmp[1]);
-                    }
-                    if( isUglyIe && styleCss.opacity !== undefined ){
-                        delete styleCss.opacity;
-                    }
-                    $dom.css(styleCss).delay( delay )
-                        .animate( tarCss , time , easing );
-                    if( begin ){
-                        setTimeout(function(){
-                            animation_begins[begin].call( $dom );
-                        } , delay);
-                    }
-                });
-        }
-    });
+                        style = style.split(';');
+                        var styleCss = {} , tmp;
+                        for (var i = style.length - 1; i >= 0; i--) {
+                            tmp = style[i].split(':');
+                            if( tmp.length == 2 )
+                                styleCss[ tmp[0] ] = $.trim(tmp[1]);
+                        }
+                        if( isUglyIe && styleCss.opacity !== undefined ){
+                            delete styleCss.opacity;
+                        }
+                        $dom.css(styleCss).delay( delay )
+                            .animate( tarCss , time , easing );
+                        if( begin ){
+                            setTimeout(function(){
+                                animation_begins[begin].call( $dom );
+                            } , delay);
+                        }
+                    });
+            }
+        });
+    }
 
-    if(!$('html').hasClass('touch'))
+
+    if(!isTouch)
     {
         skrollr.init({
             smoothScrollingDuration: 600,
             smoothScrolling:true,
             easing: 'easeInOutQuart'
         });
+
+        //video
+        $('.home_video').fancybox({
+            type : 'iframe',
+            'openEffect'	: 'fade',
+            'closeEffect'	: 'fade',
+            'openSpeed'      : 500,
+            'closeSpeed'     : 500,
+            width: 640,
+            height: 360,
+            scrolling : 'no',
+            autoSize:true,
+            preload   : true,
+            helpers : {
+                overlay : {
+                    css : {
+                        'background' : '#fff',
+                        'opacity' : 0.8
+                    },
+                    showEarly  : true,
+                    locked: false
+                }
+            }
+        });
+
+        // bind knowledge video
+        $('.kl_movie').attr('src','video.php?id=1');
+        //$('.fadeEle').css({opacity:1});
     }
+
+    if(isTouch)
+    {
+        $('.fadeEle').waypoint(function() {
+            $(this).animate({opacity:1});
+        }, { offset: '120%' });
+        $('.bxslider').bxSlider({'pager':false});
+    }
+
 
     $('.share_intro').jScrollPane();
 
@@ -107,32 +152,10 @@ $(document).ready(function(){
                 score += 10;
             }
         });
-        alert(score);
+        //alert(score);
     });
 
-    //video
-    $('.home_video').fancybox({
-        type : 'iframe',
-        'openEffect'	: 'fade',
-        'closeEffect'	: 'fade',
-        'openSpeed'      : 500,
-        'closeSpeed'     : 500,
-        width: 640,
-        height: 360,
-        scrolling : 'no',
-        autoSize:true,
-        preload   : true,
-        helpers : {
-            overlay : {
-                css : {
-                    'background' : '#fff',
-                    'opacity' : 0.8
-                },
-                showEarly  : true,
-                locked: false
-            }
-        }
-    });
+
 
     //mail
     $('#mobilemail').fancybox({

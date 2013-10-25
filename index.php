@@ -41,9 +41,13 @@
         <div class="home_img checkbox"></div>
         <div class="home_img checktxt"></div>
     </div>
-    <a href="video.php?id=1" class="home_img home_video" data-style="left:-10%;opacity:0;" data-animate="left:50%;opacity:1;" data-delay="1950" data-time="1000" data-easing="easeInOutQuart">
+    <a href="video.php?id=1" class="home_img fadeEle home_video" data-style="left:-10%;opacity:0;" data-animate="left:50%;opacity:1;" data-delay="1950" data-time="1000" data-easing="easeInOutQuart">
         <div class="tit"></div>
-        <div class="text"></div>
+        <div class="text">
+            <video controls width="600" height="383" poster="imgMobile/home/video.jpg">
+                <source src="videos/video1.mp4" type="video/mp4" />
+            </video>
+        </div>
     </a>
 </div>
 <!--  -->

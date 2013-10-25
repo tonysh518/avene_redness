@@ -1,4 +1,4 @@
-﻿<?php
+<?php
     include('./header.php');
 ?>
 <body id="repair">
@@ -21,30 +21,36 @@
     <from class="" data-style="opacity:0" data-animate="opacity:1" data-delay="1600" data-time="400" data-easing="easeInOutQuart">
         <div class="checkdiv">
             <!--  -->
-            <div class="check_item check_1">
-                <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt">你的皮肤是否特别白皙嫩薄,细小血管隐约可见?</p>
-            </div>
-            <div class="check_item check_4">
-                <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt">你的鼻周或者脸颊部分是否经常泛红?</p>
-            </div>
-            <div class="check_item check_2">
-                <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt">你的皮肤是否出现局部或者大面积持续不退的红斑?</p>
-            </div>
-            <div class="check_item check_5">
-                <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt">你是否在气候变化、情绪激动时，面部容易泛红灼热？</p>
-            </div>
-            <div class="check_item check_3">
-                <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt">你是否一到冬天就感觉特别干燥,遇到刮风的时候更是迅速泛红紧绷?</p>
-            </div>
-            <div class="check_item check_6">
-                <input type="checkbox" />
-                <p class="repair_imgpt1 checktxt">是否在情绪激动、气候变化时加重泛红灼热?</p>
-            </div>
+            <ul class="bxslider">
+                <li>
+                    <div class="check_item check_1">
+                        <input type="checkbox" />
+                        <p class="repair_imgpt1 checktxt">你的皮肤是否特别白皙嫩薄,细小血管隐约可见?</p>
+                    </div>
+                    <div class="check_item check_4">
+                        <input type="checkbox" />
+                        <p class="repair_imgpt1 checktxt">你的鼻周或者脸颊部分是否经常泛红?</p>
+                    </div>
+                    <div class="check_item check_2">
+                        <input type="checkbox" />
+                        <p class="repair_imgpt1 checktxt">你的皮肤是否出现局部或者大面积持续不退的红斑?</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="check_item check_5">
+                        <input type="checkbox" />
+                        <p class="repair_imgpt1 checktxt">你是否在气候变化、情绪激动时，面部容易泛红灼热？</p>
+                    </div>
+                    <div class="check_item check_3">
+                        <input type="checkbox" />
+                        <p class="repair_imgpt1 checktxt">你是否一到冬天就感觉特别干燥,遇到刮风的时候更是迅速泛红紧绷?</p>
+                    </div>
+                    <div class="check_item check_6">
+                        <input type="checkbox" />
+                        <p class="repair_imgpt1 checktxt">是否在情绪激动、气候变化时加重泛红灼热?</p>
+                    </div>
+                </li>
+            </ul>
             <!--  -->
             <p class="dis_mobile arrow_tiem arrow_p"></p>
             <p class="dis_mobile arrow_tiem arrow_n"></p>
@@ -54,29 +60,29 @@
 
     <div class="repair_img2 repair_next"></div>
     <!-- part 2 -->
-    <div class="repair_imgtit repair_pt2tit" data-100="opacity:0;left:40%" data-200="opacity:1;left:50%">
+    <div class="fadeEle repair_imgtit repair_pt2tit" data-100="opacity:0;left:40%" data-200="opacity:1;left:50%">
         <h3 class="tit">PART 2  皮肤敏感泛红的困扰</h3>
     </div>
     <div class="repair_hua2"></div>
-    <div class="repair_imgpt2 repair_user1" data-50="opacity:0;margin-top:-50px;" data-250="opacity:1;margin-top:0;">
+    <div class="fadeEle repair_imgpt2 repair_user1" data-50="opacity:0;margin-top:-50px;" data-250="opacity:1;margin-top:0;">
         <h3 class="tit"></h3><p class="text"></p>
     </div>
-    <div class="repair_imgpt2 repair_user2" data-100="opacity:0;margin-top:-50px;" data-300="opacity:1;margin-top:0;">
+    <div class="fadeEle repair_imgpt2 repair_user2" data-100="opacity:0;margin-top:-50px;" data-300="opacity:1;margin-top:0;">
         <h3 class="tit"></h3><p class="text"></p>
     </div>
-    <div class="repair_imgpt2 repair_user3" data-150="opacity:0;margin-top:-50px;" data-350="opacity:1;margin-top:0;">
+    <div class="fadeEle repair_imgpt2 repair_user3" data-150="opacity:0;margin-top:-50px;" data-350="opacity:1;margin-top:0;">
         <h3 class="tit"></h3><p class="text"></p>
     </div>
-    <div class="repair_imgpt2 repair_user4" data-200="opacity:0;margin-top:-50px;" data-400="opacity:1;margin-top:0;">
+    <div class="fadeEle repair_imgpt2 repair_user4" data-200="opacity:0;margin-top:-50px;" data-400="opacity:1;margin-top:0;">
         <h3 class="tit"></h3><p class="text"></p>
     </div>
     <!-- part 3 -->
-    <div class="repair_imgtit repair_pt3tit" data-400="opacity:0;left:40%" data-550="opacity:1;left:50%">
+    <div class="fadeEle repair_imgtit repair_pt3tit" data-400="opacity:0;left:40%" data-550="opacity:1;left:50%">
         <h3 class="tit">PART 3  皮肤为什么敏感泛红</h3>
     </div>
-    <div class="repair_imgpt3 repair_specialist" data-450="opacity:0;" data-650="opacity:1;"></div>
-    <div class="repair_imgpt3 repair_demo" data-500="opacity:0;" data-700="opacity:1;"></div>
-    <div class="repair_imgpt3 repair_twocause" data-500="opacity:0;margin-top:-50px;" data-700="opacity:1;margin-top:0;">
+    <div class="fadeEle repair_imgpt3 repair_specialist" data-450="opacity:0;" data-650="opacity:1;"></div>
+    <div class="fadeEle repair_imgpt3 repair_demo" data-500="opacity:0;" data-700="opacity:1;"></div>
+    <div class="fadeEle repair_imgpt3 repair_twocause" data-500="opacity:0;margin-top:-50px;" data-700="opacity:1;margin-top:0;">
         <h3 class="tit"></h3>
         <p class="text">
             <strong>-血管异常：</strong>
@@ -85,7 +91,7 @@
             <span>发炎是“粉刺”，或者说丘疹-脓疱的诱因，世称“红斑座疮”。容易泛红的皮肤大多敏感、易过敏，更容易引起炎症。</span>
         </p>
     </div>
-    <div class="repair_imgpt3 repair_threecause" data-500="opacity:0;margin-top:-50px;" data-700="opacity:1;margin-top:0;">
+    <div class="fadeEle repair_imgpt3 repair_threecause" data-500="opacity:0;margin-top:-50px;" data-700="opacity:1;margin-top:0;">
         <h3 class="tit"></h3>
         <p class="text">
             <strong>-护肤品选择不当：</strong>

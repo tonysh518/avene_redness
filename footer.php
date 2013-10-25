@@ -1,26 +1,26 @@
 <div class="intro cs-clear" data-style="opacity:0" data-animate="opacity:1" data-delay="1200" data-time="1000" data-easing="easeInOutQuart">
     <div class="column">
-        <a class="intro_item intro1" href="repair.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1500" data-time="1000" data-easing="easeInOutQuart">
+        <a class="fadeEle intro_item intro1" href="repair.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1500" data-time="1000" data-easing="easeInOutQuart">
             <span class="icon"></span>
             <span class="title">肌肤自测敏感泛红灼热</span>
             <span class="readmore">查看更多</span>
         </a>
-        <a class="intro_item intro2" href="mask.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1600" data-time="1000" data-easing="easeInOutQuart">
+        <a class="fadeEle intro_item intro2" href="mask.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1600" data-time="1000" data-easing="easeInOutQuart">
             <span class="icon"></span>
             <span class="title">即刻“灭火”修红舒润面膜</span>
             <span class="readmore">查看更多</span>
         </a>
-        <a class="intro_item intro3" href="scheme.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1700" data-time="1000" data-easing="easeInOutQuart">
+        <a class="fadeEle intro_item intro3" href="scheme.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1700" data-time="1000" data-easing="easeInOutQuart">
             <span class="icon"></span>
             <span class="title">修红全方案</span>
             <span class="readmore">查看更多</span>
         </a>
-        <a class="intro_item intro4" href="knowledge.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1800" data-time="1000" data-easing="easeInOutQuart">
+        <a class="fadeEle intro_item intro4" href="knowledge.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1800" data-time="1000" data-easing="easeInOutQuart">
             <span class="icon"></span>
             <span class="title">专家级的急救课堂</span>
             <span class="readmore">查看更多</span>
         </a>
-        <a class="intro_item intro5 dis_mobile" href="share.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1800" data-time="1000" data-easing="easeInOutQuart">
+        <a class="fadeEle intro_item intro5 dis_mobile" href="share.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1800" data-time="1000" data-easing="easeInOutQuart">
             <span class="icon"></span>
             <span class="title">美丽团达人分享</span>
             <span class="readmore">查看更多</span>
@@ -28,7 +28,7 @@
     </div>
 </div>
 <!-- -->
-<div class="footer cs-clear" data-style="opacity:0" data-animate="opacity:1" data-delay="1400" data-time="1000" data-easing="easeInOutQuart">
+<div class="footer fadeEle cs-clear" data-style="opacity:0" data-animate="opacity:1" data-delay="1400" data-time="1000" data-easing="easeInOutQuart">
     <div class="column">
         <p class="ft_pho">原装正品仅限雅漾专柜</p>
         <a class="ft_site" href="http://www.eau-thermale-avene.cn/" target="_blank">雅漾官网</a>
@@ -70,6 +70,7 @@
 <script src="js/jquery.bxslider.js"></script>
 <script src="js/jquery.jscrollpane.js"></script>
 <script src="js/jquery.validate.js"></script>
+<script src="js/waypoint.js"></script>
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/app.js"></script>
 <!--  -->

@@ -1,4 +1,10 @@
-<div class="loading-wrap"></div>
+<div class="loading-wrap">
+    <div class="logo"></div>
+    <div class="loading-loader">
+        <div class="loading-bar"></div>
+    </div>
+    <div class="loading-percentage"></div>
+</div>
 <!--  -->
 <div class="header" data-style="margin-top:-100px" data-animate="margin-top:0" data-delay="0" data-time="1000" data-easing="easeInOutQuart">
     <div class="column">

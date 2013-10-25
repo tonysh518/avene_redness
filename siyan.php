@@ -1,4 +1,4 @@
-﻿<?php
+<?php
     include('./header.php');
 ?>
 <body id="siyan">
