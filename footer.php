@@ -76,6 +76,7 @@
 <script src="js/jquery.form.js"></script>
 <script src="js/jquery.uniform.min.js"></script>
 <script src="js/jquery.mousewheel.js"></script>
+<script src="js/scrollTo.min.js"></script>
 <script src="js/jquery.bxslider.js"></script>
 <script src="js/jquery.jscrollpane.js"></script>
 <script src="js/jquery.validate.js"></script>

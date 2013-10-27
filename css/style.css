@@ -135,7 +135,7 @@ a{text-decoration:none}
     
 /* Repair Used
 ================================================================================================= */
-#repair .page{background: #fff url(../img/repair_page.png) repeat-x bottom;height:1586px;position: relative;width: 100%;}
+#repair .page{background: #fff url(../img/repair_page.png) repeat-x bottom;height:1678px;position: relative;width: 100%;}
     #repair .siyan_hua{width: 250px;height:250px;position: absolute;left:50%;margin-left:200px;top:30px;background: url(../img/repair_hua.png) no-repeat;}
     .repair_imgtit{background:url('../img/repair_imgtit.png') no-repeat;position: absolute;}
     .repair_summary{width: 480px;height:130px;left:50%;top:30px;margin:0 0 0 -410px;background-position: 0 0;}
@@ -201,8 +201,8 @@ a{text-decoration:none}
     .mask_tz{width: 214px;height: 28px;top:1264px;left:50%;margin-left:-442px;background-position: 0 -890px}
     .mask_price1{width: 204px;height: 55px;top:1450px;left:50%;background-position: 0 -920px}
     .mask_price2{width: 204px;height: 55px;top:1505px;left:50%;background-position: 0 -975px}
-    .mask_price3{width: 150px;height: 42px;top:1493px;left:50%;background-position: -256px -966px;margin-left: 252px}
-    .mask_price4{width: 90px;height: 38px;top:1845px;left:50%;background-position: -300px -895px;margin-left:300px;}
+    .mask_price3{width: 150px;height: 42px;top:1493px;left:50%;background-position: -254px -966px;margin-left: 279px}
+    .mask_price4{width: 150px;height: 38px;top:1845px;left:50%;background-position: -254px -895px;margin-left:279px;}
     .mask_imgtz{background: url(../img/mask_tz.png) no-repeat;position: absolute;}
     .mask_anvene1{width: 406px;height: 430px;top:1320px;left:50%;margin-left:-430px;}
     .mask_anvene2{width: 124px;height: 280px;top:1215px;left:50%;margin-left:284px;background-position:-413px -8px }
@@ -627,3 +627,4 @@ a{text-decoration:none}
     .knowledge_hua2{top:2600px}
     .knowledge_hua3{top:1000px;margin-left:-300px;}
 }
+

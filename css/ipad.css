@@ -1,0 +1,72 @@
+/* iPad Used
+================================================================================================= */
+.ipad body,.ipad {width:1024px;overflow:hidden;}
+.ipad .logo{background: url(../imgIpad/base.png) no-repeat 0 18px;background-size:550px 210px; }
+.ipad .nav a{background: url(../imgIpad/base.png) no-repeat ;background-size:550px 210px;}
+.ipad .nav .nav1{width:48px;background-position: 0 -88px; }
+.ipad .nav .nav2{width:97px;background-position: -58px  -88px; }
+.ipad .nav .nav3{width:96px;background-position: -164px -88px; }
+.ipad .nav .nav4{width:97px;background-position: -270px -88px; }
+.ipad .nav .nav5{width:77px;background-position: -380px -88px; }
+.ipad .nav .nav6{width:77px;background-position: -470px -88px; }
+.ipad .footer a{background: url(../imgIpad/base.png) no-repeat;background-size:550px 210px;}
+.ipad .mail_btn{background: url(../imgIpad/base.png) no-repeat -505px -149px;background-size:550px 210px;}
+.ipad .footer .ft_pho{width:204px; background-position: 0 -149px;margin: 0 140px 0 0;_display: inline}
+.ipad .footer .ft_site{width:96px; background-position: -225px -149px}
+.ipad .footer .ft_weibo{width:24px; background-position: -336px -149px}
+.ipad .footer .ft_weibo2{width:24px; background-position: -371px -149px}
+.ipad .footer .ft_app{width:96px; background-position: -411px -149px}
+.ipad .footer .ft_line{background-position:-168px -180px;width: 25px;}
+.ipad .home_video{background:url(../imgIpad/home_video.png) no-repeat;background-size:100% 100%;}
+.ipad .intro1{background:url('../imgIpad/intro1.jpg') no-repeat;background-size: 100% 100%;}
+.ipad .intro2{background:url('../imgIpad/intro2.jpg') no-repeat;background-size: 100% 100%;}
+.ipad .intro3{background:url('../imgIpad/intro3.jpg') no-repeat;background-size: 100% 100%;}
+.ipad .intro4{background:url('../imgIpad/intro4.jpg') no-repeat;background-size: 100% 100%;}
+.ipad .mask_huaR {display:none!important;}
+.ipad .kl_sxaq {background:url(../imgIpad/knowledge_text.png) no-repeat;background-size:884px 200px;}
+.ipad .kl_xieraq {background:url(../imgIpad/knowledge_text.png) no-repeat top right;background-size:884px 200px;}
+.ipad .kl_method1 {background:url(../imgIpad/kl_method1.png) no-repeat;background-size:100% 100%;width:159px;height:306px;}
+.ipad .kl_method2 {background:url(../imgIpad/kl_method2.png) no-repeat;background-size:100% 100%;width:161px;height:286px;}
+.ipad .kl_method3 {background:url(../imgIpad/kl_method3.png) no-repeat;background-size:100% 100%;width:159px;height:285px;}
+.ipad .kl_method4 {background:url(../imgIpad/kl_method4.png) no-repeat;background-size:100% 100%;width:173px;height:266px;}
+.ipad .kl_method5 {background:url(../imgIpad/kl_method5.png) no-repeat;background-size:100% 100%;width:155px;height:287px;}
+.ipad .kl_methodtit {background:url(../imgIpad/kl_methodtit.png) no-repeat;background-size:100% 100%;}
+.ipad .share_intro_text {background:url(../imgIpad/share_text.png) no-repeat;background-size:100% 100%;}
+.ipad .share_imgb{background-image:url(../imgIpad/share_imgb.png);background-size:390px 1150px;}
+.ipad .scheme_intro1 {background:url(../imgIpad/scheme_intro1.png) no-repeat;background-size:100% 100%;width:173px;height:128px;}
+.ipad .scheme_intro2 {background:url(../imgIpad/scheme_intro2.png) no-repeat;background-size:100% 100%;width:170px;height:127px;}
+.ipad .scheme_intro3 {background:url(../imgIpad/scheme_intro3.png) no-repeat;background-size:100% 100%;width:193px;height:130px;}
+.ipad .scheme_intro4 {background:url(../imgIpad/scheme_intro4.png) no-repeat;background-size:100% 100%;width:158px;height:148px;}
+.ipad .scheme_ltit {background:url(../imgIpad/scheme_ltit.png) no-repeat;background-size:100% 100%;width:225px;height:39px;}
+.ipad .mask_h {background:url(../imgIpad/mask_h.png) no-repeat;background-size:100% 100%;width:141px;height:60px;}
+.ipad .mask_benefit1 {background:url(../imgIpad/mask_benefit1.png) no-repeat;background-size:100% 100%;width:290px;height:288px;}
+.ipad .mask_benefit2 {background:url(../imgIpad/mask_benefit2.png) no-repeat;background-size:100% 100%;width:290px;height:288px;}
+.ipad .mask_benefit3 {background:url(../imgIpad/mask_benefit3.png) no-repeat;background-size:100% 100%;width:290px;height:288px;}
+.ipad .mask_elle {background:url(../imgIpad/mask_elle.png) no-repeat;background-size:100% 100%;width:262px;height:100px;}
+.ipad .mask_moleculeimg {background:url(../imgIpad/mask_moleculeimg.png) no-repeat;background-size:100% 100%;width:288px;height:187px;}
+.ipad .mask_story {background:url(../imgIpad/mask_story.png) no-repeat;background-size:100% 100%;width:305px;height:238px;}
+.ipad .mask_molecule {display:none;}
+.ipad .mask_tz {background:url(../imgIpad/mask_tz.png) no-repeat;background-size:100% 100%;width:209px;height:24px;}
+.ipad .mask_price3 {background:url(../imgIpad/mask_price3.png) no-repeat;background-size:100% 100%;width:139px;height:33px;}
+.ipad .mask_price4 {background:url(../imgIpad/mask_price4.png) no-repeat;background-size:100% 100%;width:130px;height:33px;}
+.ipad .home_sos {background:url(../imgIpad/home_sos.png) no-repeat;background-size:100% 100%;width:377px;height:96px;}
+.ipad .home_cool {background:url(../imgIpad/home_cool.png) no-repeat;background-size:100% 100%;width:137px;height:102px;}
+.ipad .home_new {background:url(../imgIpad/home_new.png) no-repeat;background-size:100% 100%;width:88px;height:52px;}
+.ipad .repair_summary {background:url(../imgIpad/repair_imgtit.png) no-repeat;background-size:100% 100%;width:463px;height:124px;}
+.ipad .repair_pt1tit {background:url(../imgIpad/repair_pt1tit.png) no-repeat;background-size:100% 100%;width:355px;height:101px;}
+.ipad .repair_pt1txt {background:url(../imgIpad/repair_pt1txt.png) no-repeat;background-size:100% 100%;width:600px;height:84px;}
+.ipad .repair_btn {background:url(../imgMobile/repair/repair_btn.png) no-repeat;background-size: 188px 64px;height:33px;}
+.ipad .repair_btn.again {background-position: bottom;}
+.ipad .repair_pt2tit {background:url(../imgMobile/repair/repair_pt2tit.png) no-repeat;background-size:100% 100%;width:390px;height:101px;}
+.repair_imgpt1 {background:url(../imgIpad/repair_imgpt1.png) no-repeat;background-size:600px 300px;}
+.repair_imgpt2 {background-image:url(../imgIpad/repair_imgpt2.png);background-size:300px 1000px;}
+
+.siyan_pho {background-size: 381px auto;}
+.siyan_img {background:url(../imgIpad/siyan_img.png) no-repeat;background-size:100% 100%;width:293px;height:74px;}
+.siyan_txt2 {background:url(../imgIpad/siyan_txt2.png) no-repeat;background-size:100% 100%;width:474px;height:60px;}
+.siyan_txt3 {background:url(../imgIpad/siyan_txt3.png) no-repeat;background-size:100% 100%;width:131px;height:14px;}
+.siyan_txt4 {background:url(../imgIpad/siyan_txt4.png) no-repeat;background-size:100% 100%;width:271px;height:58px;}
+.siyan_txt4 {background:url(../imgIpad/siyan_txt4.png) no-repeat;background-size:100% 100%;width:271px;height:58px;}
+.siyan_qa1 {background:url(../imgIpad/siyan_qa1.png) no-repeat;background-size:100% 100%;width:446px;height:175px;}
+.siyan_qa2 {background:url(../imgIpad/siyan_qa2.png) no-repeat;background-size:100% 100%;width:446px;height:175px;}
+.siyan_tj {background:url(../imgIpad/siyan_tj.png) no-repeat;background-size:100% 100%;width:1000px;height:270px;}
