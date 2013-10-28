@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     if(isIpad)
     {
-        $('head').append('<link href="css/ipad.css" rel="stylesheet" type="text/css" />');
+        $('head').append('<meta name="viewport" content="width=1024, minimum-scale=0.5, maximum-scale=1.0" /><link href="css/ipad.css" rel="stylesheet" type="text/css" />');
         $('html').addClass('ipad');
     }
 
@@ -189,7 +189,11 @@ $(document).ready(function(){
         }
     });
 
-
+    $('.scheme_weixin,.kl_weixin').hover(function(){
+        $(this).find('.qrcode').fadeIn();
+    },function(){
+        $(this).find('.qrcode').fadeOut();
+    });
 
     //mail
     $('#mobilemail').fancybox({

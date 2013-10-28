@@ -35,8 +35,13 @@
 
     <script>
         if ( Modernizr.touch ) {
-            $('.videoobject').css('display','none');
+            $('.videoobject').remove();
             $('video').css('display','block');
+        }
+        else
+        {
+            $('.videoobject').css('display','block');
+            $('video').remove();
         }
     </script>
 </div>
