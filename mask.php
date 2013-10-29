@@ -1,6 +1,13 @@
-<?php
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="keywords" content="雅漾修红舒润面膜" />
+    <meta name="description" content="雅漾修红舒润面膜通过3大主要活性成分起作用，可快速降低皮肤温度，即刻缓解皮肤的灼热与泛红。目前购买雅漾修红舒润面膜即送舒护活泉水。" />
+    <title>雅漾修红舒润面膜_雅漾AVENE官方网站_为敏感肌肤健康推荐</title>
+    <?php
     include('./header.php');
-?>
+    ?>
+</head>
 <body id="mask">
 <?php
     include('./nav.php');

@@ -1,6 +1,13 @@
-<?php
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="keywords" content="雅漾红血丝修护急救课堂" />
+    <meta name="description" content="雅漾红血丝修护急救课堂邀请皮肤学专家沈新老师和营养学专家希尔为你介绍敏感泛红肌肤护理的全攻略,包括敏感泛红肌肤的成因，以及如何有效应对肌肤敏感泛红的问题。" />
+    <title>雅漾红血丝修护急救课堂_专家建议_雅漾AVENE官方网站</title>
+    <?php
     include('./header.php');
-?>
+    ?>
+</head>
 <body id="knowledge">
 <?php
     include('./nav.php');

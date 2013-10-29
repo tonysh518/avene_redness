@@ -1,6 +1,13 @@
-<?php
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="keywords" content="敏感泛红灼热自测,解析敏感泛红 " />
+    <meta name="description" content="雅漾皮肤学专家为正饱受皮肤敏感泛红困扰的人们解析敏感泛红的主要原因，还可通过雅漾官网进行敏感泛红灼热自测。" />
+    <title>解析敏感泛红_雅漾AVENE官方网站_为敏感肌肤健康推荐</title>
+    <?php
     include('./header.php');
-?>
+    ?>
+</head>
 <body id="repair">
 <?php
     include('./nav.php');

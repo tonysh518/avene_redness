@@ -1,6 +1,13 @@
-<?php
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="keywords" content="雅漾修红舒润面膜百搭方案" />
+    <meta name="description" content="雅漾美丽团达人为你分享修红舒润面膜百搭方案，雅漾修护舒润面膜不仅可以配合舒缓特护系列使用，还可以配合修护保湿系列使用，还可以与雅漾舒护活泉水同时使用。" />
+    <title>雅漾修红舒润面膜百搭方案_达人分享_雅漾AVENE官方网站</title>
+    <?php
     include('./header.php');
-?>
+    ?>
+</head>
 <body id="share">
 <?php
     include('./nav.php');

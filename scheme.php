@@ -1,6 +1,13 @@
-<?php
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="keywords" content="雅漾修红全方案" />
+    <meta name="description" content="雅漾修红全方案页为你提供SOS急救灼热泛红和日常修护2种红血丝修护方案，此外，还介绍了雅漾新品——修红舒润面膜的使用小贴士。" />
+    <title>雅漾修红全方案_雅漾AVENE官方网站_为敏感肌肤健康推荐</title>
+    <?php
     include('./header.php');
-?>
+    ?>
+</head>
 <body id="scheme">
 <?php
     include('./nav.php');
