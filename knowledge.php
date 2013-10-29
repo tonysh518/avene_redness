@@ -20,9 +20,9 @@
         </video>
     </div>
     <div class="knowledge_img1 kl_movieshare"></div>
-    <a href="http://v.t.sina.com.cn/share/share.php?title=%23%e9%9b%85%e6%bc%be%e8%82%8c%e8%82%a4%e7%81%ad%e7%81%ab%e5%99%a8%23+SOS%ef%bc%81%e6%80%a5%e6%95%91%e7%81%bc%e7%83%ad%e6%b3%9b%e7%ba%a2%ef%bc%81%e6%84%9f%e5%8f%97%e5%81%87%e5%8f%b6%e6%a0%91%e6%a0%b9%e7%a5%9e%e5%a5%87%e4%bf%ae%e7%ba%a2%e5%8a%9b%e9%87%8f%ef%bc%8c%e5%8d%b3%e5%88%bb%e9%99%8d%e4%bd%8e%e7%9a%ae%e8%82%a4%e6%b8%a9%e5%ba%a6%ef%bc%8c%e6%94%b9%e5%96%84%e6%b3%9b%e7%ba%a2%ef%bc%8c%e4%bb%a4%e4%bd%a0%e5%80%8d%e6%84%9f%e6%b0%b4%e6%b6%a6%ef%bc%81%e7%82%b9%e5%87%bbhttp%3a%2f%2ft.cn%2fzRaQV41%e4%ba%86%e8%a7%a3%e6%9b%b4%e5%a4%9a%e6%b4%bb%e5%8a%a8%e4%bf%a1%e6%81%af%e3%80%82&amp;url=http://www.eau-thermale-avene.cn/anti-redness/" target="_blank" class="knowledge_img1 kl_weibo"></a>
-    <a href="#" tareget="_blank" class="knowledge_img1 kl_youku"></a>
-    <a href="#" tareget="_blank" class="knowledge_img1 kl_weixin">
+    <a href="http://service.weibo.com/share/share.php?appkey=2684493555&url=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XNjI3ODU3OTYw.html&title=%e3%80%90%e8%a7%86%e9%a2%91%ef%bc%9a%e9%9b%85%e6%bc%be%e4%bf%ae%e7%ba%a2%e8%88%92%e6%b6%a6%e9%9d%a2%e8%86%9c-%e4%b8%93%e5%ae%b6%e7%9a%84%e6%80%a5%e6%95%91%e8%af%be%e5%a0%82%e3%80%91&ralateUid=1642904381&source=%e4%bc%98%e9%85%b7%e7%bd%91&sourceUrl=http%3A%2F%2Fwww.youku.com%2F&content=utf8" target="_blank" class="knowledge_img1 kl_weibo"></a>
+    <a href="http://i.youku.com/u/share/?url=http%3A%2F%2Fv.youku.com%2Fv_show%2Fid_XNjI3ODU3OTYw.html&content=%e3%80%90%e8%a7%86%e9%a2%91%ef%bc%9a%e9%9b%85%e6%bc%be%e4%bf%ae%e7%ba%a2%e8%88%92%e6%b6%a6%e9%9d%a2%e8%86%9c-%e4%b8%93%e5%ae%b6%e7%9a%84%e6%80%a5%e6%95%91%e8%af%be%e5%a0%82%e3%80%91" tareget="_blank" class="knowledge_img1 kl_youku"></a>
+    <a href="javascript:void(0)" class="knowledge_img1 kl_weixin">
         <div class="qrcode"><img src="./img/qr2.png" /></div>
     </a>
     <!--  -->

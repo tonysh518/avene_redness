@@ -133,10 +133,12 @@ $(document).ready(function(){
 
     if(isTouch && !isIpad)
     {
-        $('.fadeEle').waypoint(function() {
-            $(this).animate({opacity:1});
-        }, { offset: '120%' });
+
+        $('.header .logo').attr('href','index.php');
         $('.bxslider').bxSlider({'pager':false});
+        $('body').click(function(){
+            $('.qrcode').fadeOut();
+        });
     }
 
     $('.repair_img2').click(function(){

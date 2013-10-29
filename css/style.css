@@ -72,8 +72,8 @@ a{text-decoration:none}
     #mobilenewsletter label.error {position: absolute;right:20px;top:135px;color:#f69f8c;font-size:30px;}
     #MailInputWin{display:none;background:url(../imgMobile/maildialog.png);width:590px;height:382px;}
     #mobilemailinput{ width: 480px; margin-top: 170px; margin-left: 55px; height: 65px; font-size: 32px;}
-    #backbtn{background:url(../imgMobile/backbtn.png) no-repeat;width:202px;height:65px;border:none;margin-top:34px;margin-left:76px;cursor:pointer;}
-    #okbtn{font-size:0;background:url(../imgMobile/okbtn.png) no-repeat;width:202px;height:65px;border:none;margin-top:34px;margin-left:30px;cursor:pointer;}
+    #backbtn{background:url(../imgMobile/backbtn.png) no-repeat;width:202px;height:65px;border:none;margin-top:34px;margin-left:76px;cursor:pointer;float:left;}
+    #okbtn{font-size:0;background:url(../imgMobile/okbtn.png) no-repeat;width:202px;height:65px;border:none;margin-top:34px;margin-left:30px;cursor:pointer;float:left;}
 
 /* intro */
 .intro{border-top:#fdeaf2 solid 1px;background: url(../img/introbg.png) repeat-x;height:122px; padding: 24px 0 0}
@@ -360,7 +360,6 @@ a{text-decoration:none}
 @media screen and (max-width:640px){
 /**/
     html,body {width:640px;overflow:hidden;}
-    .fadeEle {opacity: 0;}
     .loading-wrap {display:none;}
     .dis_mobile{display: block;}
     .page{min-width: 0;}
@@ -518,7 +517,8 @@ a{text-decoration:none}
     .scheme_share{top:645px;width:136px;height:100px;margin-left:-285px;background:url(../imgMobile/scheme/sns.png) no-repeat 0 0;}
     .scheme_weibo{top:645px;width:218px;height:100px;margin-left:-149px;background:url(../imgMobile/scheme/sns.png) no-repeat -136px 0}
     .scheme_weixin {top:645px;width:216px;height:100px;margin-left:69px;background:url(../imgMobile/scheme/sns.png) no-repeat -354px 0;}
-
+    .scheme_weixin .qrcode {position: absolute;bottom:70px;left:31px;display:none;background:url(../imgMobile/scheme/qr.png) no-repeat;width:170px;height:180px;z-index:999;}
+    .scheme_weixin .qrcode img {display:none;}
     .scheme_line{display: none}
     #scheme .arrow_tiem{top: 296px}
     #scheme .arrow_n{right: 2px}
@@ -606,6 +606,8 @@ a{text-decoration:none}
     .kl_weibo {width:145px;height:103px;margin-left:-145px;background-position:-137px 0;top:460px;}
     .kl_youku {width:145px;height:103px;margin-left:-1px;background-position:-281px 0;top:460px;}
     .kl_weixin {width:145px;height:103px;margin-left:144px;background-position:-426px 0;top:460px;}
+    .kl_weixin .qrcode {position: absolute;bottom:67px;left:-11px;display:none;background:url(../imgMobile/knowledge/qr.png) no-repeat;width:170px;height:180px;}
+    .kl_weixin .qrcode img {display:none;}
     .kl_shenxin {top:700px;width:457px;height:571px;margin-left:-228px;background:url(../imgMobile/knowledge/kl_shenxin.png) no-repeat;background-size: 100% 100%;}
     .kl_xier {top:2200px;width:457px;height:564px;margin-left:-228px;background:url(../imgMobile/knowledge/kl_sxaq.png) no-repeat;background-size: 100% 100%;}
     .kl_sxaq {background:none;top:1458px;width:570px;height:auto;margin-left:-285px;}
