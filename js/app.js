@@ -32,7 +32,7 @@ $(document).ready(function(){
         {
             $('.nav').fadeOut();
         }
-    })
+    });
 
     if(!(isTouch && !isIpad))
     {
