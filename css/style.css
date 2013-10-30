@@ -211,7 +211,7 @@ a{text-decoration:none}
     .scheme_share{width: 55px;height: 26px;top: 90px;left:50%;margin-left:-340px;background-position: -430px -38px}
     .scheme_weibo{width: 22px;height: 22px;top: 92px;left:50%;margin-left:-282px;background-position: -488px -40px}
     .scheme_weixin{width: 22px;height: 22px;top: 92px;left:50%;margin-left:-254px;background-position: -514px -40px}
-    .scheme_weixin .qrcode {position: absolute;bottom:17px;left:-75px;display:none;}
+    .scheme_weixin .qrcode {position: absolute;top:17px;left:-10px;z-index:9999;display:none;}
     .scheme_line{width: 240px;height: 1px;top: 123px;left:50%;margin-left:-456px;background-position: -321px -66px;overflow: hidden}
     .scheme_line2{top:250px;}
     .scheme_line3{top:380px;}
@@ -277,7 +277,7 @@ a{text-decoration:none}
     .kl_weibo{width: 28px;height: 28px;left:50%;top: 428px;margin-left:  234px;background-position: -533px 0}
     .kl_youku{width: 28px;height: 28px;left:50%;top: 428px;margin-left:  262px;background-position: -561px 0}
     .kl_weixin{width: 28px;height: 28px;left:50%;top: 428px;margin-left:  290px;background-position: -589px 0}
-    .kl_weixin .qrcode {position: absolute;bottom:17px;left:-72px;display:none;}
+    .kl_weixin .qrcode {position: absolute;bottom:27px;right:2px;display:none;}
     .knowledge_img2{background: url('../img/knowledge_img2.png') no-repeat;position: absolute;}
     .kl_next{-webkit-animation: opacity1 1.5s infinite alternate;-moz-animation: opacity1 1.5s infinite alternate;-ms-animation: opacity1 1.5s infinite alternate;-o-animation: opacity1 1.5s infinite alternate;animation: opacity1 1.5s infinite alternate;width: 67px;height: 67px;left:50%;top: 470px;margin-left: -33px ;background-position: -453px -504px}
     .kl_shenxin{width: 240px;height: 297px;left:50%;top: 580px;margin-left: -346px }
