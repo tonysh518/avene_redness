@@ -40,7 +40,7 @@ $(document).ready(function(){
             onLoading : function( percentage ){
                 var per = parseInt(percentage);
                 $('.loading-percentage').html(per+'%');
-                $('.loading-bar').animate({'width':per+'%'});
+                $('.loading-bar').css({'width':per+'%'});
             },
             onComplete : function(){
                 $('.loading-wrap').fadeOut();

@@ -19,7 +19,6 @@
     </div>
     <div class="mask_huaL"></div>
     <div class="mask_huaR"></div>
-    <div class="mask_huaB"></div>
     <div class="mask_produit mask_produitbg" data-style="opacity:0;left:-50%;" data-animate="opacity:1;left:50%" data-delay="1000" data-time="1000" data-easing="easeInOutQuart"></div>
     <div class="fadeEle mask_text mask_benefit1" data-style="opacity:0;" data-animate="opacity:1;" data-delay="1500" data-time="1000" data-easing="easeInOutQuart">
         <h3 class="tit"></h3>
@@ -45,24 +44,13 @@
         <p class="text">假叶树是一种植物，<br />Pliny 和 Dioscorides 于公元 1 世纪率先总结了其用途（利尿剂）。中世纪时，阿拉伯医生们也先后开始使用假叶树。但直到1950 年，图卢兹医药大学才清楚地揭示出它长期存在的利尿作用和改善静脉回流之间的关系。从此，其利尿特质让人们对这种植物的新功能产生了越来越多的兴趣。那时，在药房工作的皮尔法伯 (Pierre Fabre) 先生每天都听到女人们在抱怨腿部的不适，这常常是由于长时间站立静脉曲张引起的。他每天听到这样的抱怨，渐渐萌生了利用假叶树根新发现的促静脉活性功能的想法。之后他制造了自己的第一种产品——Cyclo3，这也是皮尔法伯的首个特色产品。</p>
     </div>
     <!--  -->
-    <div class="fadeEle mask_text mask_tz" data-540="opacity:0;left:30%;" data-800="opacity:1;left:50%;">
+    <div class="fadeEle mask_text mask_tz" data-340="opacity:0;left:30%;" data-600="opacity:1;left:50%;">
         <h3 class="tit"></h3>
     </div>
-    <div class="fadeEle mask_text mask_price1" data-750="opacity:0;left:45%;" data-1000="opacity:1;left:50%;">
+    <div class="fadeEle mask_text mask_price" data-340="opacity:0;left:30%;" data-600="opacity:1;left:50%;">
         <h3 class="tit"></h3>
     </div>
-    <div class="fadeEle mask_text mask_price2" data-800="opacity:0;left:45%;" data-1050="opacity:1;left:50%;">
-        <h3 class="tit"></h3>
-    </div>
-    <div class="fadeEle mask_text mask_price3" data-1000="opacity:0;left:45%;" data-1250="opacity:1;left:50%;">
-        <h3 class="tit"></h3>
-    </div>
-    <div class="fadeEle mask_text mask_price4" data-1000="opacity:0;left:45%;" data-1250="opacity:1;left:50%;">
-        <h3 class="tit"></h3>
-    </div>
-    <div class="fadeEle mask_imgtz mask_anvene1" data-640="opacity:0;left:30%;" data-900="opacity:1;left:50%;"></div>
-    <div class="fadeEle mask_imgtz mask_anvene2" data-900="opacity:0;left:45%;" data-1150="opacity:1;left:50%;"></div>
-    <div class="fadeEle mask_imgtz mask_anvene3" data-900="opacity:0;left:45%;" data-1150="opacity:1;left:50%;"></div>
+    <div class="fadeEle mask_imgtz mask_anvene" data-440="opacity:0;left:30%;" data-600="opacity:1;left:50%;"></div>
 </div>
 <!--  -->
 <?php
