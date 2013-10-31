@@ -124,6 +124,17 @@ $(document).ready(function(){
                     showEarly  : true,
                     locked: false
                 }
+            },
+            afterShow:function(){
+                $('#home-video-share').appendTo('.fancybox-outer').show();
+                $('.home_video_weixin').hover(function(){
+                    $(this).find('.qrcode').fadeIn();
+                },function(){
+                    $(this).find('.qrcode').fadeOut();
+                });
+            },
+            beforeClose:function(){
+                $('#home-video-share').appendTo('.page').hide();
             }
         });
     }

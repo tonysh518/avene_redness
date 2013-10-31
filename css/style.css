@@ -115,7 +115,11 @@ a{text-decoration:none}
     .home_check2 .checktxt{background-position:-228px -358px;}
     .home_check3 .checktxt{background-position:-228px -394px;}
     .home_video{width:146px ;height: 40px;background-position:-210px -457px;left: 50%;top:352px;margin: 0 0 0 -164px;}
-
+    .home_video_weibo{position:relative!important;width: 28px;height: 28px;float:left;background-position: -533px 0!important;}
+    .home_video_youku{position:relative!important;width: 28px;height: 28px;float:left;background-position: -561px 0!important;}
+    .home_video_weixin{position:relative!important;width: 28px;height: 28px;float:left;background-position: -589px 0!important;}
+    .home_video_weixin .qrcode {position: absolute;bottom:27px;right:2px;display:none;}
+    #home-video-share {position: absolute;right:0;bottom:-35px;display:none;}
 /* SIYAN Used
 ================================================================================================= */
 #siyan .page{background: #fffbfb url(../img/siyan_page.png) repeat-x bottom;height:1280px;position: relative;width: 100%;}
