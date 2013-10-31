@@ -1,4 +1,4 @@
-﻿<div class="intro cs-clear" data-style="opacity:0" data-animate="opacity:1" data-delay="1200" data-time="1000" data-easing="easeInOutQuart">
+<div class="intro cs-clear" data-style="opacity:0" data-animate="opacity:1" data-delay="1200" data-time="1000" data-easing="easeInOutQuart">
     <div class="column">
         <a class="fadeEle intro_item intro1" href="repair.php" data-style="opacity:0;" data-animate="opacity:1" data-delay="1500" data-time="1000" data-easing="easeInOutQuart">
             <span class="icon"></span>
@@ -67,32 +67,6 @@
     </form>
 </div>
 
-<script src="js/jquery-1.8.3.min.js"></script>
-<script src="js/modernizr-2.5.3.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/jquery.queryloader22.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/skrollr.min.js"></script>
-<script src="js/jquery.form.js"></script>
-<script src="js/jquery.uniform.min.js"></script>
-<script src="js/jquery.mousewheel.js"></script>
-<script src="js/scrollTo.min.js"></script>
-<script src="js/jquery.bxslider.js"></script>
-<script src="js/jquery.jscrollpane.js"></script>
-<script src="js/jquery.validate.js"></script>
-<script src="js/waypoint.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/app.js"></script>
-<script src="js/tracking.js"></script>
-<!--  -->
-<!--IE6透明判断-->
-<!--[if IE 6]>
-<script src="js/DD_belatedPNG.js"></script>
-<script>
-    DD_belatedPNG.fix('*');
-    document.execCommand("BackgroundImageCache", false, true);
-</script>
-<![endif]-->
-<!--  -->
+
 </body>
 </html>

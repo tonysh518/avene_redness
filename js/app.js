@@ -132,6 +132,7 @@ $(document).ready(function(){
                 },function(){
                     $(this).find('.qrcode').fadeOut();
                 });
+                $('.fancybox-iframe').attr('scrolling','no');
             },
             beforeClose:function(){
                 $('#home-video-share').appendTo('.page').hide();
@@ -248,7 +249,7 @@ $(document).ready(function(){
                 email: { required: true, email:true}
             },
             messages: {
-                email: { required: '请填写邮箱', email:'请填写正确的邮箱' }
+                email: { required: '&#35831;&#22635;&#20889;&#37038;&#31665;', email:'&#35831;&#22635;&#20889;&#27491;&#30830;&#30340;&#37038;&#31665;'}
             }
         });
     }

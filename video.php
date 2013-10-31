@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html style="overflow:hidden;">
 <head>
   <title>Video</title>
   <style type="text/css">

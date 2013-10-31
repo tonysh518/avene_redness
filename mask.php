@@ -52,7 +52,6 @@
     </div>
     <div class="fadeEle mask_imgtz mask_anvene" data-440="opacity:0;left:30%;" data-600="opacity:1;left:50%;"></div>
 </div>
-<!--  -->
 <?php
-    include('./footer.php');
+include('./footer.php');
 ?>
