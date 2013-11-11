@@ -74,19 +74,19 @@
             </li>
             <li>
                 <div class="kl_method_mobile_img"><img src="imgMobile/knowledge/kl_method2.png" /></div>
-                <div class="kl_method_mobile_text">过度地清洁会使得肌肤变得更为纤薄脆弱,损伤角质层,造成不可逆转的肌肤伤害。因而必须选择温和的洁面产品,轻柔清洁肌肤,将损伤降至最低。</div>
+                <div class="kl_method_mobile_text">过热的水温容易导致皮肤水分和油分的流失,令肌肤更加干燥和紧绷。用温水或偏低水温的水洁面,有利于减轻肌肤敏感度。</div>
             </li>
             <li>
                 <div class="kl_method_mobile_img"><img src="imgMobile/knowledge/kl_method3.png" /></div>
-                <div class="kl_method_mobile_text">过度地清洁会使得肌肤变得更为纤薄脆弱,损伤角质层,造成不可逆转的肌肤伤害。因而必须选择温和的洁面产品,轻柔清洁肌肤,将损伤降至最低。</div>
+                <div class="kl_method_mobile_text">对敏感肌肤来说,防晒也是必修课。尽量保证选用零刺激的防晒霜, 并随身携带遮阳伞,不论阴天晴天,都要注意防御紫外线的侵袭。</div>
             </li>
             <li>
                 <div class="kl_method_mobile_img"><img src="imgMobile/knowledge/kl_method4.png" /></div>
-                <div class="kl_method_mobile_text">过度地清洁会使得肌肤变得更为纤薄脆弱,损伤角质层,造成不可逆转的肌肤伤害。因而必须选择温和的洁面产品,轻柔清洁肌肤,将损伤降至最低。</div>
+                <div class="kl_method_mobile_text">敏感肌应选择为其度身打造的抗敏、抗红护肤品,并坚持使用。随意地跟风对敏感肌肤来说是大忌。</div>
             </li>
             <li>
                 <div class="kl_method_mobile_img"><img src="imgMobile/knowledge/kl_method5.png" /></div>
-                <div class="kl_method_mobile_text">过度地清洁会使得肌肤变得更为纤薄脆弱,损伤角质层,造成不可逆转的肌肤伤害。因而必须选择温和的洁面产品,轻柔清洁肌肤,将损伤降至最低。</div>
+                <div class="kl_method_mobile_text">个人饮食也是保养肌肤的 重要课题。选择健康、营养的食物,少食辛辣品, 不碰烟酒,可以减少刺激, 避免血管因刺激源扩张,引起泛红灼热。</div>
             </li>
         </ul>
         <!--  -->
