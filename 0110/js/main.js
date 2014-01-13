@@ -57,11 +57,14 @@
 
         setTimeout(function(){
             skrollr.init({
-                smoothScrollingDuration: 600,
-                smoothScrolling:true,
-                easing: 'easeInOutQuart'
+                smoothScrollingDuration: 400,
+                smoothScrolling:true
             });
         },0);
+
+        $(window).scroll(function(){
+            //console.log($(this).scrollTop());
+        });
 
         $(".section1_bg").backstretch("img/section1_bg.jpg");
         $(".section2_bg").backstretch("img/section2_bg.jpg");
