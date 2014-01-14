@@ -91,7 +91,7 @@
                 $('.ball_slider img').eq(0).fadeIn().addClass('on');
             }
         }
-        $('.section1_arrow').hover(function(){
+        $('.section1_ball5_btn').hover(function(){
             var on = $('.ball_slider').find('.on');
             sliderInt = setInterval(runSlider,1500);
             runSlider();
