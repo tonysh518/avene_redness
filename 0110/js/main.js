@@ -58,7 +58,8 @@
         setTimeout(function(){
             skrollr.init({
                 smoothScrollingDuration: 400,
-                smoothScrolling:true
+                smoothScrolling:true,
+                easing: 'easeInOutQuart'
             });
         },0);
 
@@ -72,6 +73,32 @@
         });
 
         $(window).trigger('resize');
+
+        $('.section1_ball').hover(function(){
+            $(this).find('.ball_round').addClass('actived');
+        },function(){
+            $(this).find('.ball_round').removeClass('actived');
+        });
+
+        var sliderInt;
+        var runSlider = function() {
+            var on = $('.ball_slider').find('.on');
+            on.fadeOut().removeClass('on');
+            if($('.ball_slider img').index(on) != 2) {
+                on.fadeOut().next().fadeIn().addClass('on');
+            }
+            else {
+                $('.ball_slider img').eq(0).fadeIn().addClass('on');
+            }
+        }
+        $('.section1_arrow').hover(function(){
+            var on = $('.ball_slider').find('.on');
+            sliderInt = setInterval(runSlider,1500);
+            runSlider();
+        },function(){
+            clearInterval(sliderInt);
+        });
+
 
 //        $(".section1_bg").backstretch("img/section1_bg.jpg");
 //        $(".section2_bg").backstretch("img/section2_bg.jpg");
@@ -88,6 +115,11 @@
 //        $(".section8_bg").backstretch("img/section8_bg.jpg");
 //        $(".section9_bg").backstretch("img/section9_bg1.jpg");
     }
+
+//    for(i=2;i<31;i++){
+//        var n = 15800 + (i * 25);
+//        console.log('<div class="section_bg section9_bg'+i+'" data-0="display:none;" data-'+n+'="display:block;"></div>');
+//    }
 
 
 

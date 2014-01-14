@@ -13,14 +13,15 @@
     <file path="/MAMP/htdocs/bank_wall/static/js/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389607048078" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/api/protected/models/NodeAR.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389602792028" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/static/js/api.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389585032787" ignored="false" />
-    <file path="/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389690030700" ignored="false" />
-    <file path="/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389683793013" ignored="false" />
-    <file path="/main.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389690069696" ignored="false" />
+    <file path="/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389721445893" ignored="false" />
+    <file path="/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389722018037" ignored="false" />
+    <file path="/main.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389722268394" ignored="false" />
     <file path="/NodeAR.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389602354174" ignored="false" />
     <file path="/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389606535663" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/web/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389606166470" ignored="false" />
     <file path="/layout.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389606422759" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/web/css/layout.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389606423120" ignored="false" />
+    <file path="/animate.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389719956061" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,44 +44,26 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="27" selection-start="7227" selection-end="7227" vertical-scroll-proportion="-22.607143">
+            <state line="139" column="33" selection-start="8114" selection-end="8128" vertical-scroll-proportion="-31.214285">
               <folding>
-                <element signature="n#style#0;n#div#8;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1389690186000" expanded="true" signature="17795:17896" placeholder="..." />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#10;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1389721447000" expanded="true" signature="23897:23998" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
+      <file leaf-file-name="animate.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/animate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="26" selection-start="153" selection-end="153" vertical-scroll-proportion="0.10973597">
+            <state line="0" column="19" selection-start="12" selection-end="19" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="0" selection-start="16258" selection-end="16258" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../../MAMP/htdocs/gar_nier/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="888" column="0" selection-start="23899" selection-end="24058" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="history.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/history.html">
+      <file leaf-file-name="animate-custom.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/animate-custom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -92,6 +75,35 @@
         <entry file="file://$PROJECT_DIR$/js/jquery.backstretch.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="3" selection-start="41" selection-end="87" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="history.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/history.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding>
+                <marker date="1389493218000" expanded="true" signature="2247:2348" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="137" column="51" selection-start="12503" selection-end="12503" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="24" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.8215201">
               <folding />
             </state>
           </provider>
@@ -109,6 +121,7 @@
       <list>
         <option value="$PROJECT_DIR$/js/jquery.backstretch.min.js" />
         <option value="$PROJECT_DIR$/js/skrollr.min.js" />
+        <option value="$PROJECT_DIR$/css/animate.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
@@ -117,8 +130,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2560" />
-    <option name="height" value="1360" />
+    <option name="width" value="2243" />
+    <option name="height" value="1319" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -146,6 +159,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,18 +208,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="Configurable.PHP.Debug" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
@@ -222,14 +236,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1360" extended-state="6" />
+    <frame x="0" y="22" width="2243" height="1319" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25417662" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2567137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -305,30 +319,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#div#8;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1389690186000" expanded="true" signature="17795:17896" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.backstretch.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="41" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="169" column="0" selection-start="14063" selection-end="14063" vertical-scroll-proportion="0.0">
@@ -347,8 +337,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="6" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#div#8;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1389690186000" expanded="true" signature="17795:17896" placeholder="..." />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#10;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1389721447000" expanded="true" signature="23897:23998" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -379,47 +369,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/history.html">
+    <entry file="file://$PROJECT_DIR$/../../gar_nier/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="160" selection-start="3204" selection-end="3360" vertical-scroll-proportion="0.3117444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../XAMPP/xamppfiles/htdocs/avene2/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="66" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.43639576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../XAMPP/xamppfiles/htdocs/avene2/eta/css_eta/avene_eta.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="13" selection-start="1526" selection-end="1531" vertical-scroll-proportion="0.8992933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate-custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../MAMP/htdocs/gar_nier/css/style.css">
+    <entry file="file://$PROJECT_DIR$/history.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="888" column="0" selection-start="23899" selection-end="24058" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1389493218000" expanded="true" signature="2247:2348" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../MAMP/htdocs/gar_nier/js/app.js">
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="34" selection-start="8464" selection-end="8614" vertical-scroll-proportion="0.42785653">
+        <state line="0" column="19" selection-start="12" selection-end="19" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="0" selection-start="16258" selection-end="16258" vertical-scroll-proportion="0.0">
+        <state line="137" column="51" selection-start="12503" selection-end="12503" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="27" selection-start="7227" selection-end="7227" vertical-scroll-proportion="-22.607143">
+        <state line="139" column="33" selection-start="8114" selection-end="8128" vertical-scroll-proportion="-31.214285">
           <folding>
-            <element signature="n#style#0;n#div#8;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1389690186000" expanded="true" signature="17795:17896" placeholder="..." />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#10;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1389721447000" expanded="true" signature="23897:23998" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="153" selection-end="153" vertical-scroll-proportion="0.10973597">
+        <state line="96" column="24" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.8215201">
           <folding />
         </state>
       </provider>

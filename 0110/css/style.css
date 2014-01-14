@@ -112,24 +112,34 @@ body,html,.header,.page {min-width:960px;}
 .section_pixel {position: fixed;background:url(../img/section_pixel.png) repeat;width:100%;height:100%;top:0;left:0;}
 .section {z-index:3;position:fixed;width:100%;height:100%;top:0;}
 .section_bg {height:100%;position: fixed;width:100%;}
-.section3 {z-index:4;}
+.section1 {z-index:7;}
+.section2 {z-index:5;}
+.section3 {z-index:6;}
+.section4 {z-index:3;}
 .section5 {z-index:4;}
-.section7 {z-index:2;}
+.section7 {z-index:4;}
 .section * {z-index:5;}
 
 .section1_title {position: absolute;top: 150px;left:50%;margin:0 0 0 -106px;}
 .section1_ball {position: fixed;text-align: center;}
+.section1_ball .ball {position: relative;}
 .section1_ball1 {top: 45%;left:50%;margin:0 0 0 -496px;}
 .section1_ball2 {top: 45%;left:50%;margin:0 0 0 -326px;}
 .section1_ball3 {top: 45%;left:50%;margin:0 0 0 226px;}
 .section1_ball4 {top: 45%;left:50%;margin:0 0 0 396px;}
-.section1_ball5 {top: 40%;left:50%;margin:0 0 0 -100px;}
-.section1_ball5 .ball {position: absolute;top:0;left:0;}
-.section1_ball5 .ball_t {position: absolute;top:200px;left:23px;}
-.section1_arrow {background: url(../img/section1_arrow.png) no-repeat;width:59px;height:16px;position: absolute;top:40%;left:50%;margin:250px 0 0 -35px;}
+.section1_ball5 .ball {position: fixed;top:50%;left:50%;background:url(../img/section1_ball5.png) no-repeat;margin:-73px 0 0 -98px;width:207px;height:194px;-webkit-transform-origin: center center;-moz-transform-origin : center center;-ms-transform-origin: center center;-o-transform-origin: center center;transform-origin: center center;}
+.section1_ball5 .ball_t {position: fixed;top:50%;left:50%;margin:130px 0 0 -68px;}
+.section1_arrow {background: url(../img/section1_arrow.png) no-repeat;width:59px;height:16px;position: absolute;top:40%;left:50%;margin:250px 0 0 -28px;}
+.ball_round {position: fixed;top: 45%;left:50%;width:110px;height:110px;background: #f5afa5;-webkit-border-radius: 100px;border-radius: 100px;}
+.section1_ball1 .ball_round {margin:0 0 0 -496px;}
+.section1_ball2 .ball_round {margin:0 0 0 -317px;}
+.section1_ball3 .ball_round {margin:0 0 0 226px;}
+.section1_ball4 .ball_round {margin:0 0 0 396px;}
+.ball_slider img {display: none;position: absolute;}
+.ball_slider {position: fixed;left:50%;top:50%;margin:-69px 0 0 -75px;}
 
 .section2_txt {position: fixed;bottom:150px;left:100px;}
-.section2_txt2 {position: fixed;bottom:150px;right:100px;}
+.section2_txt2 {position: fixed;bottom:150px;right:100px;z-index:6;}
 .section2_icon, .section2_drop {position: absolute;top:50%;left:50%;}
 .drop_wrap {position: absolute;top:50%;left:50%;width:400px;height:300px;margin:-155px 0 0 -229px;}
 .section2_drop1 {margin:47px 0 0 -140px;}
@@ -165,7 +175,7 @@ body,html,.header,.page {min-width:960px;}
 
 .section5_white {background: #fff;position: fixed;top:50%;left:0;height:474px;width:100%;margin:-236px 0 0;}
 .section5_map {position: absolute;left:50%;margin:40px 0 0 -110px;}
-.section5_txt {position: absolute;left:50%;margin:150px 0 0 -550px;}
+.section5_txt {position: absolute;left:50%;margin:150px 0 0 -500px;}
 
 .section6_bg {overflow: hidden;}
 .section6_txt1 {position: fixed;top:150px;left:200px;}
@@ -185,7 +195,7 @@ body,html,.header,.page {min-width:960px;}
 .section7_drop {position: absolute;top:50%;left:50%;margin:-75px 0 0 -65px;}
 
 .section8_txt {position: absolute;bottom:100px;right:100px;}
-.section8_drop_wrap {position: absolute;width:800px;height:100%;left:7%;}
+.section8_drop_wrap {position: absolute;width:800px;height:100%;left:50%;margin-left:-400px;}
 .section8_drop1 {position: absolute;top:100px;left:40%;}
 .section8_drop2 {position: absolute;bottom:10px;left:20%;}
 .section8_icon1 {position: absolute;top:28%;left:52%;}
@@ -194,11 +204,54 @@ body,html,.header,.page {min-width:960px;}
 .section8_icon4 {position: absolute;bottom:5%;left:18%;}
 
 .section9_txt {position: absolute;bottom:100px;left:100px;}
+.section9_drop {position: absolute;left:50%;margin-left:-75px;}
+
+.section10_txt1 {position: absolute;bottom:50px;left:100px;}
+.section10_txt2 {position: absolute;bottom:50px;left:100px;}
 
 
-/*.section1_bg {z-index:2;background-image:url(../img/section1_bg.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}*/
-.section2_bg {z-index:2;background-image:url(../img/section2_bg_test.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
-/*.section2_bg2 {background-image:url(../img/section2_bg2.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;background-position:50% 100%;}*/
-.section4_bg {z-index:2;background-image:url(../img/section4_bg_test.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
-/*.section7_bg {z-index:1;background-image:url(../img/section7_bg_test.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}*/
-/*.section9_bg {z-index:1;background-image:url(../img/section9_bg_test.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}*/
+.section1_bg {z-index:3;background-image:url(../img/section1_bg.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section2_bg {z-index:3;background-image:url(../img/section2_bg.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section2_bg2 {z-index:5;background-image:url(../img/section2_bg2.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section2_cloud {z-index:5;background-image:url(../img/section2_cloud.png);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section4_bg {z-index:4;background-image:url(../img/section4_bg.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section4_cloud {z-index:4;background-image:url(../img/section4_cloud.png);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section6_bg {z-index:4;background-image:url(../img/section6_bg.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section7_bg {z-index:4;background-image:url(../img/section7_bg.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;background-position:90% top;}
+.section7_rain {z-index:4;background-image:url(../img/section7_rain.png);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;background-position:90% top;}
+.section7_water {z-index:4;background-image:url(../img/section7_water.png);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;background-position:90% top;}
+.section8_bg {z-index:4;background-image:url(../img/section8_bg.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;background-position:0% top;}
+
+.section9_bg {z-index:4;background-image:url(../img/video1/1.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg2 {z-index:4;background-image:url(../img/video1/1.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg3 {z-index:4;background-image:url(../img/video1/2.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg4 {z-index:4;background-image:url(../img/video1/3.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg5 {z-index:4;background-image:url(../img/video1/4.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg6 {z-index:4;background-image:url(../img/video1/5.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg7 {z-index:4;background-image:url(../img/video1/6.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg8 {z-index:4;background-image:url(../img/video1/7.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg9 {z-index:4;background-image:url(../img/video1/8.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg10 {z-index:4;background-image:url(../img/video1/9.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg11 {z-index:4;background-image:url(../img/video1/10.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg12 {z-index:4;background-image:url(../img/video1/11.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg13 {z-index:4;background-image:url(../img/video1/12.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg14 {z-index:4;background-image:url(../img/video1/13.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg15 {z-index:4;background-image:url(../img/video1/14.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg16 {z-index:4;background-image:url(../img/video1/15.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg17 {z-index:4;background-image:url(../img/video1/16.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg18 {z-index:4;background-image:url(../img/video1/17.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg19 {z-index:4;background-image:url(../img/video1/18.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg20 {z-index:4;background-image:url(../img/video1/19.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg21 {z-index:4;background-image:url(../img/video1/20.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg22 {z-index:4;background-image:url(../img/video1/21.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg23 {z-index:4;background-image:url(../img/video1/22.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg24 {z-index:4;background-image:url(../img/video1/23.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg25 {z-index:4;background-image:url(../img/video1/24.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg26 {z-index:4;background-image:url(../img/video1/25.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg27 {z-index:4;background-image:url(../img/video1/26.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg28 {z-index:4;background-image:url(../img/video1/27.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg29 {z-index:4;background-image:url(../img/video1/28.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+.section9_bg30 {z-index:4;background-image:url(../img/video1/29.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;}
+
+.section10_bg {position:fixed;right:0;z-index:4;background-image:url(../img/section10_bg.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;background-position:right top;}
+.section10_bg2 {position:fixed;right:0;z-index:4;background-image:url(../img/section10_bg2.jpg);background-repeat:no-repeat;background-attachment: fixed;background-size: cover;background-position:right top;}
