@@ -27,3 +27,7 @@
 
     opacity:0.8;
 }
+
+.menu_item,
+.section10_s img
+{-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;}
