@@ -52,6 +52,10 @@
                     } , delay);
                 }
             });
+
+        if($('html').hasClass('no-touch')) {
+            $('video').remove();
+        }
     }
 })();
 
