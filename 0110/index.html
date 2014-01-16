@@ -6,6 +6,8 @@
     <link href="css/animate-custom.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!--[if (IE 8)]><script>window.location.href = "_index.html";</script><![endif]-->
+    <!--[if (IE 7)|(IE 6)]><script>window.location.href = "__index.html";</script><![endif]-->
 </head>
 <body>
 <div class="loading-wrap">
@@ -28,7 +30,7 @@
         </div>
     </div>
 </div>
-<div class="menu" data-400="opacity:0" data-800="opacity:1;">
+<div class="menu" data-0="opacity:0;display:block;" data-400="opacity:0" data-800="opacity:1;">
     <ul>
         <li class="menu_item"></li>
         <li class="menu_item"></li>
@@ -48,16 +50,23 @@
 <!--  -->
 <div class="page">
 
-    <!--<div class="section_bg section1_bg" data-700="display:block;"-->
-         <!--data-5600="display:none;"></div>-->
+    <div class="section_bg section1_bg" data-700="display:block;"
+         data-5600="display:none;"></div>
 
     <div class="section section_bg_wrap">
-        <!--<div class="section_bg section8_bg" data-0="display:none;"-->
-             <!--data-11600="display:block;"-->
-             <!--data-16400="background-position:center 30px;"  data-16800="background-position:center 0px;"></div>-->
+        <div class="section_bg section8_bg" data-0="display:none;"
+             data-11600="display:block;">
+            <div class="bg_inner"
+                 data-11600="transform:translate3d(0,120px,0);" data-12000="transform:translate3d(0,60px,0);"
+                 data-13500="transform:translate3d(0,60px,0);" data-13800="transform:translate3d(0,0px,0);"
+                 data-16400="transform:translate3d(0,0px,0);"  data-16800="transform:translate3d(0,60px,0);"></div>
+        </div>
 
-        <!--<div class="section_bg section9_bg"-->
-             <!--data-16400="height:0%;background-position:0 60px;" data-16800="height:100%;background-position:0 0px;"></div>-->
+        <div class="section_bg section9_bg"
+             data-16400="bottom:100%;" data-16800="bottom:0%;">
+            <div class="bg_inner"
+                 data-16400="transform:translate3d(0,-60px,0);" data-16800="transform:translate3d(0,0px,0);"></div>
+        </div>
 
         <div class="section_bg section9_bg2" data-0="display:none;" data-16850="display:block;"  data-16875="display:none;"></div>
         <div class="section_bg section9_bg3" data-0="display:none;" data-16875="display:block;"  data-16900="display:none;"></div>
@@ -90,27 +99,36 @@
         <div class="section_bg section9_bg30" data-0="display:none;" data-17550="display:block;"></div>
 
         <div class="section_bg section10_bg"
-             data-17900="transform:translate3d(100%,0,0);" data-19400="transform:translate3d(0,0,0);"
+             data-17900="transform:translate3d(100%,0,0);" data-18400="transform:translate3d(0,0,0);"
              data-19500="opacity:1;" data-19800="opacity:0;">
             <div class="bg_inner"></div>
-             </div>
+         </div>
 
-        <!--<div class="section_bg section10_bg2"-->
-             <!--data-19500="opacity:0;" data-19800="opacity:1;"></div>-->
+        <div class="section_bg section10_bg2"
+             data-19500="opacity:0;" data-19800="opacity:1;">
+            <div class="bg_inner"></div>
+        </div>
 
-        <!--<div class="section_bg section7_bg" data-0="display:none;"-->
-             <!--data-9800="display:block;background-position:90% 60px;" data-10200="background-position:90% 0px;"-->
-             <!--data-11600="height:100%;" data-12000="height:50%;"-->
-             <!--data-13500="height:50%;" data-13800="height:0%;"></div>-->
+        <div class="section_bg section7_bg" data-0="display:none;" data-9800="display:block;"
+             data-11600="bottom:0%;" data-12000="bottom:50%;"
+             data-13500="bottom:50%;" data-13800="bottom:100%;">
+            <div class="bg_inner"
+                 data-9800="transform:translate3d(0,60px,0);" data-10200="transform:translate3d(0,0px,0);"
+                 data-11600="transform:translate3d(0,0px,0);" data-12000="transform:translate3d(0,-60px,0);"
+                 data-13500="transform:translate3d(0,-60px,0);" data-13800="transform:translate3d(0,-120px,0);"></div>
+        </div>
 
+        <div class="section_bg section7_rain"
+             data-10200="bottom:100%;opacity:0;" data-10500="bottom:0%;opacity:1;"
+             data-11600="opacity:1;" data-11800="opacity:0;">
+            <div class="bg_inner"></div>
+        </div>
 
-        <!--<div class="section_bg section7_rain"-->
-             <!--data-10200="height:0%;opacity:0;" data-10500="height:100%;opacity:1;"-->
-             <!--data-11900="opacity:1;" data-12100="opacity:0;"></div>-->
-
-        <!--<div class="section_bg section7_water"-->
-             <!--data-10300="height:0%;opacity:0;" data-10600="height:100%;opacity:1;"-->
-             <!--data-11900="opacity:1;" data-12100="opacity:0;"></div>-->
+        <div class="section_bg section7_water"
+             data-10300="bottom:100%;opacity:0;" data-10600="bottom:0%;opacity:1;"
+             data-11600="opacity:1;" data-11800="opacity:0;">
+            <div class="bg_inner"></div>
+        </div>
 
         <div class="section_bg section6_bg"
              data-0="display:none;"
@@ -150,309 +168,325 @@
                  data-5600="transform:translate3d(0,-20px,0);" data-5900="transform:translate3d(0,-40px,0);"></div>
         </div>
 
-        <!--<div class="section_bg section_pixel"></div>-->
+        <div class="section_bg section_pixel"></div>
 
     </div>
-    <!--<div class="section section1">-->
-        <!--<div class="section1_title" data-100="opacity:1;" data-400="opacity:0"><img src="img/section1_title.png" /></div>-->
-        <!--<a href="signature.html" class="section1_ball section1_ball1"-->
-               <!--data-100="opacity:1;" data-400="opacity:0;">-->
-           <!--<div class="ball_round"></div>-->
-           <!--<div class="ball"><img src="img/section1_ball1.png" /></div>-->
-           <!--<div class="ballt"><img src="img/section1_ball1t.png" /></div>-->
-        <!--</a>-->
-        <!--<a href="testimonial.html" class="section1_ball section1_ball2"-->
-            <!--data-100="opacity:1;" data-400="opacity:0;">-->
-           <!--<div class="ball_round"></div>-->
-           <!--<div class="ball"><img src="img/section1_ball2.png" /></div>-->
-           <!--<div class="ballt"><img src="img/section1_ball2t.png" /></div>-->
-        <!--</a>-->
-        <!--<a href="video.html" class="section1_ball section1_ball3"-->
-            <!--data-100="opacity:1;" data-400="opacity:0;">-->
-           <!--<div class="ball_round"></div>-->
-           <!--<div class="ball"><img src="img/section1_ball3.png" /></div>-->
-           <!--<div class="ballt"><img src="img/section1_ball3t.png" /></div>-->
-        <!--</a>-->
-        <!--<a href="story.html" class="section1_ball section1_ball4"-->
-            <!--data-100="opacity:1;" data-400="opacity:0;">-->
-           <!--<div class="ball_round"></div>-->
-           <!--<div class="ball"><img src="img/section1_ball4.png" /></div>-->
-           <!--<div class="ballt"><img src="img/section1_ball4t.png" /></div>-->
-        <!--</a>-->
+    <div class="section section1">
+        <div class="section1_title" data-100="opacity:1;" data-400="opacity:0"><img data-style="opacity:0;" data-animate="opacity:1;" data-delay="800" data-time="800" src="img/section1_title.png" /></div>
+        <div data-style="opacity:0;" data-animate="opacity:1;" data-delay="700" data-time="800">
+            <a data-style="margin-top:-150px;" data-animate="margin-top:0px;" data-delay="700" data-time="800"
+               href="signature.html" class="section1_ball section1_ball1"
+                   data-100="opacity:1;" data-400="opacity:0;">
+               <div class="ball_round"></div>
+               <div class="ball"><img src="img/section1_ball1.png" /></div>
+               <div class="ballt"><img src="img/section1_ball1t.png" /></div>
+            </a>
+        </div>
+        <div data-style="opacity:0;" data-animate="opacity:1;" data-delay="800" data-time="800">
+            <a data-style="margin-top:-150px;" data-animate="margin-top:0px;" data-delay="800" data-time="800"
+               href="testimonial.html" class="section1_ball section1_ball2"
+                data-100="opacity:1;" data-400="opacity:0;">
+               <div class="ball_round"></div>
+               <div class="ball"><img src="img/section1_ball2.png" /></div>
+               <div class="ballt"><img src="img/section1_ball2t.png" /></div>
+            </a>
+        </div>
+        <div data-style="opacity:0;" data-animate="opacity:1;" data-delay="900" data-time="800">
+            <a data-style="margin-top:-150px;" data-animate="margin-top:0px;" data-delay="900" data-time="800"
+               href="video.html" class="section1_ball section1_ball3"
+                data-100="opacity:1;" data-400="opacity:0;">
+               <div class="ball_round"></div>
+               <div class="ball"><img src="img/section1_ball3.png" /></div>
+               <div class="ballt"><img src="img/section1_ball3t.png" /></div>
+            </a>
+        </div>
+        <div data-style="opacity:0;" data-animate="opacity:1;" data-delay="1000" data-time="800">
+            <a data-style="margin-top:-150px;" data-animate="margin-top:0px;" data-delay="1000" data-time="800"
+               href="story.html" class="section1_ball section1_ball4"
+                data-100="opacity:1;" data-400="opacity:0;">
+               <div class="ball_round"></div>
+               <div class="ball"><img src="img/section1_ball4.png" /></div>
+               <div class="ballt"><img src="img/section1_ball4t.png" /></div>
+            </a>
+        </div>
+        <div data-style="opacity:0;" data-animate="opacity:1;" data-delay="1000" data-time="800">
+            <div class="section1_arrow"
+                data-100="opacity:1;" data-600="opacity:0"></div>
+        </div>
+        <div class="section1_ball5_btn" data-0="display:block;"  data-800="display:none;"></div>
+    </div>
 
-        <!--<div class="section1_arrow"-->
-            <!--data-100="opacity:1;" data-600="opacity:0"></div>-->
-        <!--<div class="section1_ball5_btn" data-0="display:block;"  data-800="display:none;"></div>-->
-    <!--</div>-->
+    <div data-style="opacity:0;" data-animate="opacity:1;" data-delay="1200" data-time="800" class="section1_ball section1_ball5" data-0="display:block;" data-4501="display:none;">
+        <div class="ball_slider" data-100="opacity:1;margin-top:-69px;" data-400="opacity:0;margin-top:0px;">
+            <img class="on" src="img/section1_ball5_1.png" style="display:block;" />
+            <img src="img/section1_ball5_2.png" />
+            <img src="img/section1_ball5_3.png" />
+        </div>
+        <div class="ball"
+             data-100="transform:translate3d(0,0px,0) scale(1);" data-400="transform:translate3d(0,70px,0) scale(1);"
+             data-900="transform:translate3d(0,-22px,0) scale(0.6);">
+        </div>
+        <div class="ball_t"
+             data-100="opacity:1;" data-400="opacity:0">
+            <img src="img/section1_ball5t.png" />
+        </div>
+    </div>
 
-    <!--<div class="section1_ball section1_ball5" data-0="display:block;" data-4501="display:none;">-->
-        <!--<div class="ball_slider" data-100="opacity:1;margin-top:-69px;" data-400="opacity:0;margin-top:0px;">-->
-            <!--<img class="on" src="img/section1_ball5_1.png" style="display:block;" />-->
-            <!--<img src="img/section1_ball5_2.png" />-->
-            <!--<img src="img/section1_ball5_3.png" />-->
-        <!--</div>-->
-        <!--<div class="ball"-->
-             <!--data-100="margin-top:-73px;" data-400="margin-top:0px;transform:scale(1);"-->
-             <!--data-900="margin-top:-93px;transform:scale(0.6);">-->
-        <!--</div>-->
-        <!--<div class="ball_t"-->
-             <!--data-100="opacity:1;" data-400="opacity:0">-->
-            <!--<img src="img/section1_ball5t.png" />-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="section section2" data-0="display:block;" data-6500="display:none;">
+        <div class="section2_wrap" data-4500="display:block;" data-4501="display:none;">
+            <div class="section2_txt"
+                 data-500="opacity:0;" data-800="opacity:1;"
+                 data-2200="opacity:1;" data-2600="opacity:0;"><img src="img/section2_txt.png" /></div>
+            <div class="section2_txt2"
+                 data-3000="opacity:0;" data-3300="opacity:1;"
+                 data-4000="opacity:1;" data-4300="opacity:0;"><img src="img/section2_txt2.png" /></div>
+            <div class="drop_wrap"
+                 data-700="opacity:0;transform:translate3d(0,50px,0);" data-1000="opacity:1;transform:translate3d(0,-20px,0);">
+                <div class="section2_drop section2_drop1"><img src="img/section2_drop2.png" /></div>
+                <div class="section2_drop section2_drop2"><img src="img/section2_drop2.png" /></div>
+                <div class="section2_drop section2_drop3"><img src="img/section2_drop2.png" /></div>
+            </div>
+            <div class="drop_wrap"
+                 data-720="opacity:0;transform:translate3d(0,50px,0);" data-1020="opacity:1;transform:translate3d(0,-20px,0);">
+                <div class="section2_drop section2_drop4"><img src="img/section2_drop3.png" /></div>
+                <div class="section2_drop section2_drop5"><img src="img/section2_drop3.png" /></div>
+                <div class="section2_drop section2_drop6"><img src="img/section2_drop3.png" /></div>
+                <div class="section2_drop section2_drop7"><img src="img/section2_drop3.png" /></div>
+                <div class="section2_drop section2_drop8"><img src="img/section2_drop3.png" /></div>
+            </div>
+            <div class="drop_wrap"
+                 data-740="opacity:0;transform:translate3d(0,50px,0);" data-1040="opacity:1;transform:translate3d(0,-20px,0);">
+                <div class="section2_drop section2_drop9"><img src="img/section2_drop4.png" /></div>
+                <div class="section2_drop section2_drop10"><img src="img/section2_drop4.png" /></div>
+                <div class="section2_drop section2_drop11"><img src="img/section2_drop4.png" /></div>
+                <div class="section2_drop section2_drop12"><img src="img/section2_drop4.png" /></div>
+            </div>
+            <div class="section2_icon section2_icon_na"
+                 data-1050="opacity:0;" data-1350="opacity:1;"
+                 data-1600="margin:-10px 0 0 -136px;" data-2000="opacity:1;margin:-20px 0 0 -22px;"
+                 data-1900="opacity:1;" data-2100="opacity:0;"><img src="img/section2_icon_na.png" /></div>
+            <div class="section2_icon section2_icon_c"
+                 data-1100="opacity:0;" data-1400="opacity:1;"
+                 data-1600="margin:65px 0 0 -95px;" data-2000="opacity:1;margin:-20px 0 0 -22px;"
+                 data-1900="opacity:1;" data-2100="opacity:0;"><img src="img/section2_icon_c.png" /></div>
+            <div class="section2_icon section2_icon_k"
+                 data-1150="opacity:0;" data-1450="opacity:1;"
+                 data-1600="margin:85px 0 0 -25px;" data-2000="opacity:1;margin:-20px 0 0 -22px;"
+                 data-1900="opacity:1;" data-2100="opacity:0;"><img src="img/section2_icon_k.png" /></div>
+            <div class="section2_icon section2_icon_i"
+                 data-1200="opacity:0;" data-1500="opacity:1;"
+                 data-1600="margin:65px 0 0 65px;" data-2000="opacity:1;margin:-20px 0 0 -22px;"
+                 data-1900="opacity:1;" data-2100="opacity:0;"><img src="img/section2_icon_i.png" /></div>
+            <div class="section2_icon section2_icon_o"
+                 data-1250="opacity:0;" data-1550="opacity:1;"
+                 data-1600="margin:-20px 0 0 95px;" data-2000="opacity:1;margin:-30px 0 0 -29px;"
+                 data-1900="opacity:1;" data-2200="opacity:0;"><img src="img/section2_icon_o.png" /></div>
 
-    <!--<div class="section section2" data-0="display:block;" data-6500="display:none;">-->
-        <!--<div class="section2_wrap" data-4500="display:block;" data-4501="display:none;">-->
-            <!--<div class="section2_txt"-->
-                 <!--data-500="opacity:0;margin-bottom:-50px;" data-800="opacity:1;margin-bottom:0px;"-->
-                 <!--data-2200="opacity:1;" data-2600="opacity:0;"><img src="img/section2_txt.png" /></div>-->
-            <!--<div class="section2_txt2"-->
-                 <!--data-3000="opacity:0;margin-bottom:20px;" data-3300="opacity:1;margin-bottom:0px;"-->
-                 <!--data-4000="opacity:1;" data-4300="opacity:0;"><img src="img/section2_txt2.png" /></div>-->
-            <!--<div class="drop_wrap"-->
-                 <!--data-700="opacity:0;margin-top:0px;" data-1000="opacity:1;margin-top:-155px;">-->
-                <!--<div class="section2_drop section2_drop1"><img src="img/section2_drop2.png" /></div>-->
-                <!--<div class="section2_drop section2_drop2"><img src="img/section2_drop2.png" /></div>-->
-                <!--<div class="section2_drop section2_drop3"><img src="img/section2_drop2.png" /></div>-->
-            <!--</div>-->
-            <!--<div class="drop_wrap"-->
-                 <!--data-720="opacity:0;margin-top:0px;" data-1020="opacity:1;margin-top:-155px;">-->
-                <!--<div class="section2_drop section2_drop4"><img src="img/section2_drop3.png" /></div>-->
-                <!--<div class="section2_drop section2_drop5"><img src="img/section2_drop3.png" /></div>-->
-                <!--<div class="section2_drop section2_drop6"><img src="img/section2_drop3.png" /></div>-->
-                <!--<div class="section2_drop section2_drop7"><img src="img/section2_drop3.png" /></div>-->
-                <!--<div class="section2_drop section2_drop8"><img src="img/section2_drop3.png" /></div>-->
-            <!--</div>-->
-            <!--<div class="drop_wrap"-->
-                 <!--data-740="opacity:0;margin-top:0px;" data-1040="opacity:1;margin-top:-155px;">-->
-                <!--<div class="section2_drop section2_drop9"><img src="img/section2_drop4.png" /></div>-->
-                <!--<div class="section2_drop section2_drop10"><img src="img/section2_drop4.png" /></div>-->
-                <!--<div class="section2_drop section2_drop11"><img src="img/section2_drop4.png" /></div>-->
-                <!--<div class="section2_drop section2_drop12"><img src="img/section2_drop4.png" /></div>-->
-            <!--</div>-->
-            <!--<div class="section2_icon section2_icon_na"-->
-                 <!--data-1050="opacity:0;" data-1350="opacity:1;"-->
-                 <!--data-1600="margin:-10px 0 0 -136px;" data-2000="opacity:1;margin:-20px 0 0 -22px;"-->
-                 <!--data-1900="opacity:1;" data-2100="opacity:0;"><img src="img/section2_icon_na.png" /></div>-->
-            <!--<div class="section2_icon section2_icon_c"-->
-                 <!--data-1100="opacity:0;" data-1400="opacity:1;"-->
-                 <!--data-1600="margin:65px 0 0 -95px;" data-2000="opacity:1;margin:-20px 0 0 -22px;"-->
-                 <!--data-1900="opacity:1;" data-2100="opacity:0;"><img src="img/section2_icon_c.png" /></div>-->
-            <!--<div class="section2_icon section2_icon_k"-->
-                 <!--data-1150="opacity:0;" data-1450="opacity:1;"-->
-                 <!--data-1600="margin:85px 0 0 -25px;" data-2000="opacity:1;margin:-20px 0 0 -22px;"-->
-                 <!--data-1900="opacity:1;" data-2100="opacity:0;"><img src="img/section2_icon_k.png" /></div>-->
-            <!--<div class="section2_icon section2_icon_i"-->
-                 <!--data-1200="opacity:0;" data-1500="opacity:1;"-->
-                 <!--data-1600="margin:65px 0 0 65px;" data-2000="opacity:1;margin:-20px 0 0 -22px;"-->
-                 <!--data-1900="opacity:1;" data-2100="opacity:0;"><img src="img/section2_icon_i.png" /></div>-->
-            <!--<div class="section2_icon section2_icon_o"-->
-                 <!--data-1250="opacity:0;" data-1550="opacity:1;"-->
-                 <!--data-1600="margin:-20px 0 0 95px;" data-2000="opacity:1;margin:-30px 0 0 -29px;"-->
-                 <!--data-1900="opacity:1;" data-2200="opacity:0;"><img src="img/section2_icon_o.png" /></div>-->
+        </div>
+        <div class="section_bg section2_cloud"
+             data-2200="bottom:100%" data-2600="bottom:0%;"
+             data-4000="bottom:0%;" data-4400="bottom:50%;"
+             data-5600="bottom:50%;" data-5900="bottom:100%">
+            <div class="bg_inner"
+                 data-2200="transform:translate3d(0,-200px,0);" data-2600="transform:translate3d(0,50px,0);"></div>
+        </div>
+    </div>
 
-        <!--</div>-->
-        <!--<div class="section_bg section2_cloud"-->
-             <!--data-2200="height:0%;background-position:0 -100px;" data-3000="height:100%;background-position:0 0px;"-->
-             <!--data-3000="background-position:0 100px;"-->
-             <!--data-4000="background-position:0 100px;height:100%;" data-4400="background-position:0 -20px;height:50%;"-->
-             <!--data-5600="height:50%;" data-5900="height:0%;"></div>-->
-    <!--</div>-->
+    <div class="section section3">
+        <div class="section3_white"
+                data-3900="transform:translate3d(0,1000px,0);height:0px;" data-4200="transform:translate3d(0,0px,0);height:473px;"
+                data-5600="transform:translate3d(0,0px,0);" data-6000="transform:translate3d(0,-1000px,0);">
+            <div class="section3_map"
+                    data-4200="opacity:0;" data-4700="opacity:1;">
+                <div class="section3_map_t1"><img src="img/section3_map_t1.png" /></div>
+                <div class="section3_map_t2"><img src="img/section3_map_t2.png" /></div>
+                <div class="section3_map_t3"><img src="img/section3_map_t3.png" /></div>
+                <div class="section3_map_l1"
+                     data-4700="width:0px;" data-4900="width:350px;"></div>
+                <div class="section3_map_l2"
+                     data-4700="width:0px;" data-4900="width:99px;"></div>
+            </div>
+            <div class="section3_txt" data-4500="opacity:0;" data-4800="opacity:1;"><img src="img/section3_txt.png" /></div>
+        </div>
+    </div>
 
-    <!--<div class="section section3">-->
-        <!--<div class="section3_white"-->
-                <!--data-3900="top:140%;height:0px;" data-4200="top:50%;height:473px;"-->
-                <!--data-5600="top:50%;" data-6000="top:-50%;">-->
-            <!--<div class="section3_map"-->
-                    <!--data-4200="opacity:0;" data-4700="opacity:1;">-->
-                <!--<div class="section3_map_t1"><img src="img/section3_map_t1.png" /></div>-->
-                <!--<div class="section3_map_t2"><img src="img/section3_map_t2.png" /></div>-->
-                <!--<div class="section3_map_t3"><img src="img/section3_map_t3.png" /></div>-->
-                <!--<div class="section3_map_l1"-->
-                     <!--data-4700="width:0px;" data-4900="width:350px;"></div>-->
-                <!--<div class="section3_map_l2"-->
-                     <!--data-4700="width:0px;" data-4900="width:99px;"></div>-->
-            <!--</div>-->
-            <!--<div class="section3_txt" data-4500="opacity:0;" data-4800="opacity:1;"><img src="img/section3_txt.png" /></div>-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="section section4">
+        <div class="section_bg section4_cloud" data-0="display:none;" data-5800="display:block;">
+            <div class="bg_inner"
+                 data-5800="display:block;transform:translate3d(0,0px,0);" data-6500="transform:translate3d(0,-290px,0);"></div>
+        </div>
+        <div class="section4_txt"
+             data-5800="opacity:0;" data-6100="opacity:1;"
+             data-6800="opacity:1;" data-7100="opacity:0;"><img src="img/section4_txt.png" /></div>
+        <div data-0="display:none;" data-4800="display:block;" data-7400="display:none;">
+            <div class="drop_wrap"
+                 data-5800="opacity:0;transform:translate3d(0,-50px,0);" data-6100="opacity:1;transform:translate3d(0,20px,0);">
+                <div class="section2_drop section2_drop1"><img src="img/section2_drop2.png" /></div>
+                <div class="section2_drop section2_drop2"><img src="img/section2_drop2.png" /></div>
+                <div class="section2_drop section2_drop3"><img src="img/section2_drop2.png" /></div>
+            </div>
+            <div class="drop_wrap"
+                 data-5820="opacity:0;transform:translate3d(0,-50px,0);" data-6120="opacity:1;transform:translate3d(0,20px,0);">
+                <div class="section2_drop section2_drop4"><img src="img/section2_drop3.png" /></div>
+                <div class="section2_drop section2_drop5"><img src="img/section2_drop3.png" /></div>
+                <div class="section2_drop section2_drop6"><img src="img/section2_drop3.png" /></div>
+                <div class="section2_drop section2_drop7"><img src="img/section2_drop3.png" /></div>
+                <div class="section2_drop section2_drop8"><img src="img/section2_drop3.png" /></div>
+            </div>
+            <div class="drop_wrap"
+                 data-5840="opacity:0;transform:translate3d(0,-50px,0);" data-6140="opacity:1;transform:translate3d(0,20px,0);">
+                <div class="section2_drop section2_drop9"><img src="img/section2_drop4.png" /></div>
+                <div class="section2_drop section2_drop10"><img src="img/section2_drop4.png" /></div>
+                <div class="section2_drop section2_drop11"><img src="img/section2_drop4.png" /></div>
+                <div class="section2_drop section2_drop12"><img src="img/section2_drop4.png" /></div>
+            </div>
+            <div class="section4_ball"
+                 data-5800="opacity:0;transform:translate3d(0,-50px,0);" data-6100="opacity:1;transform:translate3d(0,20px,0);">
+                <img src="img/section2_drop1.png" />
+            </div>
+        </div>
+    </div>
 
-    <!--<div class="section section4">-->
-        <!--<div class="section_bg section4_cloud" data-0="display:none;" data-5800="display:block;background-position:0px 0px"-->
-                <!--data-6500="background-position:0px -290px"></div>-->
-        <!--<div class="section4_txt"-->
-             <!--data-5800="opacity:0;" data-6100="opacity:1;"-->
-             <!--data-6800="opacity:1;" data-7100="opacity:0;"><img src="img/section4_txt.png" /></div>-->
-        <!--<div data-0="display:none;" data-4800="display:block;" data-7400="display:none;">-->
-            <!--<div class="drop_wrap"-->
-                 <!--data-5800="opacity:0;margin-top:-205px;" data-6100="opacity:1;margin-top:-155px;">-->
-                <!--<div class="section2_drop section2_drop1"><img src="img/section2_drop2.png" /></div>-->
-                <!--<div class="section2_drop section2_drop2"><img src="img/section2_drop2.png" /></div>-->
-                <!--<div class="section2_drop section2_drop3"><img src="img/section2_drop2.png" /></div>-->
-            <!--</div>-->
-            <!--<div class="drop_wrap"-->
-                 <!--data-5820="opacity:0;margin-top:-205px;" data-6120="opacity:1;margin-top:-155px;">-->
-                <!--<div class="section2_drop section2_drop4"><img src="img/section2_drop3.png" /></div>-->
-                <!--<div class="section2_drop section2_drop5"><img src="img/section2_drop3.png" /></div>-->
-                <!--<div class="section2_drop section2_drop6"><img src="img/section2_drop3.png" /></div>-->
-                <!--<div class="section2_drop section2_drop7"><img src="img/section2_drop3.png" /></div>-->
-                <!--<div class="section2_drop section2_drop8"><img src="img/section2_drop3.png" /></div>-->
-            <!--</div>-->
-            <!--<div class="drop_wrap"-->
-                 <!--data-5840="opacity:0;margin-top:-205px;" data-6140="opacity:1;margin-top:-155px;">-->
-                <!--<div class="section2_drop section2_drop9"><img src="img/section2_drop4.png" /></div>-->
-                <!--<div class="section2_drop section2_drop10"><img src="img/section2_drop4.png" /></div>-->
-                <!--<div class="section2_drop section2_drop11"><img src="img/section2_drop4.png" /></div>-->
-                <!--<div class="section2_drop section2_drop12"><img src="img/section2_drop4.png" /></div>-->
-            <!--</div>-->
-            <!--<div class="section4_ball"-->
-                 <!--data-5800="opacity:0;margin-top:-100px;" data-6100="opacity:1;margin-top:-64px;">-->
-                <!--<img src="img/section2_drop1.png" />-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="section section5">
+        <div class="section5_white"
+             data-7000="transform:translate3d(0,1000px,0);height:0px;" data-7300="transform:translate3d(0,0px,0);height:474px;"
+             data-8100="transform:translate3d(0,0px,0);" data-8500="transform:translate3d(0,-1000px,0);">
+            <div class="section5_txt"
+                 data-7400="opacity:0;" data-7900="opacity:1;"><img src="img/section5_txt.png" /></div>
+            <div class="section5_map"
+                 data-7300="opacity:0;" data-7800="opacity:1;"><img src="img/section5_map.jpg" /></div>
+        </div>
+    </div>
 
-    <!--<div class="section section5">-->
-        <!--<div class="section5_white"-->
-             <!--data-7000="top:140%;height:0px;" data-7300="top:50%;height:474px;"-->
-             <!--data-8100="top:50%;" data-8500="top:-50%;">-->
-            <!--<div class="section5_txt"-->
-                 <!--data-7400="opacity:0;" data-7900="opacity:1;"><img src="img/section5_txt.png" /></div>-->
-            <!--<div class="section5_map"-->
-                 <!--data-7300="opacity:0;" data-7800="opacity:1;"><img src="img/section5_map.jpg" /></div>-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="section section6">
+        <div class="section6_txt1"
+             data-8500="opacity:0;" data-8800="opacity:1;"
+             data-9500="opacity:1;" data-9800="opacity:0;"><img src="img/section6_txt1.png" /></div>
+        <div class="section6_txt2"
+             data-8600="opacity:0;" data-8900="opacity:1;"
+             data-9500="opacity:1;" data-9800="opacity:0;"><img src="img/section6_txt2.png" /></div>
+        <div class="section6_drop_wrap_overflow"
+             data-9800="bottom:0%;" data-10200="bottom:100%;">
+            <div class="section6_drop_wrap">
+                <div class="drop_wrap"
+                     data-8200="opacity:0;margin-top:-205px;" data-8500="opacity:1;margin-top:-155px;">
+                    <div class="section2_drop section2_drop1"><img src="img/section2_drop2.png" /></div>
+                    <div class="section2_drop section2_drop2"><img src="img/section2_drop2.png" /></div>
+                    <div class="section2_drop section2_drop3"><img src="img/section2_drop2.png" /></div>
+                </div>
+                <div class="drop_wrap"
+                     data-8220="opacity:0;margin-top:-205px;" data-8520="opacity:1;margin-top:-155px;">
+                    <div class="section2_drop section2_drop4"><img src="img/section2_drop3.png" /></div>
+                    <div class="section2_drop section2_drop5"><img src="img/section2_drop3.png" /></div>
+                    <div class="section2_drop section2_drop6"><img src="img/section2_drop3.png" /></div>
+                    <div class="section2_drop section2_drop7"><img src="img/section2_drop3.png" /></div>
+                    <div class="section2_drop section2_drop8"><img src="img/section2_drop3.png" /></div>
+                </div>
+                <div class="drop_wrap"
+                     data-8240="opacity:0;margin-top:-205px;" data-8540="opacity:1;margin-top:-155px;">
+                    <div class="section2_drop section2_drop9"><img src="img/section2_drop4.png" /></div>
+                    <div class="section2_drop section2_drop10"><img src="img/section2_drop4.png" /></div>
+                    <div class="section2_drop section2_drop11"><img src="img/section2_drop4.png" /></div>
+                    <div class="section2_drop section2_drop12"><img src="img/section2_drop4.png" /></div>
+                </div>
+                <div class="section4_ball"
+                     data-8200="opacity:0;margin-top:-100px;" data-8500="opacity:1;margin-top:-64px;">
+                    <img src="img/section2_drop1.png" />
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!--<div class="section section6">-->
-        <!--<div class="section6_txt1"-->
-             <!--data-8500="opacity:0;" data-8800="opacity:1;"-->
-             <!--data-9500="opacity:1;" data-9800="opacity:0;"><img src="img/section6_txt1.png" /></div>-->
-        <!--<div class="section6_txt2"-->
-             <!--data-8600="opacity:0;" data-8900="opacity:1;"-->
-             <!--data-9500="opacity:1;" data-9800="opacity:0;"><img src="img/section6_txt2.png" /></div>-->
-        <!--<div class="section6_drop_wrap_overflow"-->
-             <!--data-9800="height:100%;" data-10200="height:0%;">-->
-            <!--<div class="section6_drop_wrap">-->
-                <!--<div class="drop_wrap"-->
-                     <!--data-8200="opacity:0;margin-top:-205px;" data-8500="opacity:1;margin-top:-155px;">-->
-                    <!--<div class="section2_drop section2_drop1"><img src="img/section2_drop2.png" /></div>-->
-                    <!--<div class="section2_drop section2_drop2"><img src="img/section2_drop2.png" /></div>-->
-                    <!--<div class="section2_drop section2_drop3"><img src="img/section2_drop2.png" /></div>-->
-                <!--</div>-->
-                <!--<div class="drop_wrap"-->
-                     <!--data-8220="opacity:0;margin-top:-205px;" data-8520="opacity:1;margin-top:-155px;">-->
-                    <!--<div class="section2_drop section2_drop4"><img src="img/section2_drop3.png" /></div>-->
-                    <!--<div class="section2_drop section2_drop5"><img src="img/section2_drop3.png" /></div>-->
-                    <!--<div class="section2_drop section2_drop6"><img src="img/section2_drop3.png" /></div>-->
-                    <!--<div class="section2_drop section2_drop7"><img src="img/section2_drop3.png" /></div>-->
-                    <!--<div class="section2_drop section2_drop8"><img src="img/section2_drop3.png" /></div>-->
-                <!--</div>-->
-                <!--<div class="drop_wrap"-->
-                     <!--data-8240="opacity:0;margin-top:-205px;" data-8540="opacity:1;margin-top:-155px;">-->
-                    <!--<div class="section2_drop section2_drop9"><img src="img/section2_drop4.png" /></div>-->
-                    <!--<div class="section2_drop section2_drop10"><img src="img/section2_drop4.png" /></div>-->
-                    <!--<div class="section2_drop section2_drop11"><img src="img/section2_drop4.png" /></div>-->
-                    <!--<div class="section2_drop section2_drop12"><img src="img/section2_drop4.png" /></div>-->
-                <!--</div>-->
-                <!--<div class="section4_ball"-->
-                     <!--data-8200="opacity:0;margin-top:-100px;" data-8500="opacity:1;margin-top:-64px;">-->
-                    <!--<img src="img/section2_drop1.png" />-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
+    <div class="section section7">
+        <div class="section7_txt"
+             data-10600="opacity:0;" data-10900="opacity:1;"
+             data-11500="opacity:1;" data-11800="opacity:0;"><img src="img/section7_txt.png" /></div>
+        <div class="section7_white"
+             data-11600="transform:translate3d(0,1000px,0);" data-11800="transform:translate3d(0,0px,0);"
+             data-13600="transform:translate3d(0,0px,0);" data-13900="transform:translate3d(0,-1000px,0);">
+            <div class="section7_pic" data-11800="opacity:0;" data-12200="opacity:1;">
+                <div class="section7_pic_t1"
+                     data-12500="width:0px;opacity:0;" data-12700="width:509px;opacity:1;"></div>
+                <div class="section7_pic_t2"
+                     data-12700="width:0px;opacity:0;" data-12900="width:509px;opacity:1;"></div>
+                <div class="section7_drop"
+                     data-12200="opacity:0;top:20%;" data-12500="opacity:1;top:50%;"><img src="img/section2_drop1.png" /></div>
+            </div>
+            <div class="section7_txt2" data-11900="opacity:0;" data-12300="opacity:1;"><img src="img/section7_txt2.png" /></div>
+        </div>
+    </div>
 
-    <!--</div>-->
-
-    <!--<div class="section section7">-->
-        <!--<div class="section7_txt"-->
-             <!--data-10600="opacity:0;" data-10900="opacity:1;"-->
-             <!--data-11500="opacity:1;" data-11800="opacity:0;"><img src="img/section7_txt.png" /></div>-->
-        <!--<div class="section7_white"-->
-             <!--data-11600="transform:translate3d(0,140%,0);" data-11800="transform:translate3d(0,0%,0);"-->
-             <!--data-13600="top:50%;" data-13900="top:-50%;">-->
-            <!--<div class="section7_pic" data-11800="opacity:0;" data-12200="opacity:1;">-->
-                <!--<div class="section7_pic_t1"-->
-                     <!--data-12500="width:0px;opacity:0;" data-12700="width:509px;opacity:1;"></div>-->
-                <!--<div class="section7_pic_t2"-->
-                     <!--data-12700="width:0px;opacity:0;" data-12900="width:509px;opacity:1;"></div>-->
-                <!--<div class="section7_drop"-->
-                     <!--data-12200="opacity:0;top:20%;" data-12500="opacity:1;top:50%;"><img src="img/section2_drop1.png" /></div>-->
-            <!--</div>-->
-            <!--<div class="section7_txt2" data-11900="opacity:0;" data-12300="opacity:1;"><img src="img/section7_txt2.png" /></div>-->
-        <!--</div>-->
-    <!--</div>-->
-
-    <!--<div class="section section8">-->
-        <!--<div class="section8_txt"-->
-             <!--data-14800="opacity:0;" data-15100="opacity:1;"-->
-             <!--data-15800="opacity:1;" data-16100="opacity:0;"><img src="img/section8_txt.png" /></div>-->
-        <!--<div class="section8_drop_wrap">-->
-            <!--<div class="section8_drop2"-->
-                 <!--data-13900="bottom:-20%;left:8%;" data-14200="bottom:15%;left:22%;"-->
-                 <!--data-14500="bottom:15%;left:22%;" data-14800="bottom:39%;left:33%;opacity:1;" data-15000="opacity:0;"><img src="img/section8_drop.png" /></div>-->
-            <!--<div class="section8_drop1"-->
-                 <!--data-13900="top:-20%;left:63%;" data-14200="top:24%;left:38%;transform:scale(0.8);"-->
-                 <!--data-14500="top:24%;left:38%;transform:scale(0.8);" data-14800="top:40%;left:31%;transform:scale(1);"-->
-                 <!--data-16100="top:40%;left:31%;" data-16400="top:-20%;left:63%;"><img src="img/section8_drop2.png" /></div>-->
+    <div class="section section8">
+        <div class="section8_txt"
+             data-14800="opacity:0;" data-15100="opacity:1;"
+             data-15800="opacity:1;" data-16100="opacity:0;"><img src="img/section8_txt.png" /></div>
+        <div class="section8_drop_wrap">
+            <div class="section8_drop2"
+                 data-13900="bottom:-20%;left:8%;" data-14200="bottom:15%;left:22%;"
+                 data-14500="bottom:15%;left:22%;" data-14800="bottom:39%;left:33%;opacity:1;" data-15000="opacity:0;"><img src="img/section8_drop.png" /></div>
+            <div class="section8_drop1"
+                 data-13900="top:-20%;left:63%;" data-14200="top:24%;left:38%;transform:scale(0.8);"
+                 data-14500="top:24%;left:38%;transform:scale(0.8);" data-14800="top:40%;left:31%;transform:scale(1);"
+                 data-16100="top:40%;left:31%;" data-16400="top:-20%;left:63%;"><img src="img/section8_drop2.png" /></div>
 
 
-            <!--<div class="section8_icon1"-->
-                 <!--data-14200="opacity:0;" data-14500="opacity:1;"-->
-                 <!--data-14800="opacity:0;"><img src="img/section8_icon1.png" /></div>-->
-            <!--<div class="section8_icon2"-->
-                 <!--data-14200="opacity:0;" data-14500="opacity:1;"-->
-                 <!--data-14800="opacity:0;"><img src="img/section8_icon2.png" /></div>-->
+            <div class="section8_icon1"
+                 data-14200="opacity:0;" data-14500="opacity:1;"
+                 data-14800="opacity:0;"><img src="img/section8_icon1.png" /></div>
+            <div class="section8_icon2"
+                 data-14200="opacity:0;" data-14500="opacity:1;"
+                 data-14800="opacity:0;"><img src="img/section8_icon2.png" /></div>
 
 
-            <!--<div class="section8_icon3"-->
-                 <!--data-14500="opacity:0;" data-14800="opacity:1;"-->
-                 <!--data-16100="opacity:1;" data-16400="opacity:0;"><img src="img/section8_icon3.png" /></div>-->
-            <!--<div class="section8_icon4"-->
-                 <!--data-14500="opacity:0;" data-14800="opacity:1;"-->
-                 <!--data-16100="opacity:1;" data-16400="opacity:0;"><img src="img/section8_icon4.png" /></div>-->
-        <!--</div>-->
-    <!--</div>-->
+            <div class="section8_icon3"
+                 data-14500="opacity:0;" data-14800="opacity:1;"
+                 data-16100="opacity:1;" data-16400="opacity:0;"><img src="img/section8_icon3.png" /></div>
+            <div class="section8_icon4"
+                 data-14500="opacity:0;" data-14800="opacity:1;"
+                 data-16100="opacity:1;" data-16400="opacity:0;"><img src="img/section8_icon4.png" /></div>
+        </div>
+    </div>
 
-    <!--<div class="section section9">-->
-        <!--<div class="section9_drop" data-16800="bottom:-30%;" data-17300="bottom:40%;"-->
-             <!--data-17600="opacity:1;bottom:40%;" data-17900="opacity:0;bottom:-30%;"><img src="img/section8_drop2.png" /></div>-->
-        <!--<div class="section9_txt" data-16800="opacity:0;margin-bottom:-20px;" data-17300="opacity:1;margin-bottom:0px;"-->
-             <!--data-17600="opacity:1;margin-bottom:0px;" data-17900="opacity:0;margin-bottom:-20px;"><img src="img/section9_txt.png" /></div>-->
-    <!--</div>-->
+    <div class="section section9">
+        <div class="section9_drop" data-16800="transform:translate3d(0,700px,0);" data-17300="transform:translate3d(0,0px,0);"
+             data-18000="opacity:1;transform:translate3d(0,0px,0);" data-18400="opacity:0;"><img src="img/section8_drop2.png" /></div>
+        <div class="section9_txt" data-16800="opacity:0;" data-17300="opacity:1;"
+             data-17600="opacity:1;" data-17900="opacity:0;"><img src="img/section9_txt.png" /></div>
+    </div>
 
-    <!--<div class="section section10"-->
-         <!--data-18400="z-index:3;" data-18700="z-index:8;">-->
-        <!--<div class="section10_txt1" data-18400="opacity:0;margin-bottom:-20px;" data-18700="opacity:1;margin-bottom:0px;"-->
-             <!--data-19500="opacity:1;" data-19800="opacity:0;"><img src="img/section10_txt1.png" /></div>-->
-        <!--<div class="section10_txt2" data-19500="opacity:0;margin-bottom:-20px;" data-19800="opacity:1;margin-bottom:0px;"-->
-             <!--data-21500="opacity:1;" data-21800="opacity:0;"><img src="img/section10_txt2.png" /></div>-->
-        <!--<div data-pid="1" class="section10_s section10_s1"-->
-             <!--data-18450="opacity:0;margin-bottom:-20px;" data-18750="opacity:1;margin-bottom:0px;"-->
-             <!--data-19500="opacity:1;display:block;" data-19800="opacity:0;display:none;"><img src="img/section10_s1.jpg" /></div>-->
-        <!--<div data-pid="2" class="section10_s section10_s2"-->
-             <!--data-18500="opacity:0;margin-bottom:-20px;" data-18800="opacity:1;margin-bottom:0px;"-->
-             <!--data-19500="opacity:1;display:block;" data-19800="opacity:0;display:none;"><img src="img/section10_s2.jpg" /></div>-->
-        <!--<div data-pid="3" class="section10_s section10_s3"-->
-             <!--data-18550="opacity:0;margin-bottom:-20px;" data-18850="opacity:1;margin-bottom:0px;"-->
-             <!--data-19500="opacity:1;display:block;" data-19800="opacity:0;display:none;"><img src="img/section10_s3.jpg" /></div>-->
-        <!--<div class="section10_p section10_p1"><img src="img/section10_p1.jpg" /></div>-->
-        <!--<div class="section10_p section10_p2"><img src="img/section10_p2.jpg" /></div>-->
-        <!--<div class="section10_p section10_p3"><img src="img/section10_p3.jpg" /></div>-->
-    <!--</div>-->
+    <div class="section section10"
+         data-18400="z-index:3;" data-18700="z-index:8;">
+        <div class="section10_txt1" data-18400="opacity:0;" data-18700="opacity:1;"
+             data-19500="opacity:1;" data-19800="opacity:0;"><img src="img/section10_txt1.png" /></div>
+        <div class="section10_txt2" data-19500="opacity:0;" data-19800="opacity:1;"
+             data-21500="opacity:1;" data-21800="opacity:0;"><img src="img/section10_txt2.png" /></div>
+        <div data-pid="1" class="section10_s section10_s1"
+             data-18450="opacity:0;" data-18750="opacity:1;"
+             data-19500="opacity:1;display:block;" data-19800="opacity:0;display:none;"><img src="img/section10_s1.jpg" /></div>
+        <div data-pid="2" class="section10_s section10_s2"
+             data-18500="opacity:0;" data-18800="opacity:1;"
+             data-19500="opacity:1;display:block;" data-19800="opacity:0;display:none;"><img src="img/section10_s2.jpg" /></div>
+        <div data-pid="3" class="section10_s section10_s3"
+             data-18550="opacity:0;" data-18850="opacity:1;"
+             data-19500="opacity:1;display:block;" data-19800="opacity:0;display:none;"><img src="img/section10_s3.jpg" /></div>
+        <div class="section10_p section10_p1"><img src="img/section10_p1.jpg" /></div>
+        <div class="section10_p section10_p2"><img src="img/section10_p2.jpg" /></div>
+        <div class="section10_p section10_p3"><img src="img/section10_p3.jpg" /></div>
+    </div>
 
-    <!--<div class="section section11" data-20800="opacity:0;z-index:3;" data-21200="opacity:1;z-index:9;">-->
-        <!--<div class="section11_wrap">-->
-            <!--<div class="section11_icons"-->
-                 <!--data-21200="opacity:0;" data-21500="opacity:1;"><img src="img/section11_icons.png" /></div>-->
-            <!--<div class="section11_water"-->
-                 <!--data-21500="opacity:0;" data-21800="opacity:1;"><img src="img/section11_water.jpg" /></div>-->
-            <!--<div class="section11_product"><img src="img/section11_product.png" /></div>-->
-            <!--<a href="signature.html" class="section11_btn"-->
-                 <!--data-21800="opacity:0;" data-22200="opacity:1;"><img src="img/section11_btn.png" /></a>-->
-            <!--<div class="section11_txt"-->
-                 <!--data-21900="opacity:0;" data-22300="opacity:1;"><img src="img/section11_txt.png" /></div>-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="section section11" data-20800="opacity:0;z-index:3;" data-21200="opacity:1;z-index:9;">
+        <div class="section11_wrap">
+            <div class="section11_icons"
+                 data-21200="opacity:0;" data-21500="opacity:1;"><img src="img/section11_icons.png" /></div>
+            <div class="section11_water"
+                 data-21500="opacity:0;" data-21800="opacity:1;"><img src="img/section11_water.jpg" /></div>
+            <div class="section11_product"><img src="img/section11_product.png" /></div>
+            <a href="signature.html" class="section11_btn"
+                 data-21800="opacity:0;" data-22200="opacity:1;"><img src="img/section11_btn.png" /></a>
+            <div class="section11_txt"
+                 data-21900="opacity:0;" data-22300="opacity:1;"><img src="img/section11_txt.png" /></div>
+        </div>
+    </div>
 
 
 </div>
@@ -469,11 +503,14 @@
 <![endif]-->
 <!--  -->
 
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/skrollr.ie.min.js"></script>
+<![endif]-->
+
 
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/jquery.queryloader22.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.backstretch.min.js"></script>
 <script src="js/skrollr.min.js"></script>
 <script src="js/state.js"></script>
 <script src="js/main.js"></script>

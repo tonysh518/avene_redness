@@ -10,6 +10,7 @@
         $(document.body).queryLoader2({
             onLoading : function( percentage ){
                 var per = parseInt(percentage);
+                console.log(per);
                 $('.loading-percentage').html(per+'%');
                 $('.loading-bar').css({'width':per+'%'});
             },
@@ -66,7 +67,10 @@
 
                 setTimeout(function(){
                     $('.section,.ball_round').show();
-                    skrollr.init({smoothScrolling:true});
+                    skrollr.init({
+                        smoothScrolling:true,
+                        easing:'outCubic'
+                    });
                 },1300);
             }
         });
@@ -100,8 +104,10 @@
             var on = $('.ball_slider').find('.on');
             sliderInt = setInterval(runSlider,1000);
             runSlider();
+            $('.section1_arrow').addClass('actived');
         },function(){
             clearInterval(sliderInt);
+            $('.section1_arrow').removeClass('actived');
         });
 
         $('.section1_ball5_btn').click(function(){
@@ -143,7 +149,7 @@
                     menu_step = i;
                 }
             });
-            if(menu_step && currentstep != menu_step) {
+            if(menu_step != null && currentstep != menu_step) {
                 $('.menu li').removeClass('menu_itemon');
                 $('.menu li').eq(menu_step).addClass('menu_itemon');
                 $('body').data('currentstep',menu_step);
@@ -173,26 +179,26 @@
 //    }
 
 
-    var stats = new Stats();
-    stats.setMode(0); // 0: fps, 1: ms
+//    var stats = new Stats();
+//    stats.setMode(0); // 0: fps, 1: ms
 
 // Align top-left
-    stats.domElement.style.position = 'fixed';
-    stats.domElement.style.left = '0px';
-    stats.domElement.style.top = '0px';
-    stats.domElement.style.zIndex = '99999';
-
-    document.body.appendChild( stats.domElement );
-
-    setInterval( function () {
-
-        stats.begin();
-
-        // your code goes here
-
-        stats.end();
-
-    }, 1000 / 60 );
+//    stats.domElement.style.position = 'fixed';
+//    stats.domElement.style.left = '0px';
+//    stats.domElement.style.top = '0px';
+//    stats.domElement.style.zIndex = '99999';
+//
+//    document.body.appendChild( stats.domElement );
+//
+//    setInterval( function () {
+//
+//        stats.begin();
+//
+//        // your code goes here
+//
+//        stats.end();
+//
+//    }, 1000 / 60 );
 
 
 })();

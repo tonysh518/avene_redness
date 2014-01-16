@@ -28,6 +28,37 @@
     opacity:0.8;
 }
 
+.section1_arrow.actived
+{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: .2s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: .2s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    animation-duration: 2s;
+    animation-delay: .2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+
+    -webkit-animation-name: bounce;
+    -moz-animation-name: bounce;
+    -o-animation-name: bounce;
+    animation-name: bounce;
+
+
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+    -o-animation-iteration-count:infinite;
+    animation-iteration-count:infinite;
+
+    opacity:0.8;
+}
+
+
 .menu_item,
 .section10_s img
 {-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;}
