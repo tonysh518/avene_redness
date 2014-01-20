@@ -92,7 +92,7 @@ body,html,.header,.page {min-width:960px;}
 .history_line2{border-top: #ffd6cc solid 1px;width:1060px;height: 10px;position: absolute;top: 752px;left:50%;margin: 0 0 0 -528px}
 .history_modtit2{background: url('../img/history_modtit2.png') no-repeat;width:184px;height:35px;position: absolute;top: 876px;left:50%;margin: 0 0 0 -462px}
 .history_modtips2{background: url('../img/history_modtips2.png') no-repeat;width:365px;height:79px;position: absolute;top: 928px;left:50%;margin: 0 0 0 -462px}
-.history_v{width: 473px;position: absolute;top: 805px;left:50%;margin: -31px 0 0 -45px;background: #fff;border: #ebdcd8 solid 1px;padding:5px;}
+.history_v{width: 473px;position: absolute;top: 805px;left:50%;margin:0 0 0 -45px;background: #fff;border: #ebdcd8 solid 1px;padding:5px;}
 .history_v object {display: block;}
 .history_line3{background: url('../img/history_line.png') repeat-x;width: 1060px;height: 10px;position: absolute;top: 1220px;left:50%;margin: 20px 0 0 -528px}
 .history_1743{background: url('../img/history_1743.png') no-repeat;width:150px;height:150px;position: absolute;top: 1146px;left:50%;margin: 20px 0 0 -472px}

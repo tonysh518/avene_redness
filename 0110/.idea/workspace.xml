@@ -26,7 +26,7 @@
     <file path="/video.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389850348245" ignored="false" />
     <file path="/testimonial.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389774247355" ignored="false" />
     <file path="/signature.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389773810465" ignored="false" />
-    <file path="/story.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389850521247" ignored="false" />
+    <file path="/story.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390218047839" ignored="false" />
     <file path="/index2.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389795661450" ignored="false" />
     <file path="/styleie.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389799793185" ignored="false" />
     <file path="/styleie6.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389799372311" ignored="false" />
@@ -110,12 +110,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="story.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="story.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/story.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="48" selection-start="3601" selection-end="3601" vertical-scroll-proportion="0.4560205">
+            <state line="45" column="41" selection-start="3014" selection-end="3014" vertical-scroll-proportion="-16.357143">
               <folding>
-                <marker date="1390215375000" expanded="true" signature="5371:5472" placeholder="..." />
+                <marker date="1390218057000" expanded="true" signature="5371:5472" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -132,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="15" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0">
+            <state line="94" column="71" selection-start="8045" selection-end="8045" vertical-scroll-proportion="0.34778982">
               <folding />
             </state>
           </provider>
@@ -203,10 +203,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styleipad.css" />
         <option value="$PROJECT_DIR$/_index_.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/story.html" />
         <option value="$PROJECT_DIR$/testimonial.html" />
         <option value="$PROJECT_DIR$/video.html" />
+        <option value="$PROJECT_DIR$/story.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -516,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="15" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/signature.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.4642857">
@@ -552,10 +545,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/story.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="48" selection-start="3601" selection-end="3601" vertical-scroll-proportion="0.4560205">
+        <state line="45" column="41" selection-start="3014" selection-end="3014" vertical-scroll-proportion="-16.357143">
           <folding>
-            <marker date="1390215375000" expanded="true" signature="5371:5472" placeholder="..." />
+            <marker date="1390218057000" expanded="true" signature="5371:5472" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="71" selection-start="8045" selection-end="8045" vertical-scroll-proportion="0.34778982">
+          <folding />
         </state>
       </provider>
     </entry>
