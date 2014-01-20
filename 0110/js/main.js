@@ -2,9 +2,9 @@
     var s;
     var skrollr_scale = 10;
     var menu_steps = [1571*skrollr_scale , 3556*skrollr_scale , 5112*skrollr_scale , 6314*skrollr_scale, 7942*skrollr_scale,
-        9133*skrollr_scale, 10952*skrollr_scale, 13041*skrollr_scale, 15106*skrollr_scale, 17350*skrollr_scale, 18913*skrollr_scale, 20461*skrollr_scale, 22300*skrollr_scale];
+        9133*skrollr_scale, 10952*skrollr_scale, 13041*skrollr_scale, 15106*skrollr_scale, 17350*skrollr_scale, 18913*skrollr_scale, 20642*skrollr_scale, 22300*skrollr_scale];
     var animate_steps = [0, 1571*skrollr_scale , 3556*skrollr_scale , 5112*skrollr_scale , 6314*skrollr_scale, 7942*skrollr_scale,
-        9133*skrollr_scale, 10952*skrollr_scale, 13041*skrollr_scale, 14200*skrollr_scale, 15106*skrollr_scale, 17350*skrollr_scale, 18913*skrollr_scale, 20461*skrollr_scale, 22300*skrollr_scale];
+        9133*skrollr_scale, 10952*skrollr_scale, 13041*skrollr_scale, 14200*skrollr_scale, 15106*skrollr_scale, 17350*skrollr_scale, 18913*skrollr_scale, 20642*skrollr_scale, 22300*skrollr_scale];
     // for prev page and next page
 
     var moving = false;
@@ -13,7 +13,7 @@
     var currentstep = 0;
     var slider10 = false;
     var slider10runInt;
-    var magneticTimeout;
+    var slider10runTimeout;
     var direction;
 
     var isUglyIe6 = $.browser.msie && $.browser.version == 6;
@@ -152,9 +152,11 @@
             sliderInt = setInterval(runSlider,1000);
             runSlider();
             $('.section1_arrow').addClass('actived');
+            $('.ball_animate').addClass('actived');
         },function(){
             clearInterval(sliderInt);
             $('.section1_arrow').removeClass('actived');
+            $('.ball_animate').removeClass('actived');
         });
 
         $('.section1_ball5_btn').click(function(){
@@ -163,11 +165,15 @@
 
         $('.section10_s').hover(function(){
             clearInterval(slider10runInt);
+            $('.section10_p').stop().hide();
+            $('.section10_s').removeClass('on');
             var id = $(this).data('pid');
             $('.section10_p'+id).fadeIn();
+            clearTimeout(slider10runTimeout);
         },function(){
             var id = $(this).data('pid');
             $('.section10_p'+id).fadeOut();
+            slider10runTimeout = setTimeout(slider10run,1000);
         });
 
 
@@ -183,7 +189,7 @@
             } , 2500, function(){
                 setTimeout(function(){
                     moving = false;
-                },1000);
+                },1500);
             });
             var scrollTop = menu_steps[index];
             $.each(animate_steps , function( i , step){
@@ -208,16 +214,16 @@
                 }
             });
 
-            if(currentstep==10 && !slider10) {
+            if((st > 18700*skrollr_scale && st < 19500*skrollr_scale) && !slider10) {
                 slider10 = true;
                 slider10run();
             }
-            if(currentstep != 10 || st > 19500*skrollr_scale) {
-                console.log('clear');
+
+            if(st < 18700*skrollr_scale || st > 19500*skrollr_scale) {
                 clearInterval(slider10runInt);
                 $('.section10_p').stop().hide();
                 $('.section10_s').removeClass('on');
-                //slider10 = false;
+                slider10 = false;
             }
 
             if (st > lastScrollTop){
@@ -244,7 +250,7 @@
                     moving = false;
                     return;
                 }
-                s.animateTo(animate_steps[scrollStep], {duration:2000, easing:'linear', done:function(){
+                s.animateTo(animate_steps[scrollStep], {duration:2500, easing:'linear', done:function(){
                     s.stopAnimateTo();
                     setTimeout(function(){
                         moving = false;
@@ -274,11 +280,11 @@
 //        $(".section9_bg").backstretch("img/section9_bg1.jpg");
     }
 
-//    for(i=1;i<23;i++){
-//        var n = 19800 + (i * 30);
-//        //console.log('<div class="section_bg section10_2_bg'+i+'" data-0="display:none;" data-'+n+'="display:block;"  data-'+(n+30)+'="display:none;"></div>');
-//        console.log('.section1_2_bg'+i+' {z-index:6;background-image:url(../img/video2/'+i+'.jpg);background-repeat:no-repeat;background-size: cover;}');
-//    }
+    for(i=1;i<33;i++){
+        var n = 19800 + (i * 26);
+        //console.log('<div class="section_bg section10_2_bg'+i+'" data-0="display:none;" data-'+n+'="display:block;"  data-'+(n+30)+'="display:none;"></div>');
+        //console.log('.section1_2_bg'+i+' {z-index:7;background-image:url(../img/video2/'+i+'.jpg);background-repeat:no-repeat;background-size: cover;}');
+    }
 
     function slider10run(){
         slider10runInt = setInterval(_slider10run,4000);
@@ -302,35 +308,6 @@
 
         $('.section10_s').removeClass('on');
         $('.section10_s').eq(index).addClass('on');
-
-    }
-
-
-    function getQueryString(name) {
-        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
-        var r = window.location.search.substr(1).match(reg);
-        if (r != null) return unescape(r[2]); return null;
-    }
-    if(getQueryString('debug') == 1){
-        var stats = new Stats();
-        stats.setMode(0); // 0: fps, 1: ms
-        //Align top-left
-        stats.domElement.style.position = 'fixed';
-        stats.domElement.style.left = '0px';
-        stats.domElement.style.top = '0px';
-        stats.domElement.style.zIndex = '99999';
-
-        document.body.appendChild( stats.domElement );
-
-        setInterval( function () {
-
-            stats.begin();
-
-            // your code goes here
-
-            stats.end();
-
-        }, 1000 / 60 );
 
     }
 

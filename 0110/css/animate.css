@@ -9,6 +9,7 @@
     -moz-animation-delay: .2s;
     -moz-animation-timing-function: ease;
     -moz-animation-fill-mode: both;
+
     animation-duration: 3s;
     animation-delay: .2s;
     animation-timing-function: ease;
@@ -30,13 +31,19 @@
 
 .section1_arrow.actived
 {
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: .2s;
+    -webkit-animation-timing-function: ease;
     -webkit-animation-fill-mode: both;
 
-    -moz-animation-duration: 2s;
+    -moz-animation-duration: 3s;
     -moz-animation-delay: .2s;
+    -moz-animation-timing-function: ease;
     -moz-animation-fill-mode: both;
-    animation-duration: 2s;
+
+    animation-duration: 3s;
+    animation-delay: .2s;
+    animation-timing-function: ease;
     animation-fill-mode: both;
 
     -webkit-animation-name: bounce;
@@ -51,6 +58,25 @@
     animation-iteration-count:infinite;
 
     opacity:0.8;
+}
+
+.ball_animate.actived {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+
+    -webkit-animation-name: bounce2;
+    -moz-animation-name: bounce2;
+    -o-animation-name: bounce2;
+    animation-name: bounce2;
 }
 
 

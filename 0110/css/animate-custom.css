@@ -88,11 +88,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	-o-animation-name: shake;
 	animation-name: shake;
 }
+
 @-webkit-keyframes bounce {
-    0% {-moz-transform: translateY(0);}
-    35% {-moz-transform: translateY(-10px);}
-    75% {-moz-transform: translateY(10px);}
-    100% {-moz-transform: translateY(0);}
+    0% {-webkit-transform: translateY(0);}
+    35% {-webkit-transform: translateY(-10px);}
+    75% {-webkit-transform: translateY(10px);}
+    100% {-webkit-transform: translateY(0);}
 }
 
 @-moz-keyframes bounce {
@@ -103,16 +104,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-o-keyframes bounce {
-    0% {-moz-transform: translateY(0);}
-    35% {-moz-transform: translateY(-10px);}
-    75% {-moz-transform: translateY(10px);}
-    100% {-moz-transform: translateY(0);}
+    0% {-o-transform: translateY(0);}
+    35% {-o-transform: translateY(-10px);}
+    75% {-o-transform: translateY(10px);}
+    100% {-o-transform: translateY(0);}
 }
 @keyframes bounce {
-    0% {-moz-transform: translateY(0);}
-    35% {-moz-transform: translateY(-10px);}
-    75% {-moz-transform: translateY(10px);}
-    100% {-moz-transform: translateY(0);}
+    0% {transform: translateY(0);}
+    35% {transform: translateY(-10px);}
+    75% {transform: translateY(10px);}
+    100% {transform: translateY(0);}
 }
 
 .bounce {
@@ -120,6 +121,36 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	-moz-animation-name: bounce;
 	-o-animation-name: bounce;
 	animation-name: bounce;
+}
+
+@-webkit-keyframes bounce2 {
+    0% {-webkit-transform: translate(0,0);}
+    50% {-webkit-transform: translate(0,-10px);}
+    100% {-webkit-transform: translate(0,0);}
+}
+
+@-moz-keyframes bounce2 {
+    0% {-moz-transform: translate(0,0);}
+    50% {-moz-transform: translate(0,-10px);}
+    100% {-moz-transform: translate(0,0);}
+}
+
+@-o-keyframes bounce2 {
+    0% {-o-transform: translate(0,0);}
+    50% {-o-transform: translate(0,-10px);}
+    100% {-o-transform: translate(0,0);}
+}
+@keyframes bounce2 {
+    0% {transform: translate(0,0);}
+    50% {transform: translate(0,-10px);}
+    100% {transform: translate(0,0);}
+}
+
+.bounce2 {
+    -webkit-animation-name: bounce2;
+    -moz-animation-name: bounce2;
+    -o-animation-name: bounce2;
+    animation-name: bounce2;
 }
 @-webkit-keyframes tada {
 	0% {-webkit-transform: scale(1);}	
