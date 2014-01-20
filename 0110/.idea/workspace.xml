@@ -13,13 +13,13 @@
     <file path="/MAMP/htdocs/bank_wall/static/js/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389607048078" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/api/protected/models/NodeAR.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389602792028" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/static/js/api.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389585032787" ignored="false" />
-    <file path="/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390031365217" ignored="false" />
-    <file path="/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390032748869" ignored="false" />
-    <file path="/main.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390056337879" ignored="false" />
-    <file path="/NodeAR.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389602354174" ignored="false" />
-    <file path="/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389606535663" ignored="false" />
+    <file path="/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390141149118" ignored="false" />
+    <file path="/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390135194695" ignored="false" />
+    <file path="/main.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390136965386" ignored="false" />
+    <file path="/NodeAR.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390145866053" ignored="false" />
+    <file path="/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390146733711" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/web/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389606166470" ignored="false" />
-    <file path="/layout.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389606422759" ignored="false" />
+    <file path="/layout.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390140765160" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/web/css/layout.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389606423120" ignored="false" />
     <file path="/animate.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390051521839" ignored="false" />
     <file path="/skrollr.min.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389770408790" ignored="false" />
@@ -34,6 +34,19 @@
     <file path="/mainie6.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389798961764" ignored="false" />
     <file path="/page.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389850399463" ignored="false" />
     <file path="/animate-custom.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390051249512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bank_wall/api/protected/controllers/LikeController.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390114283729" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bank_wall/static/js/config.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390140524001" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bank_wall/web/css/layout.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390142457467" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bank_wall/static/js/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390146836805" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bank_wall/api/protected/models/NodeAR.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390145965595" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bank_wall/web/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390146773975" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bank_wall/api/protected/controllers/NodeController.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390145600000" ignored="false" />
+    <file path="/NodeController.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390145575546" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bank_wall/static/js/plugin/flash_detect_min.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390140476337" ignored="false" />
+    <file path="/config.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390140501702" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bank_wall/web/css/needtocombine.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390143860239" ignored="false" />
+    <file path="/needtocombine.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390143844959" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bank_wall/api/protected/controllers/UploadsController.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390144229060" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +69,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="344" column="39" selection-start="29097" selection-end="29097" vertical-scroll-proportion="0.0">
+            <state line="13" column="20" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +122,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="251" column="29" selection-start="9012" selection-end="9012" vertical-scroll-proportion="0.93729097">
+            <state line="191" column="17" selection-start="7224" selection-end="7224" vertical-scroll-proportion="0.15886287">
               <folding />
             </state>
           </provider>
@@ -127,7 +140,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="610" selection-end="1085" vertical-scroll-proportion="-7.464286">
+            <state line="127" column="23" selection-start="7945" selection-end="7950" vertical-scroll-proportion="-10.178572">
               <folding>
                 <marker date="1390056520000" expanded="true" signature="35809:35910" placeholder="..." />
               </folding>
@@ -175,13 +188,13 @@
         <option value="$PROJECT_DIR$/../../lighthouse/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/css/animate-custom.css" />
         <option value="$PROJECT_DIR$/css/animate.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/__index.html" />
         <option value="$PROJECT_DIR$/signature.html" />
         <option value="$PROJECT_DIR$/story.html" />
         <option value="$PROJECT_DIR$/testimonial.html" />
         <option value="$PROJECT_DIR$/video.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
@@ -319,7 +332,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2559" height="1357" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -456,29 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="27" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="344" column="39" selection-start="29097" selection-end="29097" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="610" selection-end="1085" vertical-scroll-proportion="-7.464286">
-          <folding>
-            <marker date="1390056520000" expanded="true" signature="35809:35910" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="13" selection-start="819" selection-end="819" vertical-scroll-proportion="-10.178572">
@@ -524,9 +514,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="27" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="23" selection-start="7945" selection-end="7950" vertical-scroll-proportion="-10.178572">
+          <folding>
+            <marker date="1390056520000" expanded="true" signature="35809:35910" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="251" column="29" selection-start="9012" selection-end="9012" vertical-scroll-proportion="0.93729097">
+        <state line="191" column="17" selection-start="7224" selection-end="7224" vertical-scroll-proportion="0.15886287">
           <folding />
         </state>
       </provider>

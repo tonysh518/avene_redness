@@ -12,7 +12,6 @@ body,h1,h2,h3,h4,ul,li,p,img{margin:0;padding:0;border:0;}
 img{margin:0;line-height:normal}
 em,i{font-style:normal;text-decoration:none}
 ul{list-style:none;}
-
 /* Commonly Used
 ================================================================================================= */
 a{text-decoration:none}
@@ -26,7 +25,7 @@ a{text-decoration:none}
 .logo{float: left;width: 128px;height: 60px;margin: 14px 0 0 24px;_display: inline;background: url('../img/logo.png') no-repeat;}
 .nav{float: right;margin: 48px 60px 0 0;_display: inline;}
 .nav a{color:#f5afa5;font-size: 15px;margin: 0 26px;float: left;}
-.nav a:hover,
+.nav a:hover{color:#ef8575;}
 .nav a.on{color:#ef8575;border-bottom: #ef896f solid 1px;}
 body,html,.header,.page {min-width:960px;}
 
@@ -256,7 +255,7 @@ body,html,.header,.page {min-width:960px;}
 .section10_s2 {position: absolute;bottom:54px;left:461px}
 .section10_s3 {position: absolute;bottom:54px;left:587px}
 .section10_s img {display: block;border:3px solid rgba(255, 255, 255, .1);;}
-.section10_s:hover img {border:3px solid #fff;}
+.section10_s:hover img,.section10_s.on img {border:3px solid #fff;}
 .section10_p {position: absolute;bottom:140px;left:335px;display: none;}
 
 .section11 {background: #fff;}
