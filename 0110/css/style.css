@@ -133,6 +133,9 @@ body,html,.header,.page {min-width:960px;}
 .video_page .video_tit {background: url('../img/video_title.png') no-repeat;width: 552px;height: 64px;margin: 0 auto 40px auto;}
 .video_page .video_player {position:relative;padding:5px 5px 0 5px;border:1px solid #ebe2e5;background:#fff;margin: 0 auto;display:block;width:807px;}
 .video_page .video_player video {position: absolute;top:5px;left:5px;}
+.video_page .skip {text-align: center;font-size:14px;margin-top:15px;}
+.video_page .skip a {color:#ef8575;}
+video {display: none;}
 
 /* ETA
 ================================================================================================= */

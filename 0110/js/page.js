@@ -56,6 +56,9 @@
         if($('html').hasClass('no-touch')) {
             $('video').remove();
         }
+        else {
+            $('video').show();
+        }
     }
 })();
 
