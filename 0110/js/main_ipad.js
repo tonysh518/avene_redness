@@ -142,7 +142,6 @@
 
         $(window).scroll(function(e){
             var st = $(this).scrollTop();
-            console.log(st);
             $.each(menu_steps , function( i , step){
                 if( st + 100 > step ){
                     if(currentstep != i) {

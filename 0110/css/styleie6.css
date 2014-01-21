@@ -112,11 +112,13 @@ body,html,.header,.page {min-width:960px;}
 .section2_drop10 {margin:45px 0 0 105px;}
 .section2_drop11 {margin:105px 0 0 -117px;}
 .section2_drop12 {margin:135px 0 0 62px;}
-.section2_icon_na {margin:-10px 0 0 -136px;}
-.section2_icon_c {margin:65px 0 0 -95px;}
-.section2_icon_k {margin:85px 0 0 -25px;}
-.section2_icon_i {margin:65px 0 0 65px;}
-.section2_icon_o {margin:-20px 0 0 95px;}
+.section2_icon_na {margin:-26px 0 0 -148px;}
+.section2_icon_na2 {margin:86px 0 0 -109px;}
+.section2_icon_c {margin:-111px 0 0 44px;}
+.section2_icon_k {margin:114px 0 0 -51px;}
+.section2_icon_s {margin:-132px 0 0 -76px;}
+.section2_icon_i {margin:78px 0 0 36px;}
+.section2_icon_o {margin:-30px 0 0 95px;}
 
 .section3_white {background: #fff;position: relative;height:473px;width:100%;}
 .section3_map {position: absolute;width:660px;height: 376px;background: url(../img/section3_map.jpg) no-repeat;left:50%;margin:50px 0 0 -520px;}
