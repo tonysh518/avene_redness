@@ -82,10 +82,21 @@
       <file leaf-file-name="eta_horse.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eta_horse.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="4" selection-start="3933" selection-end="4062" vertical-scroll-proportion="-16.607143">
+            <state line="46" column="66" selection-start="2841" selection-end="2841" vertical-scroll-proportion="-22.035715">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1390479809000" expanded="true" signature="4524:4625" placeholder="..." />
+                <marker date="1390482326000" expanded="true" signature="4523:4624" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidepanel.asp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../avene_blog/INCLUDE/sidepanel.asp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="125" column="82" selection-start="5752" selection-end="5752" vertical-scroll-proportion="0.86548674">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,18 +105,18 @@
       <file leaf-file-name="story.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/story.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="5811" selection-end="5908" vertical-scroll-proportion="-17.964285">
+            <state line="40" column="204" selection-start="2074" selection-end="2074" vertical-scroll-proportion="-14.571428">
               <folding>
-                <marker date="1390479809000" expanded="true" signature="6371:6472" placeholder="..." />
+                <marker date="1390482314000" expanded="true" signature="6370:6471" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testimonial.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="testimonial.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testimonial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="47" selection-start="4847" selection-end="4847" vertical-scroll-proportion="0.76460177">
+            <state line="49" column="135" selection-start="3232" selection-end="3232" vertical-scroll-proportion="-13.892858">
               <folding>
                 <marker date="1390479817000" expanded="true" signature="4957:5058" placeholder="..." />
               </folding>
@@ -127,7 +138,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="47" selection-start="13328" selection-end="13328" vertical-scroll-proportion="0.0">
+            <state line="103" column="51" selection-start="8973" selection-end="8973" vertical-scroll-proportion="-13.038462">
               <folding />
             </state>
           </provider>
@@ -187,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/main_ipad.js" />
         <option value="$PROJECT_DIR$/css/styleie6.css" />
         <option value="$PROJECT_DIR$/css/styleipad.css" />
         <option value="$PROJECT_DIR$/m/index.html" />
@@ -197,12 +207,13 @@
         <option value="$PROJECT_DIR$/_index_.html" />
         <option value="$PROJECT_DIR$/index_.html" />
         <option value="$PROJECT_DIR$/signature.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/tracking.js" />
-        <option value="$PROJECT_DIR$/eta_horse.html" />
-        <option value="$PROJECT_DIR$/story.html" />
         <option value="$PROJECT_DIR$/video.html" />
         <option value="$PROJECT_DIR$/testimonial.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/story.html" />
+        <option value="$PROJECT_DIR$/eta_horse.html" />
+        <option value="$PROJECT_DIR$/../../avene_blog/INCLUDE/sidepanel.asp" />
       </list>
     </option>
   </component>
@@ -455,13 +466,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/styleie6.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="41" selection-start="6965" selection-end="7268" vertical-scroll-proportion="0.0164076">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main_ipad.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="143" column="41" selection-start="5676" selection-end="5676" vertical-scroll-proportion="0.0164076" />
@@ -523,23 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="47" selection-start="13328" selection-end="13328" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="557" column="22" selection-start="34317" selection-end="34356" vertical-scroll-proportion="-35.607143">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1390478789000" expanded="true" signature="33966:34067" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../91150th/app/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1885" column="51" selection-start="70292" selection-end="70335" vertical-scroll-proportion="0.6554404">
@@ -556,25 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eta_horse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="4" selection-start="3933" selection-end="4062" vertical-scroll-proportion="-16.607143">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1390479809000" expanded="true" signature="4524:4625" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/story.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="5811" selection-end="5908" vertical-scroll-proportion="-17.964285">
-          <folding>
-            <marker date="1390479809000" expanded="true" signature="6371:6472" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="0" selection-start="3729" selection-end="3836" vertical-scroll-proportion="-28.821428">
@@ -586,9 +554,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testimonial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="47" selection-start="4847" selection-end="4847" vertical-scroll-proportion="0.76460177">
+        <state line="49" column="135" selection-start="3232" selection-end="3232" vertical-scroll-proportion="-13.892858">
           <folding>
             <marker date="1390479817000" expanded="true" signature="4957:5058" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="557" column="22" selection-start="34317" selection-end="34356" vertical-scroll-proportion="-35.607143">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1390478789000" expanded="true" signature="33966:34067" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="51" selection-start="8973" selection-end="8973" vertical-scroll-proportion="-13.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/story.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="204" selection-start="2074" selection-end="2074" vertical-scroll-proportion="-14.571428">
+          <folding>
+            <marker date="1390482314000" expanded="true" signature="6370:6471" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eta_horse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="66" selection-start="2841" selection-end="2841" vertical-scroll-proportion="-22.035715">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1390482326000" expanded="true" signature="4523:4624" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../avene_blog/INCLUDE/sidepanel.asp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="82" selection-start="5752" selection-end="5752" vertical-scroll-proportion="0.86548674">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
