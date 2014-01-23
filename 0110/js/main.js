@@ -88,6 +88,9 @@
                         easing:'outCubic',
                         scale:10
                     });
+                    if(getQueryString('pos') == 'home'){
+                        s.animateTo(1571*skrollr_scale);
+                    }
 
                 },timeoffset);
             }
@@ -254,7 +257,7 @@
                     s.stopAnimateTo();
                     setTimeout(function(){
                         moving = false;
-                    },100);
+                    },500);
                     animatestep = scrollStep;
                 }});
                 if(!s.isAnimatingTo()) {
@@ -311,6 +314,12 @@
 
     }
 
+
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
 
 })();
 

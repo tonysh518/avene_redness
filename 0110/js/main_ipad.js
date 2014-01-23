@@ -91,6 +91,9 @@
                     });
                     $('.section2_wrap').show();
 
+                    if(getQueryString('pos') == 'home'){
+                        s.animateTo(1571*skrollr_scale);
+                    }
                 },timeoffset);
             }
         });
