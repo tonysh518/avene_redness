@@ -38,11 +38,11 @@
         <div class="video_player" data-style="opacity:0;" data-animate="opacity:1" data-delay="700" data-time="1000" data-easing="easeInOutQuart">
             <object id="player" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="804" height="451">
                 <param name="allowScriptAccess" value="always"/>
-                <param name="movie" value="video/player2.swf"/>
-                <param name="flashVars" value="source=video1.mp4&skinMode=show"/>
+                <param name="movie" value="video/player.swf"/>
+                <param name="flashVars" value="source=video1.mp4&skinMode=show&onPlay=play()"/>
                 <param name="quality" value="high"/>
                 <param name="allowFullScreen" value="true"/>
-                <embed name="player" src="video/player2.swf" allowFullScreen="true" flashVars="source=video1.mp4&skinMode=show" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="804" height="451" allowScriptAccess="always"></embed>
+                <embed name="player" src="video/player.swf" allowFullScreen="true" flashVars="source=video1.mp4&skinMode=show&onPlay=play()" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="804" height="451" allowScriptAccess="always"></embed>
                 <video autoplay="autoplay" width="806" height="451" controls><source src="video/video1.mp4" type="video/mp4" /></video>
             </object>
         </div>
@@ -50,22 +50,52 @@
 </div>
 <!--  -->
 <div class="footer cs-clear" data-style="bottom:-100px" data-animate="bottom:0" data-delay="100" data-time="1000" data-easing="easeInOutQuart">
-    <div class="ft_link">
-        <a target="_blank" href="http://www.eau-thermale-avene.cn/" class="ft_link1"></a>
-        <a target="_blank" href="http://e.weibo.com/eauthermaleavene" class="ft_link2"></a>
-        <a target="_blank" href="http://weibo.com/p/1006062166726834/feed" class="ft_link3"></a>
+    <div class="column">
+        <p class="ft_pho">原装正品仅限雅漾专柜</p>
+        <a class="ft_site" href="http://www.eau-thermale-avene.cn/" target="_blank">雅漾官网</a>
+        <p class="ft_line ft_line1"></p>
+        <a class="ft_weibo" href="http://e.weibo.com/eauthermaleavene" target="_blank">官方微博</a>
+        <p class="ft_line ft_line2"></p>
+        <a class="ft_weibo2" href="http://e.weibo.com/2166726834/app_2960845660" target="_blank">雅漾医生面对面</a>
+        <p class="ft_line ft_line3"></p>
+        <a class="ft_app" href="http://www.eau-thermale-avene.cn/aveneappdownload/index.html" target="_blank">雅漾APP</a>
+        <div class="ft_email">
+            <form id="newsletter" action="newsletter.php" method="post">
+                <input id="mailinput" name="email" class="mail_ipt" type="text"  value="输入您的电子邮箱"  onfocus="if (value =='输入您的电子邮箱'){value =''}" onblur="if (value ==''){value='输入您的电子邮箱'}" />
+                <input id="mailinputbtn" class="mail_btn" type="submit" value="" />
+            </form>
+        </div>
     </div>
-    <a class="ft_guanwang" target="_blank" href="http://www.eau-thermale-avene.cn/"></a>
+</div>
+
+<div class="newsletter_overlay"></div>
+<div class="newsletter_popup">
+    <div class="state0"><img src="img/news_letter_success.png" /></div>
+    <div class="state1"><img src="img/news_letter_registered.png" /></div>
+    <div class="newsletter_popup_close"></div>
+</div>
+<div id="MailInputWin">
+    <form id="mobilenewsletter" action="newsletter.php" method="post">
+        <input id="mobilemailinput" name="email" type="text"  />
+        <div>
+            <input id="backbtn" type="button" value="" />
+            <input id="okbtn" type="submit" value="" />
+        </div>
+    </form>
 </div>
 <!--  -->
 
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/modernizr-2.5.3.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/page.js"></script>
+<script src="js/newsletter.js"></script>
 <script src="js/tracking.js"></script>
 <script>
-    function playComplete(){
+    function play(){
         ga('send', 'eta', 'video', 'video', 'video');
     }
 </script>

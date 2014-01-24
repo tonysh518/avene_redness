@@ -32,3 +32,17 @@ $('.section1_ball4').bind('click',function(){
 $('.section1_ball5_btn').bind('click',function(){
     ga('send', 'eta', 'home', 'round_btn3', 'round_btn3');
 });
+
+
+$('.ft_site').bind('click',function(){
+    ga('send', 'eta', 'footer', 'btn1', 'btn1');
+});
+$('.ft_weibo').bind('click',function(){
+    ga('send', 'eta', 'footer', 'btn2', 'btn2');
+});
+$('.ft_weibo2').bind('click',function(){
+    ga('send', 'eta', 'footer', 'btn3', 'btn3');
+});
+$('.mail_btn').bind('click',function(){
+    ga('send', 'eta', 'footer', 'newsletter', 'newsletter');
+});

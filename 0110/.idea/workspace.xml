@@ -13,8 +13,8 @@
     <file path="/MAMP/htdocs/bank_wall/static/js/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390282099772" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/api/protected/models/NodeAR.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390287294578" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/static/js/api.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390201424329" ignored="false" />
-    <file path="/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390478787013" ignored="false" />
-    <file path="/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390479041426" ignored="false" />
+    <file path="/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390546626263" ignored="false" />
+    <file path="/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390552354967" ignored="false" />
     <file path="/main.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390191004013" ignored="false" />
     <file path="/NodeAR.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390287286616" ignored="false" />
     <file path="/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390282097771" ignored="false" />
@@ -23,10 +23,10 @@
     <file path="/MAMP/htdocs/bank_wall/web/css/layout.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390282121905" ignored="false" />
     <file path="/animate.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390188615270" ignored="false" />
     <file path="/skrollr.min.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389770408790" ignored="false" />
-    <file path="/video.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390479794249" ignored="false" />
-    <file path="/testimonial.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389774247355" ignored="false" />
+    <file path="/video.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390548007099" ignored="false" />
+    <file path="/testimonial.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547954654" ignored="false" />
     <file path="/signature.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389773810465" ignored="false" />
-    <file path="/story.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390218047839" ignored="false" />
+    <file path="/story.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547788077" ignored="false" />
     <file path="/index2.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389795661450" ignored="false" />
     <file path="/styleie.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389799793185" ignored="false" />
     <file path="/styleie6.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390310969078" ignored="false" />
@@ -50,16 +50,20 @@
     <file path="$PROJECT_DIR$/../../rungis/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390197735771" ignored="false" />
     <file path="$PROJECT_DIR$/../../rungis/css/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390197234274" ignored="false" />
     <file path="/api.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390201390959" ignored="false" />
-    <file path="/_index_.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390311139803" ignored="false" />
+    <file path="/_index_.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390546489110" ignored="false" />
     <file path="/styleipad.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390312608878" ignored="false" />
     <file path="/main_ipad.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390209938954" ignored="false" />
-    <file path="/topnav.asp" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390269857048" ignored="false" />
+    <file path="/topnav.asp" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547309723" ignored="false" />
     <file path="/MAMP/htdocs/rosso_italiano/sites/default/settings.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390285639269" ignored="false" />
     <file path="/index_video.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390300179199" ignored="false" />
-    <file path="/eta_horse.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390479017795" ignored="false" />
+    <file path="/eta_horse.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547920331" ignored="false" />
     <file path="/_index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390310803787" ignored="false" />
-    <file path="/Dummy.txt" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390312621227" ignored="false" />
+    <file path="/Dummy.txt" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547165597" ignored="false" />
     <file path="/tracking.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390479123053" ignored="false" />
+    <file path="/journey.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390550454212" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/ave_blog/THEMES/avene/STYLE/style_v3.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547240760" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/ave_blog/INCLUDE/topnav.asp" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547310358" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/ave_blog/INCLUDE/footer.asp" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547336587" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,110 +83,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="eta_horse.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eta_horse.html">
+      <file leaf-file-name="journey.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/m/journey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="66" selection-start="2841" selection-end="2841" vertical-scroll-proportion="-22.035715">
+            <state line="189" column="14" selection-start="11404" selection-end="11404" vertical-scroll-proportion="0.7477876">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1390482326000" expanded="true" signature="4523:4624" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidepanel.asp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../avene_blog/INCLUDE/sidepanel.asp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="82" selection-start="5752" selection-end="5752" vertical-scroll-proportion="0.86548674">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="story.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/story.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="204" selection-start="2074" selection-end="2074" vertical-scroll-proportion="-14.571428">
-              <folding>
-                <marker date="1390482314000" expanded="true" signature="6370:6471" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testimonial.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testimonial.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="135" selection-start="3232" selection-end="3232" vertical-scroll-proportion="-13.892858">
-              <folding>
-                <marker date="1390479817000" expanded="true" signature="4957:5058" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="3729" selection-end="3836" vertical-scroll-proportion="-28.821428">
-              <folding>
-                <marker date="1390479809000" expanded="true" signature="3918:4019" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="51" selection-start="8973" selection-end="8973" vertical-scroll-proportion="-13.038462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="557" column="22" selection-start="34317" selection-end="34356" vertical-scroll-proportion="-35.607143">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1390478789000" expanded="true" signature="33966:34067" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tracking.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/tracking.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="3" selection-start="429" selection-end="515" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index_.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="549" column="38" selection-start="31977" selection-end="31977" vertical-scroll-proportion="-35.607143">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1390478818000" expanded="true" signature="31587:31688" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signature.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/signature.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="38" selection-start="3491" selection-end="3491" vertical-scroll-proportion="-28.607143">
-              <folding>
-                <marker date="1390478821000" expanded="true" signature="3583:3684" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,22 +104,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/styleie6.css" />
-        <option value="$PROJECT_DIR$/css/styleipad.css" />
-        <option value="$PROJECT_DIR$/m/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/__index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/newsletter.js" />
+        <option value="$PROJECT_DIR$/js/tracking.js" />
+        <option value="$PROJECT_DIR$/signature.html" />
         <option value="$PROJECT_DIR$/_index.html" />
+        <option value="$PROJECT_DIR$/__index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_index_.html" />
         <option value="$PROJECT_DIR$/index_.html" />
-        <option value="$PROJECT_DIR$/signature.html" />
-        <option value="$PROJECT_DIR$/js/tracking.js" />
-        <option value="$PROJECT_DIR$/video.html" />
         <option value="$PROJECT_DIR$/testimonial.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/story.html" />
+        <option value="$PROJECT_DIR$/video.html" />
         <option value="$PROJECT_DIR$/eta_horse.html" />
-        <option value="$PROJECT_DIR$/../../avene_blog/INCLUDE/sidepanel.asp" />
+        <option value="$PROJECT_DIR$/m/css/style.css" />
+        <option value="$PROJECT_DIR$/story.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/m/journey.html" />
       </list>
     </option>
   </component>
@@ -309,7 +215,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,11 +262,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/m/img" />
-      <recent name="$PROJECT_DIR$/m" />
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/m" />
     </key>
   </component>
   <component name="RunManager">
@@ -466,142 +372,140 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main_ipad.js">
+    <entry file="file://$PROJECT_DIR$/js/tracking.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="41" selection-start="5676" selection-end="5676" vertical-scroll-proportion="0.0164076" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="44" selection-start="3322" selection-end="3322" vertical-scroll-proportion="0.3699115">
-          <folding>
-            <marker date="1390478379000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="454" column="38" selection-start="26601" selection-end="26601" vertical-scroll-proportion="-34.25">
-          <folding>
-            <marker date="1390478803000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state line="42" column="40" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.68146884">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="456" column="38" selection-start="26114" selection-end="26114" vertical-scroll-proportion="-34.25">
+        <state line="12" column="23" selection-start="539" selection-end="539" vertical-scroll-proportion="-6.4150443">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1390478806000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390546494000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_index_.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="342" column="38" selection-start="20144" selection-end="20144" vertical-scroll-proportion="-34.25">
+        <state line="314" column="51" selection-start="19223" selection-end="19223" vertical-scroll-proportion="0.51238936">
           <folding>
-            <marker date="1390478809000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390546651000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="549" column="38" selection-start="31977" selection-end="31977" vertical-scroll-proportion="-35.607143">
+        <state line="537" column="10" selection-start="32109" selection-end="32109" vertical-scroll-proportion="0.51238936">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1390478818000" expanded="true" signature="31587:31688" placeholder="..." />
+            <marker date="1390546691000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signature.html">
+    <entry file="file://$PROJECT_DIR$/__index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="38" selection-start="3491" selection-end="3491" vertical-scroll-proportion="-28.607143">
+        <state line="20" column="21" selection-start="1010" selection-end="1018" vertical-scroll-proportion="0.33628318">
           <folding>
-            <marker date="1390478821000" expanded="true" signature="3583:3684" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../91150th/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1885" column="51" selection-start="70292" selection-end="70335" vertical-scroll-proportion="0.6554404">
-          <folding>
-            <marker date="1380269761000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/tracking.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="429" selection-end="515" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="3729" selection-end="3836" vertical-scroll-proportion="-28.821428">
-          <folding>
-            <marker date="1390479809000" expanded="true" signature="3918:4019" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testimonial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="135" selection-start="3232" selection-end="3232" vertical-scroll-proportion="-13.892858">
-          <folding>
-            <marker date="1390479817000" expanded="true" signature="4957:5058" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="557" column="22" selection-start="34317" selection-end="34356" vertical-scroll-proportion="-35.607143">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1390478789000" expanded="true" signature="33966:34067" placeholder="..." />
+            <marker date="1390546521000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="51" selection-start="8973" selection-end="8973" vertical-scroll-proportion="-13.038462">
+        <state line="101" column="71" selection-start="6614" selection-end="6614" vertical-scroll-proportion="0.67271155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="0" selection-start="11890" selection-end="11890" vertical-scroll-proportion="1.0984457">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styleie6.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/story.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="204" selection-start="2074" selection-end="2074" vertical-scroll-proportion="-14.571428">
+        <state line="139" column="9" selection-start="7659" selection-end="7659" vertical-scroll-proportion="0.96637166">
           <folding>
-            <marker date="1390482314000" expanded="true" signature="6370:6471" placeholder="..." />
+            <marker date="1390552162000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="0" selection-start="4902" selection-end="5183" vertical-scroll-proportion="0.70530975">
+          <folding>
+            <marker date="1390546418000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testimonial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="92" selection-start="2655" selection-end="2655" vertical-scroll-proportion="-0.54690266">
+          <folding>
+            <marker date="1390547984000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="32" selection-start="1746" selection-end="1752" vertical-scroll-proportion="-0.3619469">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eta_horse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="66" selection-start="2841" selection-end="2841" vertical-scroll-proportion="-22.035715">
+        <state line="1" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.71504426">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1390482326000" expanded="true" signature="4523:4624" placeholder="..." />
+            <marker date="1390548118000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../avene_blog/INCLUDE/sidepanel.asp">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="82" selection-start="5752" selection-end="5752" vertical-scroll-proportion="0.86548674">
+        <state line="557" column="13" selection-start="34941" selection-end="34941" vertical-scroll-proportion="0.9920354">
           <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1390546629000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/journey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="14" selection-start="11404" selection-end="11404" vertical-scroll-proportion="0.7477876">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
