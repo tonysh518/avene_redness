@@ -27,7 +27,7 @@ p {margin:0 0 15px 0;}
 
 /* header
 ================================================================================================= */
-    .header{height: 100px;padding-top: 15px;position: fixed;width:100%;z-index:999999;background: #fff;}
+    .header{height: 100px;padding-top: 15px;position: fixed;width:100%;z-index:999999;background: #fff;border-bottom:1px solid #fff;}
     .logo{background:url('../imgMobile/logo.png') no-repeat center;width: 175px;height: 80px;margin:0 auto;display: block;}
     .navbtn{background: url('../imgMobile/navbtn.png') no-repeat center;display: block;width: 90px;height: 70px;position: absolute;right: 0px;top:0px;cursor: pointer;}
     .nav{background:#fce7e2;width:100%;bottom: auto;top: 100px;z-index: 50;left:0px;position: absolute;right:0;}
