@@ -11,9 +11,11 @@
     $('.navbtn').click(function(){
         if($('.nav').css('display') == 'none'){
             $('.nav').fadeIn();
+            $('video').hide();
         }
         else {
             $('.nav').fadeOut();
+            $('video').show();
         }
 
     });
@@ -22,6 +24,7 @@
             return false;
         }
         $('.nav').fadeOut();
+        $('video').show();
     });
 })();
 
