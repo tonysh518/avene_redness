@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*
+ * avene 2014 03 
+ */
+
+/* Reset
+================================================================================================= */
+body{color:#555;background:#fff;font-size:12px;line-height:1.666em;}
+body{font-family:"Microsoft YaHei",arial,SimHei,sans-serif;}
+h1,h2,h3{font-size:100%;}
+body,h1,h2,h3,h4,ul,li,p,img{margin:0;padding:0;border:0;}
+img{margin:0;line-height:normal}
+em,i{font-style:normal;text-decoration:none}
+ul{list-style:none;}
+/* Commonly Used
+================================================================================================= */
+a{text-decoration:none}
+.cs-clear{+zoom:1;}
+.cs-clear:before,
+.cs-clear:after{clear:both;content:".";font-size:0;display:block;height:0;overflow:hidden;visibility:hidden;}
+
+/* Page Used
+================================================================================================= */
+body{background:url('../img/bg.jpg') no-repeat center top;height: 100%}
+
+.header{width:950px;margin: 0 auto;padding: 15px 0 0;height: 85px;}
+	.logo{float:left;background:url('../img/logo.png') no-repeat;width:153px;height: 68px}
+	.nav{float:right;border-bottom: #ff7311 solid 2px;padding:30px 15px 0;height: 40px;}
+		.nav a{_display: inline;float: left;background:url('../img/nav.png') no-repeat;width:80px;height: 28px;line-height: 4400em;overflow: hidden;}
+		.nav .nav2{background-position: -80px 0;width:108px}
+		.nav .nav3{background-position: -188px 0;width:135px;}
+		.nav .nav4{background-position: -323px 0;width:110px;}
+		.nav .nav5{background-position: -433px 0;width:114px;}
+		.nav .nav6{background-position: -547px 0;width:120px}
+		.nav .nav7{background-position: -667px 0;width:90px}
+		.nav .nav1.on,
+		.nav .nav1:hover{background-position: 0 -30px;}
+		.nav .nav2.on,
+		.nav .nav2:hover{background-position: -80px -30px;}
+		.nav .nav3.on,
+		.nav .nav3:hover{background-position: -188px -30px;}
+		.nav .nav4.on,
+		.nav .nav4:hover{background-position: -323px -30px;}
+		.nav .nav5.on,
+		.nav .nav5:hover{background-position: -433px -30px;}
+		.nav .nav6.on,
+		.nav .nav6:hover{background-position: -547px -30px;}
+		.nav .nav7.on,
+		.nav .nav7:hover{background-position: -667px -30px;}
+
+.home{width: 950px;margin: 0 auto;padding:15px 0 0}
+	.home-xjg{float:left;width:418px;height: 472px;background: url('../img/home_xjg.png') no-repeat;position: relative;}
+		.xjg-1{background:url('../img/xjg_1.png') no-repeat;width: 70px;height: 81px;position: absolute;left:30px;top:50px;}
+		.xjg-2{background:url('../img/xjg_2.png') no-repeat;width: 379px;height: 219px;position: absolute;right:0;top:160px;}
+		.xjg-3{background:url('../img/xjg_3.png') no-repeat;width: 244px;height: 375px;position: absolute;left:102px;top:48px;}
+		.xjg-4{background:url('../img/xjg_4.png') no-repeat;width: 78px;height: 124px;position: absolute;right:28px;bottom:28px;}
+	.home-video{width:525px;float:right;}	
+		.home-vt{height: 107px;width:525px;position: relative;}
+			.home-vtshare{position: absolute;left:0;top:0;width:525px;opacity: 0.6;background: #fff;height: 96px;border-top: #f60 solid 11px;
+				filter:alpha(opacity=60); }
+			.home-vtcon{position: absolute;left:0;top:11px;width:525px;height: 96px;background: url('../img/home_vt.png') no-repeat center;}
+		.home-vd{height: 255px;width:525px;position: relative;margin: 7px 0 }
+			.home-vdshare{position: absolute;left:0;top:0;width:525px;opacity: 0.6;background: #fff;height: 250px;border-top: #f60 solid 5px;
+				filter:alpha(opacity=60); }
+			.home-vdcontit{position: absolute;left:0;top:15px;width:525px;height: 30px;background: url('../img/home_vdcontit.png') no-repeat center;}
+			.home-vdbox{position: absolute;left:50%;margin-left:-165px;top:50px;width:329px;height: 190px;background: url('../img/home_vdbox.jpg') no-repeat}
+		.home-vb{height: 95px;width:525px;position: relative;}
+			.home-vbshare{position: absolute;left:0;top:0;width:525px;opacity: 0.6;background: #fff;height: 90px;border-top: #f60 solid 5px;
+				filter:alpha(opacity=60); }
+			.home-vbtn1{position: absolute;left:14px;top:26px;width:243px;height: 43px;background: url('../img/home_vbtn1.png') no-repeat center;}
+			.home-vbtn2{position: absolute;right:14px;top:26px;width:243px;height: 43px;background: url('../img/home_vbtn2.png') no-repeat center;}
+			
+
+
+
+
