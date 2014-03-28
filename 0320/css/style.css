@@ -547,6 +547,28 @@ body{background: #fff url('../imgm/bg.jpg') no-repeat top center;overflow-x:hidd
 		.page1standard-3{border:0;border-right:#eb6100 solid 1px;width: 288px;height: 320px;background: url('../imgm/page1_stan3.png') no-repeat left top;position: absolute;left:18px;top:508px;}
 		.page1standard-4{border:0;width: 288px;height: 320px;background: url('../imgm/page1_stan4.png') no-repeat right top;position: absolute;left:308px;top:508px;}
 
+/*home*/
+
+.home{width: 609px;margin: 0 auto 15px;padding:15px 0 0}
+	.home-xjg{float:left;width:609px;height: 390px;background: url('../imgm/home_xjg.png') no-repeat;position: relative;border-top:#fe8b37 13px solid;}
+		.xjg-1{background:url('../imgm/xjg_1.png') no-repeat;width: 70px;height: 81px;position: absolute;left:296px;top:22px;}
+		.xjg-2{background:url('../imgm/xjg_2.png') no-repeat;width: 379px;height: 219px;position: absolute;left:268px;top:82px;}
+		.xjg-3{background:url('../imgm/xjg_3.png') no-repeat;width: 244px;height: 375px;position: absolute;left:334px;top:24px;}
+		.xjg-4{background:url('../imgm/xjg_4.png') no-repeat;width: 78px;height: 124px;position: absolute;left:507px;top:203px;}
+	.home-video{width:609px;float:left;position: relative;}	
+		.home-vt{height: 110px;width:609px;position: absolute;top:-280px;}
+			.home-vtshare{display: none}
+			.home-vtcon{position: absolute;left:33px;top:11px;width:227px;height: 110px;background: url('../imgm/home_vt.png') no-repeat center;}
+		.home-vd{height: 255px;width:525px;position: relative;margin: 7px 0 }
+			.home-vdshare{position: absolute;left:0;top:0;width:609px;opacity: 0.6;background: #fff;height: 225px;border-top: #f60 solid 6px;
+				filter:alpha(opacity=60); }
+			.home-vdcontit{position: absolute;left:0;top:15px;width:609px;height: 30px;background: url('../imgm/home_vdcontit.png') no-repeat center;}
+			.home-vdbox{position: absolute;left:0;bottom:0px;margin:0;width:609px;height: 185px;background: url('../imgm/home_vdbox.jpg') no-repeat}
+		.home-vb{height: 96px;width:609px;position: relative;}
+			.home-vbshare{cursor:pointer;position: absolute;left:0;top:0;width:609px;opacity: 0.6;background: #fff;height: 90px;border-top: #f60 solid 6px;
+				filter:alpha(opacity=60); }
+			.home-vbtn1{cursor:pointer;position: absolute;left:10px;top:26px;width:283px;height: 50px;background: url('../imgm/home_vbtn1.png') no-repeat center;}
+			.home-vbtn2{cursor:pointer;position: absolute;right:10px;top:26px;width:283px;height: 50px;background: url('../imgm/home_vbtn2.png') no-repeat center;}
 
 
 
