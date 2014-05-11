@@ -50,9 +50,9 @@ a:hover{color:#797979}
 			.weixin_pop img{float: left;}
 			.weixin_pop p{float: left;width: 130px;padding: 10px 0 0 12px;}
 				.weixin_pop span{display: block;font-size: 14px;color:#f58774;padding:0 0 5px;}
-	.ft_mail{background: url('../images/footer_icon.gif') no-repeat -390px 0;height: 50px;width: 200px;float: left}
+	.ft_mail{background: url('../images/footer_icon.gif') no-repeat -390px 0;height: 50px;width: 250px;float: left}
 		.ft_mailipt{border:0;float: left;margin:15px 5px 0 20px;width: 116px;background:none;height: 20px;}
-		.ft_mailsub{background: none;border:0;cursor: pointer;opacity: 0.7;float: left;margin: 10px 0 0;height: 30px;overflow: hidden;line-height: 3000em;}
+		.ft_mailsub{background: none;border:0;cursor: pointer;opacity: 0.7;float: left;margin: 10px 0 0;height: 30px;overflow: hidden;line-height: 0;font-size: 0;width:40px;}
 
 /* home */
 .sec_video{position: relative;height: 488px;width: 980px;margin: 25px auto 0}
@@ -161,7 +161,8 @@ a:hover{color:#797979}
 /*ques*/
 .ques_man{width: 960px;margin: 75px auto 0}
 	.ques_QA{float: left;width: 552px;}
-		.ques_tit{width: 552px;;height: 90px;}
+		.ques_tit{width: 552px;;height: 90px;position: relative;}
+			.ques_tit img{position: absolute;bottom:0}
 		.ques_QAcom{background: url('../images/ques_QAbg.jpg') no-repeat;width: 514px;height: 300px;font-size: 18px;padding:20px 0 0 38px;}
 			.ques_QAcom span{color:#f69788;}
 			.ques_Q{padding:35px 0 35px 82px;width: 350px;background: url('../images/ques_Q.png') no-repeat;}
@@ -173,3 +174,16 @@ a:hover{color:#797979}
 .ques_more{margin: 20px auto 0;background: url('../images/ques_morebg.jpg') no-repeat;width: 980px;height: 176px;padding:86px 20px 0;line-height: 45px;}
 	.ques_more a{float: left;width: 150px;font-size: 14px;color:#f69788;text-align: center;}
 	.ques_more a.on{text-decoration: underline;}
+
+
+
+
+
+/* Mobile Used
+================================================================================================= */
+.dis_mobile{display: none}
+@media screen and (max-width:640px){
+	body{background: #fff url('../imgm/bg.jpg') no-repeat top center;overflow-x:hidden}
+	.dis_mobile{display: block}
+
+}
