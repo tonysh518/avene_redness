@@ -13,20 +13,30 @@
     <file path="/MAMP/htdocs/bank_wall/static/js/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390282099772" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/api/protected/models/NodeAR.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390287294578" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/static/js/api.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390201424329" ignored="false" />
+<<<<<<< HEAD
     <file path="/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390310192438" ignored="false" />
     <file path="/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390386441763" ignored="false" />
     <file path="/main.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390191004013" ignored="false" />
+=======
+    <file path="/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390819496695" ignored="false" />
+    <file path="/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390818322305" ignored="false" />
+    <file path="/main.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390744448493" ignored="false" />
+>>>>>>> FETCH_HEAD
     <file path="/NodeAR.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390287286616" ignored="false" />
-    <file path="/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390282097771" ignored="false" />
+    <file path="/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390821229486" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/web/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390287957933" ignored="false" />
     <file path="/layout.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390282121235" ignored="false" />
     <file path="/MAMP/htdocs/bank_wall/web/css/layout.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390282121905" ignored="false" />
     <file path="/animate.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390188615270" ignored="false" />
     <file path="/skrollr.min.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389770408790" ignored="false" />
-    <file path="/video.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389850348245" ignored="false" />
-    <file path="/testimonial.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389774247355" ignored="false" />
+    <file path="/video.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390561362928" ignored="false" />
+    <file path="/testimonial.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390558596952" ignored="false" />
     <file path="/signature.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389773810465" ignored="false" />
+<<<<<<< HEAD
     <file path="/story.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390386412783" ignored="false" />
+=======
+    <file path="/story.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390743023308" ignored="false" />
+>>>>>>> FETCH_HEAD
     <file path="/index2.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389795661450" ignored="false" />
     <file path="/styleie.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1389799793185" ignored="false" />
     <file path="/styleie6.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390310969078" ignored="false" />
@@ -49,17 +59,37 @@
     <file path="$PROJECT_DIR$/../../bank_wall/api/protected/controllers/UploadsController.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390144229060" ignored="false" />
     <file path="$PROJECT_DIR$/../../rungis/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390197735771" ignored="false" />
     <file path="$PROJECT_DIR$/../../rungis/css/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390197234274" ignored="false" />
-    <file path="/api.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390201390959" ignored="false" />
-    <file path="/_index_.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390311139803" ignored="false" />
+    <file path="/api.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390819701632" ignored="false" />
+    <file path="/_index_.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390546489110" ignored="false" />
     <file path="/styleipad.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390312608878" ignored="false" />
     <file path="/main_ipad.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390209938954" ignored="false" />
-    <file path="/topnav.asp" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390269857048" ignored="false" />
+    <file path="/topnav.asp" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547309723" ignored="false" />
     <file path="/MAMP/htdocs/rosso_italiano/sites/default/settings.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390285639269" ignored="false" />
     <file path="/index_video.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390300179199" ignored="false" />
-    <file path="/eta_horse.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390309519614" ignored="false" />
+    <file path="/eta_horse.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547920331" ignored="false" />
     <file path="/_index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390310803787" ignored="false" />
+<<<<<<< HEAD
     <file path="/Dummy.txt" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390312621227" ignored="false" />
     <file path="/a.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390399066768" ignored="false" />
+=======
+    <file path="/Dummy.txt" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547165597" ignored="false" />
+    <file path="/tracking.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390479123053" ignored="false" />
+    <file path="/journey.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390561682683" ignored="false" />
+    <file path="/MAMP/htdocs/ave_blog/THEMES/avene/STYLE/style_v3.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547240760" ignored="false" />
+    <file path="/MAMP/htdocs/ave_blog/INCLUDE/topnav.asp" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547310358" ignored="false" />
+    <file path="/MAMP/htdocs/ave_blog/INCLUDE/footer.asp" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390547336587" ignored="false" />
+    <file path="/history.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390556327282" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/lilyweibo/index.html" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390819496695" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/lilyweibo/js/lp.base.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390821229486" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/lilyweibo/css/style.css" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390818436526" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/lilyweibo/js/api.js" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390819746991" ignored="false" />
+    <file path="/ScarfController.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390821189612" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/lilyweibo/api/protected/controllers/ScarfController.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390821191501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/lilyweibo/api/protected/runtime/application.log" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390821757142" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/lilyweibo/api/protected/models/Friend.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390821775449" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../MAMP/htdocs/lilyweibo/api/protected/models/Scarf.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390821084943" ignored="false" />
+    <file path="/Scarf.php" changelist="84bb9e9d-3a56-438a-a45a-4ff269335904" time="1390820775452" ignored="false" />
+>>>>>>> FETCH_HEAD
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +109,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,10 +117,18 @@
               <folding>
                 <marker date="1390399939000" expanded="true" signature="33930:34031" placeholder="..." />
               </folding>
+=======
+      <file leaf-file-name="story.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m/story.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="141" selection-start="1749" selection-end="1749" vertical-scroll-proportion="-0.6785714">
+              <folding />
+>>>>>>> FETCH_HEAD
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index_.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,10 +136,18 @@
               <folding>
                 <marker date="1390399939000" expanded="true" signature="31528:31629" placeholder="..." />
               </folding>
+=======
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="26" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
+              <folding />
+>>>>>>> FETCH_HEAD
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="signature.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/signature.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,10 +155,18 @@
               <folding>
                 <marker date="1390400011000" expanded="true" signature="3505:3606" placeholder="..." />
               </folding>
+=======
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="52" selection-start="1739" selection-end="1739" vertical-scroll-proportion="-25.785715">
+              <folding />
+>>>>>>> FETCH_HEAD
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="testimonial.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testimonial.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,16 +174,32 @@
               <folding>
                 <marker date="1390400655000" expanded="true" signature="4765:4866" placeholder="..." />
               </folding>
+=======
+      <file leaf-file-name="signnature.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m/signnature.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="18" selection-start="1005" selection-end="1011" vertical-scroll-proportion="0.0">
+              <folding />
+>>>>>>> FETCH_HEAD
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="38" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.0357144">
               <folding>
                 <marker date="1390400741000" expanded="true" signature="3732:3833" placeholder="..." />
+=======
+      <file leaf-file-name="signature.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/signature.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="53" selection-start="653" selection-end="653" vertical-scroll-proportion="-9.5">
+              <folding>
+                <marker date="1390818041000" expanded="true" signature="5567:5668" placeholder="..." />
+>>>>>>> FETCH_HEAD
               </folding>
             </state>
           </provider>
@@ -137,31 +208,55 @@
       <file leaf-file-name="story.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/story.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="5" column="74" selection-start="214" selection-end="214" vertical-scroll-proportion="-2.0357144">
               <folding>
                 <marker date="1390400776000" expanded="true" signature="6159:6260" placeholder="..." />
+=======
+            <state line="24" column="13" selection-start="1104" selection-end="1104" vertical-scroll-proportion="-15.607142">
+              <folding>
+                <marker date="1390818045000" expanded="true" signature="8043:8144" placeholder="..." />
+>>>>>>> FETCH_HEAD
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="eta_horse.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eta_horse.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-4.071429">
               <folding>
                 <marker date="1390399964000" expanded="true" signature="4287:4388" placeholder="..." />
+=======
+      <file leaf-file-name="testimonial.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testimonial.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="13" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-14.928572">
+              <folding>
+                <marker date="1390818048000" expanded="true" signature="6951:7052" placeholder="..." />
+>>>>>>> FETCH_HEAD
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="_index_.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_index_.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-4.071429">
               <folding>
                 <marker date="1390399939000" expanded="true" signature="19713:19814" placeholder="..." />
+=======
+      <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="13" selection-start="974" selection-end="974" vertical-scroll-proportion="-14.25">
+              <folding>
+                <marker date="1390818052000" expanded="true" signature="5910:6011" placeholder="..." />
+>>>>>>> FETCH_HEAD
               </folding>
             </state>
           </provider>
@@ -170,14 +265,21 @@
       <file leaf-file-name="__index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="6" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-4.071429">
               <folding>
                 <marker date="1390399939000" expanded="true" signature="26313:26414" placeholder="..." />
+=======
+            <state line="22" column="13" selection-start="975" selection-end="975" vertical-scroll-proportion="-14.928572">
+              <folding>
+                <marker date="1390818056000" expanded="true" signature="6352:6453" placeholder="..." />
+>>>>>>> FETCH_HEAD
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="_index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -185,6 +287,13 @@
               <folding>
                 <marker date="1390399939000" expanded="true" signature="25562:25663" placeholder="..." />
               </folding>
+=======
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/m/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="112" column="47" selection-start="8112" selection-end="8112" vertical-scroll-proportion="0.0164076">
+              <folding />
+>>>>>>> FETCH_HEAD
             </state>
           </provider>
         </entry>
@@ -199,6 +308,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/js/page.js" />
         <option value="$PROJECT_DIR$/js/main_ipad.js" />
         <option value="$PROJECT_DIR$/css/styleie6.css" />
@@ -215,14 +325,39 @@
         <option value="$PROJECT_DIR$/testimonial.html" />
         <option value="$PROJECT_DIR$/video.html" />
         <option value="$PROJECT_DIR$/story.html" />
+=======
+        <option value="$PROJECT_DIR$/m/history.html" />
+        <option value="$PROJECT_DIR$/m/doublesign.html" />
+        <option value="$PROJECT_DIR$/m/js/journey.js" />
+        <option value="$PROJECT_DIR$/m/signnature.html" />
+        <option value="$PROJECT_DIR$/m/journey.html" />
+        <option value="$PROJECT_DIR$/m/testimonial.html" />
+        <option value="$PROJECT_DIR$/m/video.html" />
+        <option value="$PROJECT_DIR$/m/story.html" />
+        <option value="$PROJECT_DIR$/m/css/style.css" />
+        <option value="$PROJECT_DIR$/m/js/main.js" />
+        <option value="$PROJECT_DIR$/m/index.html" />
+        <option value="$PROJECT_DIR$/signature.html" />
+        <option value="$PROJECT_DIR$/story.html" />
+        <option value="$PROJECT_DIR$/testimonial.html" />
+        <option value="$PROJECT_DIR$/video.html" />
+        <option value="$PROJECT_DIR$/eta_horse.html" />
+>>>>>>> FETCH_HEAD
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="830" />
+=======
+    <option name="x" value="139" />
+    <option name="y" value="65" />
+    <option name="width" value="2243" />
+    <option name="height" value="1319" />
+>>>>>>> FETCH_HEAD
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -293,6 +428,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="m" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0110" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0110" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="m" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0110" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0110" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="m" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0110" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0110" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -325,9 +510,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/m/js" />
+      <recent name="$PROJECT_DIR$/m" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -350,14 +537,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="22" width="1440" height="830" extended-state="0" />
+=======
+    <frame x="139" y="65" width="2243" height="1319" extended-state="0" />
+>>>>>>> FETCH_HEAD
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980111" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20588236" sideWeight="0.9971831" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20345926" sideWeight="0.96532255" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> FETCH_HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -433,6 +628,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/styleipad.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="37" selection-start="7697" selection-end="7697" vertical-scroll-proportion="0.116099074" />
@@ -441,10 +637,21 @@
     <entry file="file://$PROJECT_DIR$/css/styleie6.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="113" column="41" selection-start="6965" selection-end="7268" vertical-scroll-proportion="0.022421524">
+=======
+    <entry file="file://$PROJECT_DIR$/index_.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="522" column="24" selection-start="31103" selection-end="31103" vertical-scroll-proportion="-20.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/testimonial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0">
+>>>>>>> FETCH_HEAD
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/js/main_ipad.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="143" column="41" selection-start="5676" selection-end="5676" vertical-scroll-proportion="0.022421524" />
@@ -453,22 +660,47 @@
     <entry file="file://$PROJECT_DIR$/js/mainie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+=======
+    <entry file="file://$PROJECT_DIR$/m/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="23" selection-start="9360" selection-end="9360" vertical-scroll-proportion="0.0">
+        <state line="23" column="29" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/m/js/journey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+>>>>>>> FETCH_HEAD
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/journey.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="256" column="23" selection-start="9360" selection-end="9360" vertical-scroll-proportion="0.0">
+=======
+        <state line="24" column="6" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0">
+>>>>>>> FETCH_HEAD
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="61" selection-start="5660" selection-end="5660" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/m/signnature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="1005" selection-end="1011" vertical-scroll-proportion="0.0">
+>>>>>>> FETCH_HEAD
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/__index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-4.071429">
@@ -510,52 +742,126 @@
         <state line="6" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-4.071429">
           <folding>
             <marker date="1390399964000" expanded="true" signature="4287:4388" placeholder="..." />
-          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/m/story.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="141" selection-start="1749" selection-end="1749" vertical-scroll-proportion="-0.6785714">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video.html">
+    <entry file="file://$PROJECT_DIR$/m/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.0357144">
-          <folding>
-            <marker date="1390400741000" expanded="true" signature="3732:3833" placeholder="..." />
-          </folding>
+        <state line="26" column="26" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-4.071429">
-          <folding>
-            <marker date="1390399939000" expanded="true" signature="33930:34031" placeholder="..." />
-          </folding>
+        <state line="21" column="28" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.35309735">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signature.html">
+    <entry file="file://$PROJECT_DIR$/m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-4.071429">
-          <folding>
-            <marker date="1390400011000" expanded="true" signature="3505:3606" placeholder="..." />
-          </folding>
+        <state line="38" column="52" selection-start="1739" selection-end="1739" vertical-scroll-proportion="-25.785715">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/story.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="74" selection-start="214" selection-end="214" vertical-scroll-proportion="-2.0357144">
+        <state line="24" column="13" selection-start="1104" selection-end="1104" vertical-scroll-proportion="-15.607142">
           <folding>
-            <marker date="1390400776000" expanded="true" signature="6159:6260" placeholder="..." />
+            <marker date="1390818045000" expanded="true" signature="8043:8144" placeholder="..." />
+>>>>>>> FETCH_HEAD
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="38" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.0357144">
+          <folding>
+            <marker date="1390400741000" expanded="true" signature="3732:3833" placeholder="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/testimonial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-14.928572">
+          <folding>
+            <marker date="1390818048000" expanded="true" signature="6951:7052" placeholder="..." />
+>>>>>>> FETCH_HEAD
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-4.071429">
+          <folding>
+            <marker date="1390399939000" expanded="true" signature="33930:34031" placeholder="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="974" selection-end="974" vertical-scroll-proportion="-14.25">
+          <folding>
+            <marker date="1390818052000" expanded="true" signature="5910:6011" placeholder="..." />
+>>>>>>> FETCH_HEAD
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/signature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-4.071429">
+          <folding>
+            <marker date="1390400011000" expanded="true" signature="3505:3606" placeholder="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/eta_horse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="975" selection-end="975" vertical-scroll-proportion="-14.928572">
+          <folding>
+            <marker date="1390818056000" expanded="true" signature="6352:6453" placeholder="..." />
+>>>>>>> FETCH_HEAD
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/story.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="74" selection-start="214" selection-end="214" vertical-scroll-proportion="-2.0357144">
+          <folding>
+            <marker date="1390400776000" expanded="true" signature="6159:6260" placeholder="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/signature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="53" selection-start="653" selection-end="653" vertical-scroll-proportion="-9.5">
+          <folding>
+            <marker date="1390818041000" expanded="true" signature="5567:5668" placeholder="..." />
+>>>>>>> FETCH_HEAD
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/testimonial.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="64" selection-start="204" selection-end="204" vertical-scroll-proportion="0.15372169">
           <folding>
             <marker date="1390400655000" expanded="true" signature="4765:4866" placeholder="..." />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/m/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="47" selection-start="8112" selection-end="8112" vertical-scroll-proportion="0.0164076">
+          <folding />
+>>>>>>> FETCH_HEAD
         </state>
       </provider>
     </entry>

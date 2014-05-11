@@ -283,11 +283,11 @@
 //        $(".section9_bg").backstretch("img/section9_bg1.jpg");
     }
 
-    for(i=1;i<33;i++){
-        var n = 19800 + (i * 26);
-        //console.log('<div class="section_bg section10_2_bg'+i+'" data-0="display:none;" data-'+n+'="display:block;"  data-'+(n+30)+'="display:none;"></div>');
-        //console.log('.section1_2_bg'+i+' {z-index:7;background-image:url(../img/video2/'+i+'.jpg);background-repeat:no-repeat;background-size: cover;}');
-    }
+//    for(i=1;i<33;i++){
+//        var n = 19800 + (i * 26);
+//        //console.log('<div class="section_bg section10_2_bg'+i+'" data-0="display:none;" data-'+n+'="display:block;"  data-'+(n+30)+'="display:none;"></div>');
+//        //console.log('.section1_2_bg'+i+' {z-index:7;background-image:url(../img/video2/'+i+'.jpg);background-repeat:no-repeat;background-size: cover;}');
+//    }
 
     function slider10run(){
         slider10runInt = setInterval(_slider10run,4000);
@@ -315,6 +315,11 @@
     }
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> FETCH_HEAD
     function getQueryString(name) {
         var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
         var r = window.location.search.substr(1).match(reg);

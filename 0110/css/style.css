@@ -36,12 +36,27 @@ a{text-decoration:none}
 .nav a.nav3.on,.nav a.nav3:hover {background-position:-287px -43px;}
 .nav a.nav4.on,.nav a.nav4:hover {background-position:-447px -43px;}
 .nav a.nav5.on,.nav a.nav5:hover {background-position:-567px -43px;}
+<<<<<<< HEAD
 
 .nav a.nav0 {background-position:-673px 0;width:30px;}
 .nav a.nav0.on,.nav a.nav0:hover {background-position:-673px -43px;}
 
+=======
+.nav a.nav0 {background-position:-673px 0;width:30px;}
+.nav a.nav0.on,.nav a.nav0:hover {background-position:-673px -43px;}
+>>>>>>> FETCH_HEAD
 .nav a.on{color:#ef8575;border-bottom: #ef896f solid 1px;}
-body,html,.header,.page {min-width:960px;}
+
+
+*html .nav a.nav1 {background-position:-673px -43px!important;width:91px;}
+*html .nav a.nav1 {background-position:0 0!important;width:91px;}
+*html .nav a.nav2 {background-position:-144px 0!important;width:91px;}
+*html .nav a.nav3 {background-position:-287px 0!important;width:105px;}
+*html .nav a.nav4 {background-position:-447px 0!important;width:60px;}
+*html .nav a.nav5 {background-position:-567px 0!important;width:60px;}
+
+
+body,html,.header,.page {min-width:961px;}
 
 
 /* Loading Used
@@ -54,16 +69,52 @@ body,html,.header,.page {min-width:960px;}
 
 /* Footer Used
 ================================================================================================= */
-.footer{height: 50px;background: #fff;bottom:0;width:100%;z-index:100;}
+.footer{height: 23px;background: #fff;bottom:0;width:100%;z-index:100;}
     .ft_link{float: left;width: 238px;height: 32px;margin: 8px 0 0 50px;_display:inline}
         .ft_link a{float: left;margin: 0 22px 0 0;_display:inline;width: 32px;height: 32px;background: url('../img/footer.png') no-repeat 0 0;}
         .ft_link .ft_link2{background-position:-54px 0}
         .ft_link .ft_link3{background-position:-108px 0}
     .ft_guanwang{float: right;background: url('../img/footer2.png') no-repeat;width: 111px;height: 25px;margin: 12px 28px 0 0;_display:inline}
 
+.homepage .footer {position: fixed;}
+.footer{padding: 24px 0}
+.footer p,
+.footer a{float: left;height: 26px;background: url(../img/base.png) no-repeat;overflow: hidden;line-height: 500em;}
+.footer a:hover{opacity: 0.8;filter:alpha(opacity=80); }
+.footer .ft_pho{width:204px; background-position: 0 -149px;margin: 0 140px 0 0;_display: inline}
+.footer .ft_site{width:96px; background-position: -225px -149px}
+.footer .ft_weibo{width:24px; background-position: -336px -149px}
+.footer .ft_weibo2{width:24px; background-position: -371px -149px}
+.footer .ft_app{width:94px; background-position: -411px -149px}
+.footer .ft_line{background-position:-168px -180px;width: 25px;}
+.ft_email{float: right}
+.footer #newsletter {position: relative;}
+.footer #newsletter label.error {position:absolute;width:200px;top:-20px;left:0px;color:#f69f8c;}
+.mail_ipt{width: 162px;height: 24px;border:#ef896f solid 1px; padding:0 8px;float:left;color:#ef896f;font-family:"Microsoft YaHei"}
+.mail_btn{font-size:0;height: 26px;background: url(../img/base.png) no-repeat -505px -149px;width: 38px;border:0;overflow: hidden;cursor: pointer;float:left;line-height: 500em}
+/* newsletter */
+#mobilenewsletter label{margin-left:-100px;}
+.fancybox-opened .fancybox-skin {-webkit-box-shadow:none;-moz-box-shadow: none;box-shadow: none;background:transparent;}
+.newsletter_overlay {display:none;position: fixed;background:url(../img/overlay.png);top:0;left:0;width:100%;height:100%;z-index:9998;}
+.newsletter_popup {display:none;z-index:9999;background:#fff;text-align:center;width:240px;height:128px;border:7px solid #edccc4;-webkit-box-shadow:  0px 0px 10px 10px rgba(0, 0, 0, 0.4);box-shadow:  0px 0px 10px 10px rgba(0, 0, 0, 0.4);position:fixed;top:50%;left:50%;margin-left:-120px;margin-top:-64px;}
+.newsletter_popup .state1 {display:none;}
+.newsletter_popup img {margin-top:50px;}
+.newsletter_popup_close {cursor:pointer;background: url(../img/news_letter_close.png) no-repeat;width:38px;height:39px;position: absolute;top:-21px;right:-21px;}
+#mobilenewsletter label.error {position: absolute;right:20px;top:135px;color:#f69f8c;font-size:30px;}
+#MailInputWin{display:none;width:590px;height:382px;}
+#mobilemailinput{ width: 480px; margin-top: 170px; margin-left: 55px; height: 65px; font-size: 32px;}
+#backbtn{width:202px;height:65px;border:none;margin-top:34px;margin-left:76px;cursor:pointer;float:left;}
+#okbtn{font-size:0;width:202px;height:65px;border:none;margin-top:34px;margin-left:30px;cursor:pointer;float:left;}
+
+*html .newsletter_overlay {position: absolute;background: #fff;height:3000px;}
+*html .newsletter_popup {position: absolute;}
+
+.footer .column{width: 912px;margin: 0 auto;position: relative}
+
 /* Double Used
 ================================================================================================= */
-.double{margin-top:100px;position: relative;height: 2178px}
+.double{margin-top:100px;position: relative;height: 2178px;}
+*html .double {height:2200px;}
 .double_tit{background: url('../img/double_tit.png') no-repeat;width: 552px;height: 64px;position: absolute;top: 50px;left:50%;margin: 0 0 0 -276px}
 .double_tips{background: url('../img/double_tips.png') no-repeat;width: 876px;height: 64px;position: absolute;top: 150px;left:50%;margin: 0 0 0 -438px}
 .double_box{background:#fff;width: 756px;height: 1005px;position: absolute;top: 266px;left:50%;margin: 0 0 0 -378px;padding:20px 0;}
@@ -107,7 +158,11 @@ body,html,.header,.page {min-width:960px;}
 .history_1990{background: url('../img/history_1990.png') no-repeat;width:150px;height:150px;position: absolute;top: 1765px;left:50%;margin: 20px 0 0 326px}
 .history_txt1990{background: url('../img/history_txt1990.png') no-repeat;width:90px;height:50px;position: absolute;top: 1932px;left:50%;margin: 20px 0 0 356px}
 .history_video_tit {background:url(../img/story_title.png) no-repeat;width:552px;height:64px;position: absolute;top: 33px;left:50%;margin: 0px 0 0 -264px}
+<<<<<<< HEAD
 .history_video_player {width:810px;height:420px;position: absolute;top: 302px;left:50%;margin: 0px 0 0 -405px}
+=======
+.history_video_player {padding:5px 5px 0 5px;border:1px solid #ebe2e5;background:#fff;width:802px;position: absolute;top: 302px;left:50%;margin: 0px 0 0 -405px}
+>>>>>>> FETCH_HEAD
 .history_top_txt {position:absolute;background:url(../img/history_toptxt.png) no-repeat;width:582px;height:116px;left:50%;top:132px;margin:0 0 0 -280px;}
 /* Testimonial Used
 ================================================================================================= */
@@ -136,8 +191,13 @@ body,html,.header,.page {min-width:960px;}
 ================================================================================================= */
 .video_page {position:relative;margin:120px 0 80px 0;padding-top:1px;}
 .video_page .video_tit {background: url('../img/video_title.png') no-repeat;width: 552px;height: 64px;margin: 0 auto 40px auto;}
+<<<<<<< HEAD
 .video_page .video_player {position:relative;padding:5px 5px 0 5px;border:1px solid #ebe2e5;background:#fff;margin: 289px auto 0 auto;display:block;width:807px;}
+=======
+.video_page .video_player {position:relative;padding:5px 5px 0 5px;border:1px solid #ebe2e5;background:#fff;margin: 20px auto 0 auto;display:block;width:807px;}
+>>>>>>> FETCH_HEAD
 .video_page .video_player video {position: absolute;top:5px;left:5px;}
+.landing_page .video_player {margin-top:300px;}
 .video_page .skip {text-align: center;font-size:14px;margin-top:15px;}
 .video_page .skip a {color:#ef8575;}
 video {display: none;}
